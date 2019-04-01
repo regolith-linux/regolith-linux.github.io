@@ -22,7 +22,12 @@ TBD: Instructions on download and install ISO
 
 ### Ubuntu Metapackage PPA
 
-TBD: Instructions on installation to existing Ubuntu system
+This process requires that you already have Ubuntu 18.04 installed.  
+
+1. Open a terminal, and enter: `sudo add-apt-repository -y ppa://kgilmer/regolith-stable`
+2. After the sync completes, enter: `sudo apt install regolith-desktop`
+3. Some packages will be installed.  When this completes, reboot.
+4. At the login screen, select the "gear" icon and select `Regolith` from the list, and then login.
 
 ## Menu
 
