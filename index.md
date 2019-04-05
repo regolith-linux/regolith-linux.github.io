@@ -42,5 +42,3 @@ This step is entirely optional.  To remove the default "Ubuntu" login session, e
 [Getting Started]({% link getting_started.md %})
 [Internals]({% link internals.md %})
 [Motivations]({% link motivations.md %})
-[User Guide]({% link user_guide.md %})
-[Resources]({% link resources.md %})
