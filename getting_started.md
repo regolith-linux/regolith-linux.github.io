@@ -1,20 +1,19 @@
 ---
+layout: default
 ---
-# 
-
 ## General Layout
 
-Bar
+Bar - The only UI widget persistently on screen.  This shows your workspace state as well as some system information such as CPU load and the date.
 
-Windows
+Windows - Essentially as is in other windowing environments such as Mac OS X or Windows, but without titles or decorations. Their size and position are generally managed via the keyboard, although you can use a mouse of you prefer.  More details below about window management.
 
-Workspaces
+Workspaces - A workspace is simply a computer screen's worth of windows.  By default Regolith provides 10 workspaces to manage your work in.
 
-Launcher
+Launcher - A full-screen dialog that allows you to launch programs or select windows.
 
-Notifications
+Notifications - A transient window at the top right of the screen shows notifications from applications.
 
-Keybinding Helper
+Keybinding Helper - Upon first login, a cheat-sheet of keybindings is launched on the right side of the screen.  Subsequent logins do not show the shortcuts, but they can be viewed on the desktop with the `⊞ Win`-`?` key sequence.
 
 ## Launching Programs
 
