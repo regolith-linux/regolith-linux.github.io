@@ -20,10 +20,24 @@ Regolith is comprised of existing open source projects and some minor custom con
 
 # Distribution
 
-Regolith is distributed via a view "Private Package Repositories" (PPA):
+Regolith is a set of Ubuntu packages distributed via two "Private Package Repositories" (PPA):
 
 | Repository | URL | Purpose |
 | [Regolith Stable](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable) | https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable | Primary repository for Regolith packages |
 | [Regolith Unstable](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-unstable) | https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-unstable | Pre-release versions of Regolith packages. Not recommended for everyday use of Regolith. |
 
+# Hacking
 
+## Configuration
+
+| Function | Component | Configuration File | Package |
+|----------|-----------|--------------------|---------|
+|Desktop Bar|i3-bar|`~/.config/i3-regolith/config`|regolith-i3|
+|System Status Indicators|i3blocks|`/etc/i3blocks.conf`|regolith-i3blocks|
+|Window Manager|i3-wm|`~/.config/i3-regolith/config`|regolith-i3|
+|App Launcher|Rofi|`/etc/rofi.conf`|regolith-rofi-config|
+|System Keybindings|i3-wm|`~/.config/i3-regolith/config`|regolith-i3|
+
+## Packaging
+
+All runtime aspects of Regolith Linux are expressed via debian packages.  These packages are available in source form on the [https://github.com/regolith-linux](Regolith Linux Github project).  Creating packages is not necessary to change the look and feel of Regolith, however there are advantages to packaging changes.  More easily sharing changes, ability to have a common configuration across machines, automatic updates, and a clean versioning strategy are all advantages to using a packaging system.
