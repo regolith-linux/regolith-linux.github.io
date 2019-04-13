@@ -25,7 +25,7 @@ Regolith can be installed in two ways:  If you already have an existing Ubuntu s
 
 ### Option 1: LiveCD Installer
 
-The LiveCD can be downloaded here.  Write the file to a usb drive as you would any other Linux install image, and boot the drive in the PC that you wish to install to.  It works exactly as the stock Ubuntu installer.
+The LiveCD can be downloaded [Link TBD].  Write the file to a usb drive as you would any other Linux install image, and boot the drive in the PC that you wish to install to.  It works exactly as the stock Ubuntu installer.
 
 ### Option 2: Regolith Ubuntu PPA
 
