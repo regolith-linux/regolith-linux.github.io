@@ -37,7 +37,7 @@ The terminal application is special in Regolith as it can be launched with `⊞ 
 
 ### Terminal Commands
 
-To page up past the top of the screen to see the buffered terimal, use `shift`-`page up`.  To adjust the font size in the active terminal, use `shift`-`ctrl`-`page up` `shift`-`ctrl`-`page down`.  To cycle between light and dark Solarized themes, press `F6`.
+To page up past the top of the screen to see the buffered text, use `shift`-`page up`.  To adjust the font size in the active terminal, use `shift`-`ctrl`-`page up` `shift`-`ctrl`-`page down`.  To cycle between light and dark Solarized themes, press `F6`.
 
 ## Workspaces
 
