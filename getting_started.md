@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: page
+title: Getting Started
 ---
-## General Layout
+
+## Regolith Interface
 
 Bar - The only UI widget persistently on screen.  This shows your workspace state as well as some system information such as CPU load and the date.
 

@@ -14,22 +14,22 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Regolith Linux
-email: kgilmer@gmail.com
+email: regolith.linux@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Regolith Linux is a Linux distribution focused on user productivity.
-  Using Ubuntu as a foundation and Gnome's system management facilities,
-  Regolith utilizes the i3wm tiling window management approach that keeps the
-  user's screen clutter free yet offering powerful features.
-baseurl: "" # the subpath of your site, e.g. /blog
+  Regolith Linux is a distro for people that prefer a spartan interface with simple and consistent system management.
+baseurl: "" 
 url: "https://regolith-linux.org"
-twitter_username: kgilmer
-github_username:  kgilmer
+twitter_username: RegolithL
+github_username:  regolith-linux
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
+
+# Custom vars
+version: 2.07
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

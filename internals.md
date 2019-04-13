@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: page
+title: Internals
 ---
-
-# Internals
 
 Regolith is comprised of existing open source projects and some minor custom configuration and package metadata.
 
