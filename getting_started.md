@@ -3,25 +3,41 @@ layout: page
 title: Getting Started
 ---
 
-## Regolith Interface
+## Regolith Interface Tour
 
-Bar - The only UI widget persistently on screen.  This shows your workspace state as well as some system information such as CPU load and the date.
+### Desktop Bar
 
-Windows - Essentially as is in other windowing environments such as Mac OS X or Windows, but without titles or decorations. Their size and position are generally managed via the keyboard, although you can use a mouse of you prefer.  More details below about window management.
+The only UI widget persistently on screen.  This shows your workspace state as well as some system information such as CPU load and the date.
 
-Workspaces - A workspace is simply a computer screen's worth of windows.  By default Regolith provides 10 workspaces to manage your work in.
+### Windows
 
-Launcher - A full-screen dialog that allows you to launch programs or select windows.
+Essentially as is in other graphical windowing environments such as Mac OS X or Windows, but without titles or decorations. Their size and position are generally managed via the keyboard, although you can use a mouse of you prefer.  More details below about window management.
 
-Notifications - A transient window at the top right of the screen shows notifications from applications.
+### Workspaces
 
-Keybinding Helper - Upon first login, a cheat-sheet of keybindings is launched on the right side of the screen.  Subsequent logins do not show the shortcuts, but they can be viewed on the desktop with the `⊞ Win`-`?` key sequence.
+A workspace is simply a computer screen's worth of windows.  By default Regolith provides 10 workspaces to manage your work in.
+
+### Launcher
+
+A full-screen dialog that allows you to launch programs or select windows.
+
+### Notifications 
+
+A transient window at the top right of the screen shows notifications from applications.
+
+### Keybinding Helper
+
+Upon first login, a cheat-sheet of keybindings is launched on the right side of the screen.  Subsequent logins do not show the shortcuts, but they can be viewed on the desktop with the `⊞ Win`-`?` key sequence.
 
 ## Launching Programs
 
 In Regolith Linux, applications are launched via the `⊞ Win`-`space` sequence.  A full screen dialog is presented.  Begin typing the app or command and the list will filter as you type.  Launch the app by selecting it and pressing `enter`.
 
 The terminal application is special in Regolith as it can be launched with `⊞ Win`-`enter`.
+
+### Terminal Commands
+
+To page up past the top of the screen to see the buffered terimal, use `shift`-`page up`.  To adjust the font size in the active terminal, use `shift`-`ctrl`-`page up` `shift`-`ctrl`-`page down`.  To cycle between light and dark Solarized themes, press `F6`.
 
 ## Workspaces
 
@@ -31,7 +47,7 @@ The currently active workspace and all workspaces that you have open will be vis
 
 ## Managing Windows
 
-As you launch more applications in a given workspace, the window manager will re-arrange the existing windows such that all windows are visible without overlap, also known as 'tiled'.  The window manager has a strategy for determining the size and position relative to the other active windows.  Vertical and horizontal orientation can be configured with  `⊞ Win`-`h` for a horizontal layout, and  `⊞ Win`-`v` can be used for vertical layouts.  Flipping between horizontal and vertial layouts on a screen is a simple way of getting the basic layout you may desire.  From thre resizing and moving windows may be needed for an exact layout.
+As you launch more applications in a given workspace, the window manager will re-arrange the existing windows such that all windows are visible without overlap, also known as 'tiled'.  The window manager has a strategy for determining the size and position relative to the other active windows.  Vertical and horizontal orientation can be configured with  `⊞ Win`-`h` for a horizontal layout, and  `⊞ Win`-`v` can be used for vertical layouts.  Flipping between horizontal and vertial layouts on a screen is a simple way of getting the basic layout you may desire.  From there resizing and moving windows may be needed for an exact layout.  To adjust the distance between windows on the active workspace, use `⊞ Win`-`-` and `⊞ Win`-`+`.
 
 ### Resizing Windows
 
