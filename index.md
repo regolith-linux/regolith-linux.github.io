@@ -21,7 +21,7 @@ Quickly browse, search, and launch apps from the app launcher.
 
 ## How to Get Regolith Linux
 
-Regolith can be installed in two ways:  If you already have an existing Ubuntu setup, Regolith can simply be added as another desktop session by installing the metapackage `regolith-desktop` from the [Regolith PPA](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable).  If you'd like to start from scratch, download the Regolith Linux ISO and simply install Regolith as you would a stock Ubuntu install.  Both approaches are equivelent, except that the LiveCD does not contain the default Ubuntu UI.
+Regolith can be installed in two ways:  If you already have an existing Ubuntu setup, Regolith can simply be added as another desktop session by installing the metapackage `regolith-desktop` from the [Regolith PPA](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable).  If you'd like to start from scratch, download the Regolith Linux ISO and simply install Regolith as you would stock Ubuntu.  Both approaches are equivelent, except that the LiveCD does not contain the default Ubuntu UI.
 
 ### Option 1: LiveCD Installer
 
