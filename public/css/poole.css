@@ -231,7 +231,13 @@ img {
   display: block;
   max-width: 100%;
   margin: 0 0 1rem;
-  border-radius: 5px;
+  border-radius: 0px;
+}
+
+.screenshot {
+  -webkit-box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+  -moz-box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+  box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
 }
 
 /* Tables */

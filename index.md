@@ -7,15 +7,15 @@ Regolith is a polished, productivity focused Ubuntu-based Linux distribution. It
 
 ## What it Looks Like
 
-<a href="/assets/screenshot-empty.png">![Empty Desktop](/assets/screenshot-empty.png)</a>
+<a href="/assets/screenshot-empty.png"><img class="screenshot" alt="Empty Desktop" src="/assets/screenshot-empty.png"/></a>
 
 Regolith is visually spartan by design.  It's meant to stay out of your way to prevent distraction.
 
-<a href="/assets/screenshot-apps.png">![Tiled Apps](/assets/screenshot-apps.png)</a>
+<a href="/assets/screenshot-apps.png"><img class="screenshot" alt="Tiled Windows" src="/assets/screenshot-apps.png"/></a>
 
 Despite it's clean design, Regolith Linux provides modern system and file management features.
 
-<a href="/assets/screenshot-rofi.png">![Launch Apps](/assets/screenshot-rofi.png)</a>
+<a href="/assets/screenshot-rofi.png"><img class="screenshot" alt="Launch Apps" src="/assets/screenshot-rofi.png"/></a>
 
 Quickly browse, search, and launch apps from the app launcher.
 
