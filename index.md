@@ -9,7 +9,7 @@ Regolith is a polished, productivity focused Ubuntu-based Linux distribution. It
 
 <a href="/assets/screenshot-empty.png"><img class="screenshot" alt="Empty Desktop" src="/assets/screenshot-empty.png"/></a>
 
-Regolith is visually spartan by design.  It's meant to stay out of your way to prevent distraction.
+Regolith is visually spartan by design.  It's meant to stay out of your way to prevent distraction.  There are no icons, docks, panels, menus, widgets, or advertisements taking up screen space.  A small bar at the bottom of the screen shows valuable persistent information such as workspaces and volatile system status.
 
 <a href="/assets/screenshot-apps.png"><img class="screenshot" alt="Tiled Windows" src="/assets/screenshot-apps.png"/></a>
 
@@ -17,11 +17,11 @@ Despite it's minimal visual design, Regolith Linux provides modern system and fi
 
 <a href="/assets/screenshot-rofi.png"><img class="screenshot" alt="Launch Apps" src="/assets/screenshot-rofi.png"/></a>
 
-Quickly browse, search, and launch apps from the app launcher.
+Quickly browse, search, and launch apps from the app launcher.  This modal menu can also be used to find and select windows across all of your workspaces.
 
 ## How to Get Regolith Linux
 
-Regolith can be installed in two ways:  If you already have an existing Ubuntu setup, Regolith can simply be added as another desktop session by installing the metapackage `regolith-desktop` from the [Regolith PPA](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable).  If you'd like to start from scratch, download the Regolith Linux ISO and simply install Regolith as you would stock Ubuntu.  Both approaches are equivelent, except that the LiveCD does not contain the default Ubuntu UI.
+Regolith can be installed in two ways:  If you already have an existing Ubuntu setup, Regolith can simply be added as another desktop session by installing the package `regolith-desktop` from the [Regolith PPA](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable).  If you'd like to start from scratch, download the Regolith Linux ISO and simply install Regolith as you would stock Ubuntu.  Both approaches are equivalent, except that the LiveCD does not contain the default Ubuntu UI.
 
 ### Option 1: LiveCD Installer
 

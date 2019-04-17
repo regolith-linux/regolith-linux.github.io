@@ -40,4 +40,4 @@ Regolith is a set of Ubuntu packages distributed via two "Private Package Reposi
 
 ## Packaging
 
-All runtime aspects of Regolith Linux are expressed via debian packages.  These packages are available in source form on the [https://github.com/regolith-linux](Regolith Linux Github project).  Creating packages is not necessary to change the look and feel of Regolith, however there are advantages to packaging changes.  More easily sharing changes, ability to have a common configuration across machines, automatic updates, and a clean versioning strategy are all advantages to using a packaging system.
+All deployable aspects of Regolith Linux are expressed via debian packages.  These packages are available in source form on the [https://github.com/regolith-linux](Regolith Linux Github project).  Creating packages is not necessary to change the look and feel of Regolith, however there are advantages to packaging changes.  More easily sharing changes, ability to have a common configuration across machines, automatic updates, and a clean versioning strategy are all advantages to using a packaging system.
