@@ -13,7 +13,7 @@ Regolith is visually spartan by design.  It's meant to stay out of your way to p
 
 <a href="/assets/screenshot-apps.png"><img class="screenshot" alt="Tiled Windows" src="/assets/screenshot-apps.png"/></a>
 
-Despite it's clean design, Regolith Linux provides modern system and file management features.
+Despite it's minimal visual design, Regolith Linux provides modern system and file management features such as external monitor and storage management, wifi and bluetooth configuration, as well as language and privacy settings.
 
 <a href="/assets/screenshot-rofi.png"><img class="screenshot" alt="Launch Apps" src="/assets/screenshot-rofi.png"/></a>
 
