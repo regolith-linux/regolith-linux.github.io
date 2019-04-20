@@ -3,37 +3,15 @@ layout: page
 title: Getting Started
 ---
 
-## Regolith Interface Tour
-
-### Desktop Bar
-
-The only UI widget persistently on screen.  This shows your workspace state as well as some system information such as CPU load and the date.
-
-### Windows
-
-Essentially as is in other graphical windowing environments such as Mac OS X or Windows, but without titles or decorations. Their size and position are generally managed via the keyboard, although you can use a mouse of you prefer.  More details below about window management.
-
-### Workspaces
-
-A workspace is simply a computer screen's worth of windows.  By default Regolith provides 10 workspaces to manage your work in.
-
-### Launcher
-
-A full-screen dialog that allows you to launch programs or select windows.
-
-### Notifications 
-
-A transient window at the top right of the screen shows notifications from applications.
-
-### Keybinding Helper
-
-Upon first login, a cheat-sheet of keybindings is launched on the right side of the screen.  Subsequent logins do not show the shortcuts, but they can be viewed on the desktop with the `⊞ Win`-`?` key sequence.
-
 ## Launching Programs
 
 In Regolith Linux, applications are launched via the `⊞ Win`-`space` sequence.  A full screen dialog is presented.  Begin typing the app or command and the list will filter as you type.  Launch the app by selecting it and pressing `enter`.
 
 The terminal application is special in Regolith as it can be launched with `⊞ Win`-`enter`.
+
+### Installing Software
+
+Running the `software` from app launcher will load the Ubuntu app store.  The terminal can also be used to install software, for example `sudo apt install vim` will install the vim editor.
 
 ### Terminal Commands
 
@@ -68,3 +46,32 @@ The Setting app can be launched via `⊞ Win`-`space` and then typing "settings"
 ## Logging In and Out
 
 When logging in, if Regolith was installed via the PPA rather than the LiveCD, upon the first login after installation you must specify the Regolith session at the login screen.  This is done by clicking the small gear icon near the login button and selecting "Regolith".  This step isn't required when using Regolith from the LiveCD as the default Ubuntu session has been removed.  To log out, `⊞ Win`-`shift`-`e` will cause you to immediately log out of your session.  `⊞ Win`-`escape` will lock the screen.  `⊞ Win`-`shift`-`s` will cause the system to enter sleep mode.
+
+## Regolith Interface Tour
+
+### Desktop Bar
+
+The only UI widget persistently on screen.  This shows your workspace state as well as some system information such as CPU load and the date.
+
+### Windows
+
+Essentially as is in other graphical windowing environments such as Mac OS X or Windows, but without titles or decorations. Their size and position are generally managed via the keyboard,
+although you can use a mouse of you prefer.  More details below about window management.
+
+### Workspaces
+
+A workspace is simply a computer screen's worth of windows.  By default Regolith provides 10 workspaces to manage your work in.
+
+### Launcher
+
+A full-screen dialog that allows you to launch programs or select windows.
+
+### Notifications
+
+A transient window at the top right of the screen shows notifications from applications.
+
+### Keybinding Helper
+
+Upon first login, a cheat-sheet of keybindings is launched on the right side of the screen.  Subsequent logins do not show the shortcuts, but they can be viewed on the desktop with the `⊞
+Win`-`?` key sequence.
+
