@@ -3,6 +3,10 @@ layout: page
 title: Getting Started
 ---
 
+## Key Bindings
+
+Regolith is designed for keyboard interaction.  The first time you log into a Regolith session, you'll see a listing of the most useful key bindings on the right-hand side of the screen.  This helper will not appear by default on subsequent logins, but you can view them at any time with the `⊞ Win`-`/` sequence while on an empty workspace.
+
 ## Launching Programs
 
 In Regolith Linux, applications are launched via the `⊞ Win`-`space` sequence.  A full screen dialog is presented.  Begin typing the app or command and the list will filter as you type.  Launch the app by selecting it and pressing `enter`.
