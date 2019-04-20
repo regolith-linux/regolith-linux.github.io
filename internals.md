@@ -14,6 +14,7 @@ Regolith is comprised of existing open source projects and some minor custom con
 |[Conky](https://github.com/brndnmtthws/conky)|Shortcuts on Desktop|[package](https://github.com/regolith-linux/regolith-conky-config)|
 |[GDM3](https://wiki.debian.org/GDM)|Login Screen|[package](https://github.com/regolith-linux/regolith-gdm3-theme)|
 |[Simple Terminal (st)](https://st.suckless.org/)|Terminal Emulator|[package](https://github.com/regolith-linux/regolith-st)|
+|[i3-gnome-flashback](https://github.com/deuill/i3-gnome-flashback)|i3/gnome integration|[repo](https://github.com/deuill/i3-gnome-flashback)|
 |[Adobe Source Code Pro](https://github.com/adobe-fonts/source-code-pro)|Primary Font|N/A|
 |[Solarized Color Palette](https://ethanschoonover.com/solarized/)|Color Scheme|N/A|
 |[Psiu Puxa Wallpapers](http://wallpaper-site.webflow.io/)|Desktop Backgrounds|N/A|

@@ -19,6 +19,10 @@ Despite it's minimal visual design, Regolith Linux provides modern system and fi
 
 Quickly browse, search, and launch apps from the app launcher.  This modal menu can also be used to find and select windows across all of your workspaces.
 
+<a href="/assets/screenshot-term.png"><img class="screenshot" alt="View Terminals" src="/assets/screenshot-term.png"/></a>
+
+Because Regolith utilizes i3wm for window management, you get more out of every pixel on your screen. Use more of it for what you care about, rather than sharing it with advertisements or features rarely used.
+
 ## How to Get Regolith Linux
 
 Regolith can be installed in two ways:  If you already have an existing Ubuntu setup, Regolith can simply be added as another desktop session by installing the package `regolith-desktop` from the [Regolith PPA](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable).  If you'd like to start from scratch, download the Regolith Linux ISO and simply install Regolith as you would stock Ubuntu.  Both approaches are equivalent, except that the LiveCD does not contain the default Ubuntu UI.
@@ -35,6 +39,8 @@ From your existing Ubuntu 18.04 system, perform the following installation steps
 2. After the sync completes, enter: `sudo apt install regolith-desktop`
 3. Some packages will be installed.  When this completes, reboot.
 4. At the login screen, select the "gear" icon and select `Regolith` from the list, and then login.
+
+<sub>If you encounter errors during step 2, please refer to the [troubleshooting page]({% link troubleshooting.md %}) for help.</sub>
 
 #### Uninstalling Regolith
 
