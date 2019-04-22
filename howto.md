@@ -24,3 +24,9 @@ To: `bindsym $mod+Return exec gnome-terminal`
 ## Restore the default i3wm configuration file
 1. Delete or copy to another location the file `~/.config/i3-regolith/config`
 2. Log out and log back in.  A fresh default copy will be installed at `~/.config/i3-regolith/config`.
+
+## Hide the bar until `⊞ Win` is pressed
+
+1. Open `~/.config/i3-regolith/config` in your editor of choice.
+2. After the line `bar {`, add the following entry: `mode hide`. (See [here](https://i3wm.org/docs/userguide.html#_configuring_i3bar) for details)
+3. Reload i3 with `⊞ Win`-`shift`-`r`.

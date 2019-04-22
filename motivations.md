@@ -3,7 +3,7 @@ layout: page
 title: Motivations
 ---
 
-This page describes several slow moving thought processes that resulted in the creation of Regolith Linux.
+The following describes several slow moving thought processes that resulted in the creation of Regolith Linux.
 
 <p align="center"> *** </p>
 
