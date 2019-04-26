@@ -29,7 +29,7 @@ plugins:
   - jekyll-feed
 
 # Custom vars
-version: 3.0
+version: d3c8178
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
