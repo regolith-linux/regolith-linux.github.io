@@ -42,3 +42,5 @@ title:
 ## Next Steps
 
 去做
+
+[入门]({% link cn/getting_started.md %})
