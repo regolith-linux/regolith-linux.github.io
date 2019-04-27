@@ -1,6 +1,7 @@
 ---
 layout: page
 title: How To
+lang: en
 ---
 
 This page contains instructions on how to make commonly requested changes.

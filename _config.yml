@@ -24,21 +24,22 @@ github_username:  regolith-linux
 
 # Build settings
 markdown: kramdown
-# theme: minima
 plugins:
   - jekyll-feed
 
 # Custom vars
 version: d3c8178
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+defaults:
+  #languages
+  -
+    scope:
+      path: ""
+    values:
+      lang: "en"
+      layout: default
+  -
+    scope:
+      path: "cn"
+    values:
+      lang: "cn"

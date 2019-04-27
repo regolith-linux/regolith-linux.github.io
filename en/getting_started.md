@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Getting Started
+lang: en
 ---
 
 ## Key Bindings

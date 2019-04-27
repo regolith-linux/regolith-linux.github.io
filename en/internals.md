@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Internals
+lang: en
 ---
 
 Regolith is comprised of existing open source projects and some minor custom configuration and package metadata. The following table lists the primary components that make up Regolith Linux:

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 
+lang: en
 ---
 
 Regolith is a polished, productivity focused Ubuntu-based Linux distribution. It brings together a trifecta of [Ubuntu](https://www.ubuntu.com/)'s ubiquity, [i3wm](https://i3wm.org/)'s efficient and productive interface, and Gnome's [system configuration](https://gitlab.gnome.org/GNOME/gnome-control-center) features.
@@ -40,7 +41,7 @@ From your existing Ubuntu 18.04 system, perform the following installation steps
 3. Some packages will be installed.  When this completes, reboot.
 4. At the login screen, select the "gear" icon and select `Regolith` from the list, and then login.
 
-<sub>If you encounter errors during step 2, please refer to the [troubleshooting page]({% link troubleshooting.md %}) for help.</sub>
+<sub>If you encounter errors during step 2, please refer to the [troubleshooting page]({% link en/troubleshooting.md %}) for help.</sub>
 
 #### Uninstalling Regolith
 
@@ -48,4 +49,4 @@ To remove the Regolith Desktop from your existing Ubuntu system, first remove th
 
 ## Next Steps
 
-Have a look at the [Getting Started]({% link getting_started.md %}) guide to learn more about using Regolith Linux, or check out the [internals]({% link internals.md %}) page if you prefer to learn about how it's put together.  
+Have a look at the [Getting Started]({% link en/getting_started.md %}) guide to learn more about using Regolith Linux, or check out the [internals]({% link en/internals.md %}) page if you prefer to learn about how it's put together.  
