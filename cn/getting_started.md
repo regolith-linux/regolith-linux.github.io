@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Getting Started
+title: 入门
 lang: cn
 ---
 
