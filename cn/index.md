@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 
+title: Regolith
 lang: cn
 ---
 
@@ -47,7 +47,7 @@ LiveCD ISO 镜像可以在 [from Source Forge](https://sourceforge.net/projects/
 
 <sub>如果你在第二步出现报错, 请参详 [常见问题]({% link cn/troubleshooting.md %})</sub>
 
-#### Uninstalling Regolith
+#### 删除 Regolith
 
 首先，删除package： `sudo apt remove regolith-desktop`。 然后， 删除 package archive reference： `sudo add-apt-repository --remove ppa://kgilmer/regolith-stable`。
 最后重启系统。
