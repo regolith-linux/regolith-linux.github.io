@@ -16,7 +16,7 @@
 title: Regolith Linux
 email: regolith.linux@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Regolith Linux is a distro for people that prefer a spartan interface with simple and consistent system management.
+  Regolith Linux is a distro for people that prefer a spartan interface with polished and consistent system management.
 baseurl: "" 
 url: "https://regolith-linux.org"
 twitter_username: RegolithL
@@ -28,7 +28,7 @@ plugins:
   - jekyll-feed
 
 # Custom vars
-version: d3c8178
+version: eac5cba
 
 defaults:
   #languages

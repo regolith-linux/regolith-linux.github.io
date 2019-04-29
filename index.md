@@ -3,8 +3,7 @@ layout: default
 title: 
 lang: en
 ---
-
-Regolith is a polished, productivity focused Ubuntu-based Linux distribution. It brings together a trifecta of [Ubuntu](https://www.ubuntu.com/)'s ubiquity, [i3wm](https://i3wm.org/)'s efficient and productive interface, and Gnome's [system configuration](https://gitlab.gnome.org/GNOME/gnome-control-center) features.
+Regolith Linux is a distro for people that prefer a spartan interface with polished and consistent system management. It brings together a trifecta of [Ubuntu](https://www.ubuntu.com/)'s ubiquity, [i3wm](https://i3wm.org/)'s efficient and productive interface, and Gnome's [system configuration](https://gitlab.gnome.org/GNOME/gnome-control-center) features.
 
 ## What it Looks Like
 
