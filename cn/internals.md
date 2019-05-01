@@ -6,6 +6,7 @@ lang: cn
 
 Regolith 是由一些开源项目/软件， 一些自定义设置和 Package 元数据构成。 以下表格列举了主要组件:
 Regolith Linux:  
+
 | Package | 功能 | Regolith 自定义 |
 |---------|----------|------------------------|
 |[Gnome-flashback](https://wiki.gnome.org/Projects/GnomeFlashback)|System Management|[package](https://github.com/regolith-linux/regolith-gnome-flashback)|
