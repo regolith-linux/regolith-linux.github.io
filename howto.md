@@ -36,3 +36,10 @@ To: `bindsym $mod+Return exec gnome-terminal`
 
 <sub>If you would like this to be easier to change, please vote for [this issue](https://github.com/regolith-linux/regolith-desktop/issues/16)</sub>
 
+## [Add Stock Ubuntu Session to Login](#stock-ubuntu)
+
+If Regolith is installed from the LiveCD installer, the stock Ubuntu session is removed due to the finicky way that users must specify sessions in the login screen. Users may wish to add this session back in to access some UI features that Regolith removes.  NOTE: This howto does not apply to users installing Regolith on an existing Ubuntu system.
+
+1. In a terminal, install the Ubuntu session: `sudo apt install ubuntu-session`
+2. Reboot and when when presented with the login screen, select "Ubuntu" from the "gear" drop-down menu.
+
