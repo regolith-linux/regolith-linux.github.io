@@ -11,7 +11,7 @@ Regolith Linux:
 |---------|----------|------------------------|
 |[Gnome-flashback](https://wiki.gnome.org/Projects/GnomeFlashback)|System Management|[package](https://github.com/regolith-linux/regolith-gnome-flashback)|
 |[i3-wm](https://i3wm.org/)|Tiling Window Manager|[package](https://github.com/regolith-linux/regolith-i3)|
-|[i3-gaps](https://github.com/Airblader/i3)|Nice additions to i3wm|See i3wm|
+|[i3-gaps](https://github.com/Airblader/i3)|Nice additions to i3-wm|See i3-wm|
 |[Rofi](https://github.com/davatorium/rofi)|Application Launcher and Window Switcher|[package](https://github.com/regolith-linux/regolith-rofi-config)|
 |[Compton](https://github.com/chjj/compton)|Compositor|[package](https://github.com/regolith-linux/regolith-compton-config)|
 |[Conky](https://github.com/brndnmtthws/conky)|Shortcuts on Desktop|[package](https://github.com/regolith-linux/regolith-conky-config)|

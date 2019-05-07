@@ -17,13 +17,13 @@ lang: cn
 ## [把默认的 ST 终端更换成 gnome-termial 终端](#default-term)
 
 1. 安装 gnome-terminal (或者任何一个你喜爱的终端): `sudo apt install gnome-terminal`. (如果你已经安装了此终端，这一步可以省略)
-2. 重新映射 i3wm 的配置。 编辑`~/.config/i3-regolith/config`， 更改下列语句:
+2. 重新映射 i3-wm 的配置。 编辑`~/.config/i3-regolith/config`， 更改下列语句:
 更改前: `bindsym $mod+Return exec st`
 更改后: `bindsym $mod+Return exec gnome-terminal`
 3. Save file and reload i3 with `⊞ Win`-`shift`-`r`
 4. (可选)  更改操作系统的默认终端 `sudo update-alternatives --config x-terminal-emulator` (参见 [此页面](https://askubuntu.com/questions/578293/is-it-possible-to-remove-the-default-terminal-and-replace-it-with-some-other-ter))  
 
-## [恢复Regolith 默认的 i3wm 的配置文件](#default-i3-config)
+## [恢复Regolith 默认的 i3-wm 的配置文件](#default-i3-config)
 1. 删除或者移动该文件到其它地方  `~/.config/i3-regolith/config`  
 2. 录出然后录入。 一个新的默认的 `~/.config/i3-regolith/config` 将会被自动创建。
 

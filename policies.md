@@ -5,11 +5,11 @@ title: Policies
 
 ## Privacy
 
-There is nothing in Regolith Linux itself that collects any user data, either anonymously or otherwise.  Because Regolith is a customization of Ubuntu Linux, any data collection that Ubuntu is doing will also be performed by Regolith Linux.  This website has a Google Analytics integration.
+There is nothing in Regolith Linux itself that collects any user data, either anonymously or otherwise.  Because Regolith is a customization of Ubuntu Linux, any data collection that Ubuntu is doing will also be performed by Regolith Linux.  This website has vanilla Google Analytics integration.
 
 ## Contribution
 
-As an open source project, Regolith Linux is open to anyone to extend, fork, or modify as they see fit.  People are welcome to join as contributors to the project if interested.  Please file an issue describing the change you'd like to be made to Regolith before doing the work however, so we do not waste anybody's time.
+As an open source project, Regolith Linux is open to anyone to extend, fork, or modify as they see fit.  People are welcome to join as contributors to the project if interested. Please file an issue describing the change you'd like to be made to Regolith before doing the work however, so we do not waste anybody's time.
 
 ## Monetization
 

@@ -18,13 +18,13 @@ This page contains instructions on how to make commonly requested changes.
 ## [Change the default terminal from st to gnome-terminal](#default-term)
 
 1. Install gnome-terminal (or whatever terminal you prefer): `sudo apt install gnome-terminal`. (NOTE: this is not necessary if you already have your terminal installed.)
-2. Remap the i3wm config to launch `gnome-terminal` instead of `st` by editing `~/.config/i3-regolith/config` and changing the following line:
+2. Remap the i3-wm config to launch `gnome-terminal` instead of `st` by editing `~/.config/i3-regolith/config` and changing the following line:
 From: `bindsym $mod+Return exec st`
 To: `bindsym $mod+Return exec gnome-terminal`
 3. Save file and reload i3 with `⊞ Win`-`shift`-`r`
 4. (Optional) Update your system to default to your terminal of choice by running `sudo update-alternatives --config x-terminal-emulator` (See [this page](https://askubuntu.com/questions/578293/is-it-possible-to-remove-the-default-terminal-and-replace-it-with-some-other-ter) for more details)
 
-## [Restore the Regolith default i3wm configuration file](#default-i3-config)
+## [Restore the Regolith default i3-wm configuration file](#default-i3-config)
 1. Delete or copy to another location the file `~/.config/i3-regolith/config`
 2. Log out and log back in.  A fresh default copy will be installed at `~/.config/i3-regolith/config`.
 
