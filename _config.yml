@@ -28,7 +28,7 @@ plugins:
   - jekyll-feed
 
 # Custom vars
-version: 24cb4eb
+version: d6cbb3b
 
 defaults:
   #languages
