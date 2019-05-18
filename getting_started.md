@@ -6,13 +6,24 @@ lang: en
 
 ## Key Bindings
 
-Regolith is designed for keyboard interaction.  The first time you log into a Regolith session, you'll see a listing of the most useful key bindings on the right-hand side of the screen.  This helper will not appear by default on subsequent logins, but you can view them at any time with the `⊞ Win`-`/` sequence while on an empty workspace.
+Regolith is designed for keyboard interaction.  The first time you log into a Regolith session, you'll see a listing of the most useful key bindings on the right-hand side of the screen.  This helper will not appear by default on subsequent logins, but you can view them at any time with the `⊞ Win`-`?` sequence while on an empty workspace.
 
 ## Launching Programs
 
 In Regolith Linux, applications are launched via the `⊞ Win`-`space` sequence.  A full screen dialog is presented.  Begin typing the app or command and the list will filter as you type.  Launch the app by selecting it and pressing `enter`.
 
-The terminal application is special in Regolith as it can be launched with `⊞ Win`-`enter`.
+The terminal, browser, and settings applications are special because they can be directly launched from a keybinding as well as from the application launcher.
+
+| Application | Key Binding |
+|-------------|-------------|
+|Terminal|`⊞ Win`-`enter`|
+|Browser|`⊞ Win`-`shift`-`enter`|
+|Configure Bluetooth|`⊞ Win`-`b`|
+|Configure Displays|`⊞ Win`-`d`|
+|Configure Network|`⊞ Win`-`n`|
+|Configure Power|`⊞ Win`-`p`|
+|Configure Sound|`⊞ Win`-`s`|
+|Configure Wifi|`⊞ Win`-`w`|
 
 ### Installing Software
 
@@ -30,7 +41,7 @@ The currently active workspace and all workspaces that you have open will be vis
 
 ## Managing Windows
 
-As you launch more applications in a given workspace, the window manager will re-arrange the existing windows such that all windows are visible without overlap, also known as 'tiled'.  The window manager has a strategy for determining the size and position relative to the other active windows.  Vertical and horizontal orientation can be configured with  `⊞ Win`-`h` for a horizontal layout, and  `⊞ Win`-`v` can be used for vertical layouts.  Flipping between horizontal and vertical layouts on a screen is a simple way of getting the basic layout you may desire.  From there resizing and moving windows may be needed for an exact layout.  To adjust the distance between windows on the active workspace, use `⊞ Win`-`-` and `⊞ Win`-`+`.
+As you launch more applications in a given workspace, the window manager will re-arrange the existing windows such that all windows are visible without overlap, also known as 'tiled'.  The window manager has a strategy for determining the size and position relative to the other active windows.  Vertical and horizontal orientation can be toggled between horizontal and vertical modes with `⊞ Win`-`backspace`.  Flipping between horizontal and vertical layouts as you launch new windows is a simple way of getting the window layout you desire.  Then resizing and moving windows may be needed for an exact layout.  To adjust the distance between windows (gaps) on the active workspace, use `⊞ Win`-`-` and `⊞ Win`-`+`.
 
 ### Resizing Windows
 
@@ -46,7 +57,7 @@ On the right side of the bar are a few system statistics that are periodically u
 
 ## System Configuration and Management
 
-The Setting app can be launched via `⊞ Win`-`space` and then typing "settings".  This application is the UI for configuring the computer.  Connecting to wifi access points, configuring monitors, configuring power saving policy, and similar tasks can be achieved from this application.
+The Setting app can be launched via `⊞ Win`-`c` (or `⊞ Win`-`space` and then typing "settings" to launch the control pannel by name).  This application is the UI for configuring the computer.  Connecting to wifi access points, configuring monitors, configuring power saving policy, and similar tasks can be achieved from this application.
 
 ## Logging In and Out
 
