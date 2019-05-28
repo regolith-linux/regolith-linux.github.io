@@ -3,7 +3,7 @@ layout: default
 title: 
 lang: en
 ---
-Regolith Linux is a distro for people that prefer a spartan interface with polished and consistent system management. It brings together a trifecta of [Ubuntu](https://www.ubuntu.com/)'s ubiquity, [i3wm](https://i3wm.org/)'s efficient and productive interface, and Gnome's [system configuration](https://gitlab.gnome.org/GNOME/gnome-control-center) features.
+Regolith Linux is a distro for people that prefer a spartan interface with polished and consistent system management. It brings together a trifecta of [Ubuntu](https://www.ubuntu.com/)'s ubiquity, [i3-wm](https://i3wm.org/)'s efficient and productive interface, and Gnome's [system configuration](https://gitlab.gnome.org/GNOME/gnome-control-center) features.
 
 ## What it Looks Like
 
@@ -21,7 +21,7 @@ Quickly browse, search, and launch apps from the app launcher.  This modal menu 
 
 <a href="/assets/screenshot-term.png"><img class="screenshot" alt="View Terminals" src="/assets/screenshot-term.png"/></a>
 
-Because Regolith utilizes i3wm for window management, you get more out of every pixel on your screen. Use more of it for what you care about, rather than sharing it with advertisements or features rarely used.
+Because Regolith utilizes i3-wm for window management, you get more out of every pixel on your screen. Use more of it for what you care about, rather than sharing it with advertisements or features rarely used.
 
 ## How to Get Regolith Linux
 
@@ -29,11 +29,11 @@ Regolith can be installed in two ways:  If you already have an existing Ubuntu s
 
 ### Option 1: LiveCD Installer
 
-The LiveCD can be downloaded [from Source Forge](https://sourceforge.net/projects/regolith-linux/).  Write the file to a usb drive as you would any other Linux install image, and boot the drive in the PC that you wish to install to.  It works exactly as the stock Ubuntu installer.
+The Ubuntu-based LiveCD can be downloaded [from Source Forge](https://sourceforge.net/projects/regolith-linux/).  [Release 1](https://sourceforge.net/projects/regolith-linux/files/regolith-linux-r1/) is based on Ubuntu 18.04 and [release 1.1](https://sourceforge.net/projects/regolith-linux/files/regolith-linux-r1.1/) is based on Ubuntu 19.04, but either can be used to update to the latest updates.  Write the file to a usb drive as you would any other Linux install image, and boot the drive in the PC that you wish to install to.  It works exactly as the stock Ubuntu installer.
 
 ### Option 2: Regolith Ubuntu PPA
 
-From your existing Ubuntu 18.04 system, perform the following installation steps: 
+From your existing Ubuntu 18.04 (Bionic) or 19.04 (Dingo) system, perform the following installation steps: 
 
 1. Open a terminal, and enter: `sudo add-apt-repository -y ppa://kgilmer/regolith-stable`
 2. After the sync completes, enter: `sudo apt install regolith-desktop`
@@ -48,4 +48,4 @@ To remove the Regolith Desktop from your existing Ubuntu system, first remove th
 
 ## Next Steps
 
-Have a look at the [Getting Started]({% link getting_started.md %}) guide to learn more about using Regolith Linux, or check out the [internals]({% link internals.md %}) page if you prefer to learn about how it's put together.  
+Have a look at the [Getting Started]({% link getting_started.md %}) guide to learn more about using Regolith Linux, see the [latest updates]({% link news.md %}), or check out the [internals]({% link internals.md %}) page if you prefer to learn about how it's put together.  
