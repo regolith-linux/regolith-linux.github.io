@@ -43,3 +43,15 @@ If Regolith is installed from the LiveCD installer, the stock Ubuntu session is 
 1. In a terminal, install the Ubuntu session: `sudo apt install ubuntu-session`
 2. Reboot and when when presented with the login screen, select "Ubuntu" from the "gear" drop-down menu.
 
+## [Use i3 and Gnome without Regolith](#i3-gnome-no-regolith)
+
+If you'd like to get all the usability features of gnome integration, but prefer to keep your own i3 setup, perform the following steps from a terminal:
+```
+$ sudo apt install i3 gnome-flashback build-essential 
+$ git clone https://github.com/deuill/i3-gnome-flashback
+$ cd i3-gnome-flashback
+$ sudo make install
+$ /sbin/reboot
+```
+
+After rebooting you should have an `i3-gnome` session to select from the login window "gear" menu.
