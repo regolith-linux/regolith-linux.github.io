@@ -41,7 +41,7 @@ The currently active workspace and all workspaces that you have open will be vis
 
 ## Managing Windows
 
-As you launch more applications in a given workspace, the window manager will re-arrange the existing windows such that all windows are visible without overlap, also known as 'tiled'.  The window manager has a strategy for determining the size and position relative to the other active windows.  Vertical and horizontal orientation can be toggled between horizontal and vertical modes with `⊞ Win`-`backspace`.  Flipping between horizontal and vertical layouts as you launch new windows is a simple way of getting the window layout you desire.  Then resizing and moving windows may be needed for an exact layout.  To adjust the distance between windows (gaps) on the active workspace, use `⊞ Win`-`-` and `⊞ Win`-`+`.
+As you launch more applications in a given workspace, the window manager will re-arrange the existing windows such that all windows are visible without overlap, also known as 'tiled'.  The window manager has a strategy for determining the size and position relative to the other active windows.  Layout mode can be toggled between horizontal and vertical modes with `⊞ Win`-`backspace`.  Flipping between horizontal and vertical layouts before launching new windows is a simple way of building the window layout you desire.  Resizing and moving windows can also be needed for an exact layout.  See below for resize mode.  To adjust the distance between windows (gaps) on the active workspace, use `⊞ Win`-`-` and `⊞ Win`-`+`.
 
 ### Resizing Windows
 
