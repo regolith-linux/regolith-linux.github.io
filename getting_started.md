@@ -91,3 +91,6 @@ A transient window at the top right of the screen shows notifications from appli
 Upon first login, a cheat-sheet of keybindings is launched on the right side of the screen.  Subsequent logins do not show the shortcuts, but they can be viewed on the desktop with the `⊞
 Win`-`?` key sequence.
 
+## Digging Deeper
+
+i3-wm provides an excellent [user manual](https://i3wm.org/docs/userguide.html) for those wishing to customize their keybindings or other window behavior.  Additionally the [i3-wm FAQ page on Reddit](https://www.reddit.com/r/i3wm/) is a great resource for asking questions and searching for answers.
