@@ -35,3 +35,7 @@ title: Keybindings
 |Enter Window Resize Mode|`⊞ Win`-`r`|
 |Change Window Size in Resize Mode|`⊞ Win`-`arrow keys`|
 |Exit Resize Mode|`Escape` or `Enter`|
+|Close Terminal|`Ctrl`-`d`|
+|Close (Some) Windows|`Ctrl`-`w`|
+|Exit (Some) Apps|`Ctrl`-`q`|
+
