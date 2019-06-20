@@ -55,3 +55,16 @@ $ /sbin/reboot
 ```
 
 After rebooting you should have an `i3-gnome` session to select from the login window "gear" menu.
+
+## [Change the window highlight color](#window-highlight-color)
+
+If the shading between active and inactive windows is too subtle for your tastes, [here is a tip](https://github.com/regolith-linux/regolith-desktop/issues/42#issuecomment-503789313) on how to update the i3 config for a stronger border.
+
+Open the i3 configuration file (`~/.config/i3-regolith/config`) in a text editor, look for existing text as below and update the values according to taste.  For example:
+```
+new_window pixel 4
+new_float pixel 4
+client.focused          #002b36 $blue #fdf6e3 #268bd2
+```
+
+Another approach is to make inactive windows darker.  This can be achieved by editing the compton configuration in the file `/etc/xdg/compton.conf` and adjusting the value of `inactive-dim`.  You'll need to `sudo` to edit the file and reload i3 to see the change.
