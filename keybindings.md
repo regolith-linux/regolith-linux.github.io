@@ -12,15 +12,15 @@ title: Keybindings
 |Command Launcher|`⊞ Win`-`Shift`-`Space`|
 |Window Navigate|`⊞ Win`-`Ctrl`-`Space`|
 |Move between Windows|`⊞ Win`-`Arrow Keys` or vim keys|
-|Move windows|`⊞ Win`-`Shift`-`Arrow Keys` or vim keys|
+|Move Windows|`⊞ Win`-`Shift`-`Arrow Keys` or vim keys|
 |Toggle Vertical and Horizontal Layout Mode|`⊞ Win`-`Backspace`|
 |Focused Window Fullscreen|`⊞ Win`-`Shift`-`F`|
 |Increase or Decrease Window Gaps|`⊞ Win`-`+` and `-`|
 |Toggle Keybinding Helper|`⊞ Win`-`Shift`-`?`|
 |Focused Window Floating Toggle|`⊞ Win`-`Shift`-`F`|
-|Move to Workspace index 1 - 10|`⊞ Win`-`1 - 0`|
-|Move to Workspace index 10 - 19|`⊞ Win`-`Ctrl`-`1 - 9`|
-|Move to Invisible Workspace|`⊞ Win`-`\``|
+|Move to Workspace 1 - 10|`⊞ Win`-`1 - 0`|
+|Move to Workspace 10 - 19|`⊞ Win`-`Ctrl`-`1 - 9`|
+|Move to Invisible Workspace|`⊞ Win`-`backtick`|
 |Move to Next Workspace|`⊞ Win`-`Tab`|
 |Move to Previous Workspace|`⊞ Win`-`Shift`-`Tab`|
 |Reload i3 Config|`⊞ Win`-`Shift`-`C`|
