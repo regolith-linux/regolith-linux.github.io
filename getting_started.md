@@ -6,7 +6,7 @@ lang: en
 
 ## Key Bindings
 
-Regolith is designed for keyboard interaction.  The first time you log into a Regolith session, you'll see a listing of the most useful key bindings on the right-hand side of the screen.  This helper will not appear by default on subsequent logins, but you can view them at any time with the `⊞ Win`-`?` sequence while on an empty workspace.
+Regolith is designed for keyboard interaction.  The first time you log into a Regolith session, you'll see a listing of the most useful key bindings on the right-hand side of the screen.  This helper will not appear by default on subsequent logins, but you can view them at any time with the `⊞ Win`-`?` sequence while on an empty workspace.  A full list of keybindings is [available here]{% link keybindings.md %}.
 
 ## Launching Programs
 
