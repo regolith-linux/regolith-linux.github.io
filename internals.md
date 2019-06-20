@@ -40,6 +40,7 @@ Regolith is a set of Ubuntu packages distributed via two "Private Package Reposi
 |Window Manager|i3-wm|`~/.config/i3-regolith/config`|regolith-i3|
 |App Launcher|Rofi|`/etc/rofi.conf`|regolith-rofi-config|
 |System Keybindings|i3-wm|`~/.config/i3-regolith/config`|regolith-i3|
+|Keybinding Guide|Conky|`/etc/xdg/conky/config`|regolith-conky-config|
 
 ## Packaging
 

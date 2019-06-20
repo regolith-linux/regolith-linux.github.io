@@ -4,6 +4,8 @@ title: News
 ---
 
 |---------|----------|------------------------|
+|6/19/2019|Docs|Create [keybindings page]({% link keybindings.md %}) for all defaults in Regolith.
+|6/19/2019|Bugfix|[Fix font configuration](https://github.com/regolith-linux/regolith-i3/pull/2) of i3bar by [@PreciousChicken](https://github.com/PreciousChicken).
 |6/15/2019|Docs|Added howto for i3/gnome integration without Regolith.
 |6/15/2019|Polish|Format CPU load percentage to avoid unnecessary movement in bar.
 |6/15/2019|Bugfix|Fix issue with wallpapers refreshing for newer version of `feh`.
