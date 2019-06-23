@@ -35,8 +35,8 @@ The Ubuntu-based LiveCD can be downloaded [from Source Forge](https://sourceforg
 
 From your existing Ubuntu 18.04 (Bionic) or 19.04 (Disco) system, perform the following installation steps: 
 
-1. Open a terminal, and enter: `sudo add-apt-repository -y ppa:kgilmer/regolith-stable`
-2. After the sync completes, enter: `sudo apt install regolith-desktop`
+1. Open a terminal, and enter: <br/>`sudo add-apt-repository -y ppa:kgilmer/regolith-stable`
+2. After the sync completes, enter: <br/>`sudo apt install regolith-desktop`
 3. Some packages will be installed.  When this completes, reboot.
 4. At the login screen, select the "gear" icon and select `Regolith` from the list, and then login.
 
