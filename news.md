@@ -4,6 +4,8 @@ title: News
 ---
 
 |---------|----------|------------------------|
+|6/29/2019|Bugfix|There were some minor regressions to i3bar from some earlier font changes that have been addressed.
+|6/29/2019|Polish|Desktop wallpaper is now managed from gnome-control-center.
 |6/19/2019|Docs|Create [keybindings page]({% link keybindings.md %}) for all defaults in Regolith.
 |6/19/2019|Bugfix|[Fix font configuration](https://github.com/regolith-linux/regolith-i3/pull/2) of i3bar by [@PreciousChicken](https://github.com/PreciousChicken).
 |6/15/2019|Docs|Added howto for i3/gnome integration without Regolith.
