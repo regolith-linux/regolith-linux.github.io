@@ -4,6 +4,8 @@ title: News
 ---
 
 |---------|----------|------------------------|
+|7/3/2019|Feature|Pulling in new packages `regolith-styles` and `xgetres` for ongoing migration to `Xresources` for configuration.
+|7/3/2019|Bugfix|Another [i3bar fix](https://github.com/regolith-linux/regolith-desktop/issues/59) for workspace ordering.
 |6/29/2019|Bugfix|There were some minor regressions to i3bar from some earlier font changes that have been addressed.
 |6/29/2019|Polish|Desktop wallpaper is now managed from gnome-control-center.
 |6/19/2019|Docs|Create [keybindings page]({% link keybindings.md %}) for all defaults in Regolith.
