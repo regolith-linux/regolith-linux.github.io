@@ -33,7 +33,7 @@ The Ubuntu-based LiveCD can be downloaded [from Source Forge](https://sourceforg
 
 ### Option 2: Regolith Ubuntu PPA
 
-From your existing Ubuntu 18.04 (Bionic) or 19.04 (Disco) system, perform the following installation steps: 
+From your existing Ubuntu 18.04 (Bionic), 18.10 (Cosmic), or 19.04 (Disco) system, perform the following installation steps: 
 
 1. Open a terminal, and enter: <br/>`sudo add-apt-repository -y ppa:kgilmer/regolith-stable`
 2. After the sync completes, enter: <br/>`sudo apt install regolith-desktop`

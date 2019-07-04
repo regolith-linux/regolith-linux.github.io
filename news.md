@@ -4,6 +4,8 @@ title: News
 ---
 
 |---------|----------|------------------------|
+|7/4/2019|Feature|Xresources styles now being staged for usage in themes.
+|7/4/2019|Feature|Regolith now supports Ubuntu 18.10 (Cosmic).
 |7/3/2019|Feature|Pulling in new packages `regolith-styles` and `xgetres` for ongoing migration to `Xresources` for configuration.
 |7/3/2019|Bugfix|Another [i3bar fix](https://github.com/regolith-linux/regolith-desktop/issues/59) for workspace ordering.
 |6/29/2019|Bugfix|There were some minor regressions to i3bar from some earlier font changes that have been addressed.
