@@ -76,7 +76,7 @@ client.focused          #002b36 $blue #fdf6e3 #268bd2
 
 Another approach is to make inactive windows darker.  This can be achieved by editing the compton configuration in the file `/etc/xdg/compton.conf` and adjusting the value of `inactive-dim`.  You'll need to `sudo` to edit the file and reload i3 to see the change.
 
-## [(View and modify the Regolith i3 Config)](#i3-config)
+## [View and modify the Regolith i3 Config](#i3-config)
 The i3 config file that Regolith uses is not easy to find.  This is because the final file is the result of the application of several patches against the default i3 config file.  To generate this file we need to use the `quilt` tool with the `regolith-i3` package.
 
 ### Setup
