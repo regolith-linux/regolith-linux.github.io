@@ -75,3 +75,37 @@ client.focused          #002b36 $blue #fdf6e3 #268bd2
 ```
 
 Another approach is to make inactive windows darker.  This can be achieved by editing the compton configuration in the file `/etc/xdg/compton.conf` and adjusting the value of `inactive-dim`.  You'll need to `sudo` to edit the file and reload i3 to see the change.
+
+## [(View and modify the Regolith i3 Config)](#i3-config)
+The i3 config file that Regolith uses is not easy to find.  This is because the final file is the result of the application of several patches against the default i3 config file.  To generate this file we need to use the `quilt` tool with the `regolith-i3` package.
+
+### Setup
+```
+$ sudo apt install quilt
+$ export QUILT_PATCHES=debian/patches  # See https://wiki.debian.org/UsingQuilt for details
+$ export QUILT_REFRESH_ARGS="-p ab --no-timestamps --no-index"
+```
+
+### Extraction
+```
+$ git clone https://github.com/regolith-linux/regolith-i3.git  # Clone Regolith's version of i3
+...
+$ quilt push -a 
+Applying patch debian/patches/remove_i3_xsession.patch
+patching file Makefile.am
+...
+$ less etc/config  # Here is what ends up in Regolith for i3 config.
+```
+
+### Modification
+First we need to create a new patch to hold our changes:
+```
+$ quilt new my-regolith-change.patch # tell quilt to create a new patch
+$ quilt add etc/config # tell quilt which file changes belong in your patch
+$ your-editor-of-choice etc/config  #make your changes
+$ quilt refresh  # this updates the patch with the delta of your change vs what was there before.
+$ quilt pop -a  # roll the patches back up and leave the files as they were
+```
+
+### Verification
+You should be able to see your changes in your new patch file in `debian/patches/your-patch-name.patch`.  Have a look at the changes to make sure they are what you intended.  If good, you're ready to submit a PR or push the changes to your own fork.  But, if you intend to publish your own version, use `dch` to add a change log entry and bump the version number.
