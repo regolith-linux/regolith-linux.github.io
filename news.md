@@ -4,6 +4,9 @@ title: News
 ---
 
 |---------|----------|------------------------|
+|7/4/2019|Bugfix|[Mouse cursor fix](https://github.com/regolith-linux/regolith-i3/pull/6) for shortcut toggle by @craigerrington.
+|7/4/2019|Feature|[Better organization of cheatsheet and window kill command](https://github.com/regolith-linux/regolith-conky-config/pull/3) by @eldelacajita.
+|7/4/2019|Feature|Added [vim keybindings](https://github.com/regolith-linux/regolith-desktop/issues/60) to resize mode.
 |7/4/2019|Feature|Xresources styles now being staged for usage in themes.
 |7/4/2019|Feature|Regolith now supports Ubuntu 18.10 (Cosmic).
 |7/3/2019|Feature|Pulling in new packages `regolith-styles` and `xgetres` for ongoing migration to `Xresources` for configuration.
