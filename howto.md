@@ -15,6 +15,13 @@ This page contains instructions on how to make commonly requested changes.
 
 <sub>If you would like this to be easier to change, please vote for [this issue](https://github.com/regolith-linux/regolith-desktop/issues/16)</sub>
 
+## [Add or change i3 Keybindings](#change-keybinging)
+1. Consult the [i3 User's Guide](https://i3wm.org/docs/userguide.html) to find out which feature you'd like to add or change.
+2. Open `~/.config/i3-regolith/config` in your editor of choice.
+3. The lines which start with `bindsym` map keys to actions.  `$mod` means the modifier key, which by default is `⊞ Win`.  For example `bindsym $mod+Return exec /usr/bin/st` will cause i3 to run `/usr/bin/st` when `⊞ Win` and `Return` are pressed at the same time.
+4. Update an existing line or add a new one based on your needs.  For example, to cause i3 to use tabbed layout mode, when `⊞ Win` and `t` are pressed, add this to the config file: `bindsym $mod+t workspace_layout tabbed`
+5. After making the change, save the file and reload i3 with `⊞ Win` + `Shift` + `r`.
+
 ## [Change the default terminal from st to gnome-terminal](#default-term)
 
 1. Install gnome-terminal (or whatever terminal you prefer): `sudo apt install gnome-terminal`. (NOTE: this is not necessary if you already have your terminal installed.)
