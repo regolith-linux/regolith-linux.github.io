@@ -76,15 +76,15 @@ although you can use a mouse of you prefer.  More details below about window man
 
 ### Workspaces
 
-A workspace is simply a computer screen's worth of windows.  By default Regolith provides 10 workspaces to manage your work in.
+A workspace is simply a computer screen's worth of windows.  By default Regolith provides 19 workspaces to manage your work in.
 
 ### Launcher
 
-A full-screen dialog that allows you to launch programs or select windows.
+A full-screen dialog that allows you to launch programs or select windows is available via keybindings.
 
 ### Notifications
 
-A transient window at the top right of the screen shows notifications from applications.
+A transient window overlay at the top right of the screen shows notifications from applications.
 
 ### Keybinding Helper
 
