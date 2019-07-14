@@ -109,3 +109,6 @@ $ quilt pop -a  # roll the patches back up and leave the files as they were
 
 ### Verification
 You should be able to see your changes in your new patch file in `debian/patches/your-patch-name.patch`.  Have a look at the changes to make sure they are what you intended.  If good, you're ready to submit a PR or push the changes to your own fork.  But, if you intend to publish your own version, use `dch` to add a change log entry and bump the version number.
+
+## [Enable an Icon Tray in the Bar](#i3-tray)
+Enabling the task/icon tray in the bar requires a single change to your i3 config file, located at `~/.config/i3-regolith/config`.  Find the line with `tray_output none` and replace it with `tray_output primary`.  After logging back in or [reloading i3](https://regolith-linux.org/keybindings.html), the tray is active.  To verify it's working, run `nm-applet` from a terminal and notice the icon appears in the tray.  See the [i3-wm User Guide](https://i3wm.org/docs/userguide.html#_tray_output) for more information.
