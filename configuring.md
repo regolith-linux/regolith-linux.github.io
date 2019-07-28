@@ -3,7 +3,7 @@ layout: page
 title: Configuring
 ---
 
-Regolith Linux utilizes the Xresource facility to define and set color, typeface, and backgrounds.  These resources live in your home directory, and are designed to be easy to understand and modify.  Assuming you're already in a Regolith session, let's have a look at your Xresources file.  Because you may already have Xresource definitions that we wouldn't want to overwrite, Regolith-specific Xresources live in `~/.Xresources-regolith`:
+Regolith Linux utilizes the [Xresource facility](https://en.wikipedia.org/wiki/X_resources#Location_and_use) to define and set color, typeface, and backgrounds.  These resources live in your home directory, and are designed to be easy to understand, modify, and reset.  Assuming you're already in a Regolith session, let's have a look at your Xresources file.  Because you may already have Xresource definitions that we wouldn't want to overwrite, Regolith-specific Xresources live in `~/.Xresources-regolith`:
 ```
 ! -- Styles - Colors
 !
@@ -38,9 +38,9 @@ Regolith Linux utilizes the Xresource facility to define and set color, typeface
 regolith.policy.update: true
 ```
 
-This file is loaded into the Xresource database upon login, and values are referenced by various programs, such as i3 and scripts, such as blocklets to load values rather then hardcode them directly.  This allows us to change a value in one place, say the primary font size, and have that value propogate to all programs that may display something with the primary font.  
+This file is loaded into the Xresource database [upon login](https://github.com/regolith-linux/regolith-scripts/blob/master/regolith-config-init.sh#L23-L33), and values are referenced by various programs, such as i3 and scripts, such as blocklets to load values rather than hardcode them directly.  This allows us to change a value in one place, say the primary font, and have that value propogate to all programs.  
 
-However, you'll note that we don't have any actual typeface or color values here.  There is a level of inderection that provides us the ability to swap out defention files without having to modify each value in place.  For example, the default color configuration, `.Xresources.d/color-solarized-dark` defines a key `color_red` and sets it to a specified RGB value.  Now if we look at `.Xresources.d/color-gruvbox`, we can see the same key, but set to a different color value.  In essense `.Xresources.d/color-solarized-dark` and `.Xresources.d/color-gruvbox` are two complimentary color theme settings, and we can change all of them at once by toggling which resource file to load, by commenting and uncommenting files with the `!` character as needed.
+However, you'll note that we don't have any actual typeface or color values ing `~/.Xresources-regolith`.  There is a level of indirection that provides us the ability to swap out definition files without having to modify each value in place.  Specifically, we use the `#define` keyword to define a specific value, and then map it to a specific application property.  For example, the default color configuration, `.Xresources.d/color-solarized-dark` defines a key `color_red` and sets it to a specified RGB value.  Now if we look at `.Xresources.d/color-gruvbox`, we can see the same key, but set to a different color value.  Then, if we look at `~/.Xresources.d/i3-wm`, we can see that key mapped to specific UI elements, such as `i3-wm.client.urgent.color.background`.  In essense `.Xresources.d/color-solarized-dark` and `.Xresources.d/color-gruvbox` are two complimentary color theme settings, and we can change all of them at once by toggling which resource file to load, by commenting and uncommenting files with the `!` character as needed.
 
 As an example, if I want to set my colors to Solarized Light, I would make the folowing change to the file above:
 ```
@@ -70,7 +70,11 @@ Now edit `~/.Xresources.d/color-mything` and change the color definitions howeve
 #include ".Xresources.d/color-mything"
 ```
 
-On next login, the color values specified in `color-mything` will be applied to all your programs automatically.
+### Refreshing the UI
+
+Currently after modifying some values, such as Gnome settings like the background, the `regolith-config-reset.sh` script needs to be run before the changes are visible.  This is a temporary restriction that will be [addressed here](https://github.com/regolith-linux/regolith-scripts/issues/2).
+
+On next login, the color values specified in `color-mything` will be applied to all your programs automatically.  You can also reload the configuration with the `regolith-config-init.sh` script, which should be on your path.  Optionally you can back-up your existing configuration with the `regolith-config-reset.sh` script.
 
 ## [Migration Guide](#migration-guide)
 
