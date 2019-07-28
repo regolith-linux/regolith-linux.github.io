@@ -3,6 +3,38 @@ layout: page
 title: Configuring
 ---
 
+# Quick Steps
+
+## Change Color Theme
+
+1. Edit `~/.Xresources-regolith`, add a `!` to the line `#include ".Xresources.d/color-solarized-dark"` and uncomment one of the other lines in the same section, say gruvbox by removing the `!` at the beginning of the line: `#include ".Xresources.d/color-gruvbox"`.
+2. Run `regolith-config-reset.sh` and then `regolith-config-init.sh`.
+3. Reload i3.
+
+## Change Gnome Theme
+
+1. Edit `~/.Xresources-regolith`, add a `!` to the line `#include ".Xresources.d/theme-regolith"` and uncomment one of the other lines in the same section, say Ubuntu Dark by removing the `!` at the beginning of the line: `#include ".Xresources.d/theme-ubuntu-dark"`.
+2. Run `regolith-config-reset.sh` and then `regolith-config-init.sh`.
+
+## Add a New Color Theme
+
+1. Copy the new theme file into your `~/.Xresources.d` directory.  For example, if you have a color theme `color-sunday`, `cp color-sunday ~/.Xresources.d/`.
+2. Reference your new color file in the Regolith Xresources file:
+```
+! -- Styles - Colors
+!
+! Uncomment one and only one of the following color definitions 
+!#include ".Xresources.d/color-solarized-dark"
+!#include ".Xresources.d/color-solarized-light"
+!#include ".Xresources.d/color-gruvbox"
+!#include ".Xresources.d/color-nord"
+#include ".Xresources.d/color-sunday"
+```
+3. Run `regolith-config-reset.sh` and then `regolith-config-init.sh`.
+4. Reload i3.
+
+# Details
+
 Regolith Linux utilizes the [Xresource facility](https://en.wikipedia.org/wiki/X_resources#Location_and_use) to define and set [color](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root#L3-L7), [typeface](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root#L9-L13), and [backgrounds](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root#L9-L13).  These resources live in your home directory, and are designed to be easy to understand, modify, and reset.  Assuming you're already in a Regolith session, let's have a look at your Xresources file.  Because you may already have Xresource definitions that we wouldn't want to overwrite, Regolith-specific Xresources live in `~/.Xresources-regolith`:
 ```
 ! -- Styles - Colors
@@ -74,9 +106,9 @@ Now edit `~/.Xresources.d/color-mything` and change the color definitions howeve
 
 Currently after modifying some values, such as Gnome settings like the background, the `regolith-config-reset.sh` script needs to be run before the changes are visible.  This is a temporary restriction that will be [addressed here](https://github.com/regolith-linux/regolith-scripts/issues/2).
 
-On next login, the color values specified in `color-mything` will be applied to all your programs automatically.  You can also reload the configuration with the `regolith-config-init.sh` script, which should be on your path.  Optionally you can back-up your existing configuration with the `regolith-config-reset.sh` script.
+Continuing with our example above, on next login, the color values specified in `color-mything` will be applied to all your programs automatically.  You can also reload the configuration with the `regolith-config-init.sh` script, which should be on your path.  Optionally you can back-up your existing configuration with the `regolith-config-reset.sh` script.
 
-## [Migration Guide](#migration-guide)
+# [Migration Guide](#migration-guide)
 
 Prior to August 2019, Regolith did not have a consistent way of updating theme information.  To update colors or typeface, several files with different syntax and rules had to be modified directly.  If you have done this, to use the Xresource system, you'll need to move your changes into Xresource files as described above.  Once you have this in place, here are a few scripts that will help you migrate.
 
