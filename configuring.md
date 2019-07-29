@@ -3,7 +3,7 @@ layout: page
 title: Configuring
 ---
 
-_See [quick steps](#quick-steps) below for just making changes quickly, or read this to get an understanding of how configuration works in Regolith._
+<sub>_See [quick steps](#quick-steps) below for just making changes quickly, or read this to get an understanding of how configuration works in Regolith._</sub>
 
 Regolith Linux utilizes the [Xresource facility](https://en.wikipedia.org/wiki/X_resources#Location_and_use) to define and set [color](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root#L3-L7), [typeface](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root#L9-L13), and [backgrounds](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root#L9-L13).  These resources live in your home directory, and are designed to be easy to understand, modify, and reset.  Assuming you're already in a Regolith session, let's have a look at your Xresources file.  Because you may already have Xresource definitions that we wouldn't want to overwrite, Regolith-specific Xresources live in `~/.Xresources-regolith`:
 ```
@@ -111,6 +111,8 @@ Continuing with our example above, on next login, the color values specified in 
 # [Migration Guide](#migration-guide)
 
 Prior to August 2019, Regolith did not have a consistent way of updating theme information.  To update colors or typeface, several files with different syntax and rules had to be modified directly.  If you have done this, to use the Xresource system, you'll need to move your changes into Xresource files as described above.  Once you have this in place, here are a few scripts that will help you migrate.
+
+Additionally, `i3blocks` was replaced with a fork that enables Xresources, called `i3xrocks`.  And `xgetres` has been replaced with `xrescat` for loading Xresource values into scripts.
 
 ### `regolith-config-reset.sh`
 

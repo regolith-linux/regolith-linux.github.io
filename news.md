@@ -4,7 +4,7 @@ title: News
 ---
 
 |---------|----------|------------------------|
-|
+|7/28/2019|Feature|Migrate to Xresources for color, typeface, and theme settings. See [the issue](https://github.com/regolith-linux/regolith-desktop/issues/24) and new [configuration page](https://regolith-linux.org/configuring.html) for details. Thanks to everyone that helped with this major new feature.
 |7/4/2019|Bugfix|[Mouse cursor fix](https://github.com/regolith-linux/regolith-i3/pull/6) for shortcut toggle by @craigerrington.
 |7/4/2019|Feature|[Better organization of cheatsheet and window kill command](https://github.com/regolith-linux/regolith-conky-config/pull/3) by @eldelacajita.
 |7/4/2019|Feature|Added [vim keybindings](https://github.com/regolith-linux/regolith-desktop/issues/60) to resize mode.

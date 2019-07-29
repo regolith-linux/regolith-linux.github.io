@@ -33,10 +33,19 @@ Regolith is a set of Ubuntu packages distributed via two "Private Package Reposi
 
 ## Configuration
 
+Colors and fonts can be changed in Regolith by updating your Xresource values.  The primary Xresources file that Regolith uses is `~/.Xresources-regolith-<version>` where version is the current version of `regolith-styles` that's installed.  You can find this by running `apt list --installed | grep regolith-styles` from a terminal.  Each time `regolith-styles` is updated, a new copy is put into your user directory.  This ensures that any changes you may have made do not get overwritten.  After an update you may need to merge custom changes from an earlier version into your current version.  The old versions remain in your user directory but are not directly referenced by Regolith.  If you do not need any changes from them (for example if you are using Regolith's default settings), these older files can be removed.
+
+### Colors
+
+Color values can be selected by toggling the `#includes` in your Regolith Xresources file.  Lines in Xresources are commented if `!` is the first character of the line.
+
+
+## Package Changes
+
 | Function | Component | Configuration File | Package |
 |----------|-----------|--------------------|---------|
 |Desktop Bar|i3-bar|`~/.config/i3-regolith/config`|regolith-i3|
-|System Status Indicators|i3blocks|`/etc/i3blocks.conf`|regolith-i3blocks|
+|System Status Indicators|i3xrocks|`~/.config/i3xrocks/i3xrocks.conf`|regolith-i3xrocks|
 |Window Manager|i3-wm|`~/.config/i3-regolith/config`|regolith-i3|
 |App Launcher|Rofi|`/etc/rofi.conf`|regolith-rofi-config|
 |System Keybindings|i3-wm|`~/.config/i3-regolith/config`|regolith-i3|
