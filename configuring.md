@@ -5,11 +5,13 @@ title: Configuring
 
 <sub>_See [quick steps](#quick-steps) below for just making changes quickly, or read this to get an understanding of how configuration works in Regolith._</sub>
 
-Regolith Linux utilizes the [Xresource facility](https://en.wikipedia.org/wiki/X_resources#Location_and_use) to define and set [color](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root#L3-L7), [typeface](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root#L9-L13), and [backgrounds](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root#L9-L13).  These resources live in your home directory, and are designed to be easy to understand, modify, and reset.  Assuming you're already in a Regolith session, let's have a look at your Xresources file.  Because you may already have Xresource definitions that we wouldn't want to overwrite, Regolith-specific Xresources live in `~/.Xresources-regolith`:
+Regolith Linux utilizes the [Xresource facility](https://en.wikipedia.org/wiki/X_resources#Location_and_use) to define and set [color](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root#L3-L7), [typeface](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root#L9-L13), and [backgrounds](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root#L9-L13).  These resources live in your home directory, and are designed to be easy to understand, modify, and reset.  Assuming you're already in a Regolith session, let's have a look at your Xresources file.  Because you may already have Xresource definitions that we wouldn't want to overwrite, Regolith-specific Xresources live in `~/.Xresources-regolith-1.2.15` (if your version is different, choose the latest):
 ```
+! This is the Regolith root-level Xresources file.
+!
 ! -- Styles - Colors
 !
-! Uncomment one and only one of the following color definitions 
+! Uncomment one and only one of the following color definitions:
 #include ".Xresources.d/color-solarized-dark"
 !#include ".Xresources.d/color-solarized-light"
 !#include ".Xresources.d/color-gruvbox"
@@ -17,17 +19,20 @@ Regolith Linux utilizes the [Xresource facility](https://en.wikipedia.org/wiki/X
 
 ! -- Styles - Fonts
 !
-! Uncomment one and only one of the following font definitions 
+! Uncomment one and only one of the following font definitions:
 #include ".Xresources.d/typeface-sourcecodepro"
 !#include ".Xresources.d/typeface-sourcecodepro"
 
 ! -- Styles - Theme
 !
-! Uncomment one and only one of the following font definitions
+! Uncomment one and only one of the following font definitions:
 #include ".Xresources.d/theme-regolith"
 !#include ".Xresources.d/theme-ubuntu-dark"
 
 ! -- Applications
+! These files are not intended to be modified, however if you
+! would like to configure a new app's Xresources to use Regolith
+! theme info, this is the place to add it.
 !
 #include ".Xresources.d/st-term"
 #include ".Xresources.d/i3-wm"
@@ -36,8 +41,11 @@ Regolith Linux utilizes the [Xresource facility](https://en.wikipedia.org/wiki/X
 #include ".Xresources.d/gnome"
 
 ! -- Policy
-! Set this to false for Regolith to never update files on start
+! Add the following line to your ~/.Xresources file to prevent further
+! updates to your configuration, and set the value to false.  Note this
+! may break your UI if backwards incompatible changes are added in the future.
 regolith.policy.update: true
+
 ```
 
 This file is loaded into the Xresource database [upon login](https://github.com/regolith-linux/regolith-scripts/blob/master/regolith-config-init.sh#L23-L33), and values are referenced by various programs, such as i3 and scripts, such as blocklets to load values rather than hardcode them directly.  This allows us to change a value in one place, say the primary font, and have that value propogate to all programs.  
