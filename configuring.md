@@ -118,7 +118,7 @@ Continuing with our example above, on next login, the color values specified in 
 
 # [Migration Guide](#migration-guide)
 
-Prior to August 2019, Regolith did not have a consistent way of updating theme information.  To update colors or typeface, several files with different syntax and rules had to be modified directly.  If you have done this, to use the Xresource system, you'll need to move your changes into Xresource files as described above.  Once you have this in place, here are a few scripts that will help you migrate.
+Prior to August 2019, Regolith did not have a consistent way of updating theme information.  To update colors or typeface, several files with different syntax and rules had to be modified directly.  If you have done this, to use the Xresource system, you'll need to move your changes into Xresource files as described above.  Once you have this in place, here are a few scripts that will help you migrate.  If you prefer the old approach, you can change your PPA to `regolith-1.2` and you will not be updated to Xresources.
 
 Additionally, `i3blocks` was replaced with a fork that enables Xresources, called `i3xrocks`.  And `xgetres` has been replaced with `xrescat` for loading Xresource values into scripts.
 
@@ -129,6 +129,3 @@ This program will backup your existing Regolith config data into your home direc
 ### `regolith-config-init.sh`
 
 This script gets called upon each login, but you can also call it from a shell if you prefer not to log out of your existing session.  Once the script is run, any updated Xresource values will be loaded and you can apply them by reloading i3.
-
-
-
