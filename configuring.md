@@ -21,11 +21,11 @@ Regolith Linux utilizes the [Xresource facility](https://en.wikipedia.org/wiki/X
 !
 ! Uncomment one and only one of the following font definitions:
 #include ".Xresources.d/typeface-sourcecodepro"
-!#include ".Xresources.d/typeface-sourcecodepro"
+!#include ".Xresources.d/typeface-ubuntu"
 
 ! -- Styles - Theme
 !
-! Uncomment one and only one of the following font definitions:
+! Uncomment one and only one of the following theme definitions:
 #include ".Xresources.d/theme-regolith"
 !#include ".Xresources.d/theme-ubuntu-dark"
 
@@ -41,9 +41,10 @@ Regolith Linux utilizes the [Xresource facility](https://en.wikipedia.org/wiki/X
 #include ".Xresources.d/gnome"
 
 ! -- Policy
-! Add the following line to your ~/.Xresources file to prevent further
-! updates to your configuration, and set the value to false.  Note this
-! may break your UI if backwards incompatible changes are added in the future.
+! Move the following line to your ~/.Xresources file and set the
+! value to false to prevent further updates to your configuration
+! Note this may break your UI if backwards incompatible changes 
+! are added in the future.
 regolith.policy.update: true
 
 ```

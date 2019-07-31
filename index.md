@@ -48,4 +48,4 @@ To remove the Regolith Desktop from your existing Ubuntu system, first remove th
 
 ## Next Steps
 
-Have a look at the [Getting Started]({% link getting_started.md %}) guide to learn more about using Regolith Linux, see the [latest updates]({% link news.md %}), or check out the [internals]({% link internals.md %}) page if you prefer to learn about how it's put together.  
+Have a look at the [Getting Started]({% link getting_started.md %}) guide to learn more about using Regolith Linux, see the [latest updates]({% link news.md %}), or check out the [configuration]({% link configuring.md %}) page to learn about how to tweak it to your liking.  
