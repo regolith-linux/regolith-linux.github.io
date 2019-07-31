@@ -44,11 +44,11 @@ Color values can be selected by toggling the `#includes` in your Regolith Xresou
 
 | Function | Component | Configuration File | Package |
 |----------|-----------|--------------------|---------|
-|Desktop Bar|i3-bar|`~/.config/i3-regolith/config`|regolith-i3|
+|Desktop Bar|i3-bar|`~/.config/i3-regolith/config-4.16-1ubuntu18ppa10`|regolith-i3|
 |System Status Indicators|i3xrocks|`~/.config/i3xrocks/i3xrocks.conf`|regolith-i3xrocks|
-|Window Manager|i3-wm|`~/.config/i3-regolith/config`|regolith-i3|
+|Window Manager|i3-wm|`~/.config/i3-regolith/config-4.16-1ubuntu18ppa10`|regolith-i3|
 |App Launcher|Rofi|`/etc/rofi.conf`|regolith-rofi-config|
-|System Keybindings|i3-wm|`~/.config/i3-regolith/config`|regolith-i3|
+|System Keybindings|i3-wm|`~/.config/i3-regolith/config-4.16-1ubuntu18ppa10`|regolith-i3|
 |Keybinding Guide|Conky|`/etc/xdg/conky/config`|regolith-conky-config|
 
 ## Packaging

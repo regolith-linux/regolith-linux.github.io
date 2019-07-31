@@ -3,6 +3,10 @@ layout: page
 title: News
 ---
 
+Regolith news is moving to freelists.org.  The [Regolith Linux Announcements mailing list](https://www.freelists.org/list/regolith-linux) is now the place to subscribe to or browse Regolith Linux announcements.  This list is not intended for discussion or for issues, so the volume should be pretty low.  Updates, bug fixes, new features, and notices of breaking changes will be posted here.
+
+## Old News
+
 |---------|----------|------------------------|
 |7/28/2019|Feature|Migrate to Xresources for color, typeface, and theme settings. See [the issue](https://github.com/regolith-linux/regolith-desktop/issues/24) and new [configuration page](https://regolith-linux.org/configuring.html) for details. Thanks to everyone that helped with this major new feature.
 |7/4/2019|Bugfix|[Mouse cursor fix](https://github.com/regolith-linux/regolith-i3/pull/6) for shortcut toggle by @craigerrington.

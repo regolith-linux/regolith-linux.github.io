@@ -36,11 +36,11 @@ Regolith是一系列由 "Private Package Repositories" (PPA) 分布的 Ubuntu pa
 
 | 功能 | 组件 | 设置文件 | Package |
 |----------|-----------|--------------------|---------|
-|状态条|i3-bar|`~/.config/i3-regolith/config`|regolith-i3|
+|状态条|i3-bar|`~/.config/i3-regolith/config-4.16-1ubuntu18ppa10`|regolith-i3|
 |系统状态提示|i3blocks|`/etc/i3blocks.conf`|regolith-i3blocks|
-|窗口管理|i3-wm|`~/.config/i3-regolith/config`|regolith-i3|
+|窗口管理|i3-wm|`~/.config/i3-regolith/config-4.16-1ubuntu18ppa10`|regolith-i3|
 |App Launcher|Rofi|`/etc/rofi.conf`|regolith-rofi-config|
-|系统快捷键绑定|i3-wm|`~/.config/i3-regolith/config`|regolith-i3|
+|系统快捷键绑定|i3-wm|`~/.config/i3-regolith/config-4.16-1ubuntu18ppa10`|regolith-i3|
 
 ## 打包
 
