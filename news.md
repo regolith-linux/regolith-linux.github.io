@@ -5,14 +5,14 @@ title: News
 
 Regolith news is moving to freelists.org.  The [Regolith Linux Announcements mailing list](https://www.freelists.org/list/regolith-linux) is now the place to subscribe to or browse Regolith Linux announcements.  This list is not intended for discussion or for issues, so the volume should be pretty low.  Updates, bug fixes, new features, and notices of breaking changes will be posted here.
 
-## Roadmap 
+## [Roadmap](#roadmap)  
 
 ### Active Development Tasks
 
-* Adding mouse scroll to ST terminal. (Issue)[https://github.com/regolith-linux/regolith-st/issues/2]
-* Adding a shutdown menu via Rofi. (Issue)[https://github.com/regolith-linux/regolith-desktop/issues/45]
+* Adding mouse scroll to ST terminal. [Issue](https://github.com/regolith-linux/regolith-st/issues/2)
+* Adding a shutdown menu via Rofi. [Issue](https://github.com/regolith-linux/regolith-desktop/issues/45)
 * Adding i3-snapshot to save/restore window layout. 
-* Adding ARM platform support. (Issue)[https://github.com/regolith-linux/regolith-desktop/issues/34]
+* Adding ARM platform support. [Issue](https://github.com/regolith-linux/regolith-desktop/issues/34)
 
 ### Future Themes
 
