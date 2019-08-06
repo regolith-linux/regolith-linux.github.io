@@ -42,6 +42,8 @@ From your existing Ubuntu 18.04 (Bionic), 18.10 (Cosmic), or 19.04 (Disco) syste
 
 <sub>If you encounter errors during step 2, please refer to the [troubleshooting page]({% link troubleshooting.md %}) for help.</sub>
 
+<sub>If `add-apt-repository` is not installed, you may have to install `software-properties-common`. See [this stack overflow page](https://askubuntu.com/questions/493460/how-to-install-add-apt-repository-using-the-terminal) for more detail.</sub>
+
 #### Uninstalling Regolith
 
 To remove the Regolith Desktop from your existing Ubuntu system, first remove the package: `sudo apt remove regolith-desktop`.  Then remove the package archive reference: `sudo add-apt-repository --remove ppa:kgilmer/regolith-stable`.  After a reboot your system should be back to it's previous state.
