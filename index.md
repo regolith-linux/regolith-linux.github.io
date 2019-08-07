@@ -23,6 +23,10 @@ Quickly browse, search, and launch apps from the app launcher.  This modal menu 
 
 Because Regolith utilizes i3-wm for window management, you get more out of every pixel on your screen. Use more of it for what you care about, rather than sharing it with advertisements or features rarely used.
 
+<a href="/assets/screenshot-nord.png"><img class="screenshot" alt="Nord" src="/assets/screenshot-nord.png"/></a>
+
+Regolith is built to be customized.  Color, font, and theme information is defined in a single location: Xresources.  Change a color definition in one file, and have it be updated across all of your programs.  Here is Regolith with a user-contributed [Nord color scheme](https://github.com/arcticicestudio/nord) and the [Nordic GTK theme](https://github.com/EliverLara/Nordic).
+
 ## How to Get Regolith Linux
 
 Regolith can be installed in two ways:  If you already have an existing Ubuntu setup, Regolith can simply be added as another desktop session by installing the package `regolith-desktop` from the [Regolith PPA](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable).  If you'd like to start from scratch, download the Regolith Linux ISO and simply install Regolith [as you would stock Ubuntu](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-ubuntu#0).  Both approaches are equivalent, except that the LiveCD does not contain the default Ubuntu UI.
