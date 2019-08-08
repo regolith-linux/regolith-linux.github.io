@@ -3,7 +3,7 @@ layout: page
 title: Troubleshooting
 ---
 
-This page contains information that may help if you encounter an issue with Regolith Linux. If your problem isn't already here, kindly [file an issue](https://github.com/regolith-linux/regolith-desktop/issues) and describe your problem.
+This page contains information that may help if you encounter an issue with Regolith Linux. If your problem isn't already here, you can join the [Slack channel](https://regolith-linux.herokuapp.com/) to ask, or kindly [file an issue](https://github.com/regolith-linux/regolith-desktop/issues) and describe your problem.
 
 # Update
 
