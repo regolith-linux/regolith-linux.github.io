@@ -9,10 +9,10 @@ Regolith news is moving to freelists.org.  The [Regolith Linux Announcements mai
 
 ### Active Development Tasks
 
-* Adding mouse scroll to ST terminal. [Issue](https://github.com/regolith-linux/regolith-st/issues/2)
 * Adding a shutdown menu via Rofi. [Issue](https://github.com/regolith-linux/regolith-desktop/issues/45)
 * Adding i3-snapshot to save/restore window layout. 
 * Adding ARM platform support. [Issue](https://github.com/regolith-linux/regolith-desktop/issues/34)
+* Package i3-gaps 4.17.
 
 ### Future Themes
 
