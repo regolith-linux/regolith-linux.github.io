@@ -9,7 +9,7 @@ There is nothing in Regolith Linux itself that collects any user data, either an
 
 ## Updates
 
-Regolith Linux is continually being updated with bug fixes and feature enhancements.  At times, these changes will introduce changes that are not backwards compatible with earlier versions.  When this occurs, new copies of any user configuration files (such as the i3 config file) will be staged in the user directory.  Existing files will not be deleted or modified, allowing the user to merge their customizations as needed.  Notification of upcoming updates that introduce breaking changes will be announced on the [Regolith Linux Announcements mailing list](https://www.freelists.org/list/regolith-linux).
+Regolith Linux is continually being updated with bug fixes and feature enhancements.  At times, these updates will introduce changes that are not backwards compatible with earlier versions.  When this occurs, new copies of any user configuration files (such as the i3 config file) will be staged in the user directory with a version postfix.  Existing files will not be deleted or modified, allowing the user to merge their customizations as needed.  Notification of upcoming updates that introduce breaking changes will be announced on the [Regolith Linux Announcements mailing list](https://www.freelists.org/list/regolith-linux).
 
 ## Contribution
 
