@@ -7,6 +7,10 @@ This page contains information that may help if you encounter an issue with Rego
 
 # Update
 
+## [After Update see `Could not parse JSON` in bar](#outdated-xresources)
+
+If you just updated your version of Regolith and you are seeing an error on your bottom bar (something like Could not parse JSON), it's most probably your `~/.Xresources-regolith` file that has incorrect/insufficient config in it. To fix it (and go back to stock config) you can delete or move that file somewhere else and log out and back in again (gnome-session-quit). If you want to pick a different theme or customize your Xresources, feel free to copy `/etc/regolith/styles/root` (the stock Xresources file) to `~/.Xresources-regolith` and customise it!
+
 ## [Lost Configuration Changes](#where-is-config)
 
 If you've just updated Regolith and have lost any customizations to i3-wm, Rofi, i3bar, Conky, or i3blocks, this is due to a new versioning scheme.  Initially, config files were copied from a common location into your user directory upon new session creation.  However, some recent backwards-incompatable changes to support easier themeing were introduced.  To address this and to be more consistent with where Linux expects config files to be, they have moved to `/etc/regolith/`.  To make modifications, copy the file you wish to modify to your user directory first.  Here are the steps to copy default configurations to your user directory where you can make edits:
