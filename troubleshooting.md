@@ -9,7 +9,38 @@ This page contains information that may help if you encounter an issue with Rego
 
 ## Lost Configuration Changes
 
-If you've just updated Regolith and have lost any customizations to i3-wm, Rofi, i3bar, Conky, or i3blocks, this is due to a new versioning scheme.  Initially, config files were copied from a common location into your user directory upon new session creation.  However, some recent backwards-incompatable changes to support easier theming were introduced.  In order to prevent bugs of running the old configuration files, but not delete users custom files, the i3 configuration file is referenced by the package version.  So, what was `~/.config/i3-regolith/config` is now `~/config/i3-regolith/config-4.16-1ubuntu18ppa10`.  Additionally, the i3blocks (forked to i3xrocks) now lives in `~/.config/i3xrocks/i3xrocks.conf`.  To restore your configuration, simply add your changes into these new files.  Breaking changes are expected infrequently, and will be announced beforehand via the [Regolith Linux Announcements mailing list](https://www.freelists.org/list/regolith-linux).  If your customizations involve color, typeface, or gtk theme, have a look at the new [Xresources-based customization documentation](https://regolith-linux.org/configuring.html) before merging your changes.
+If you've just updated Regolith and have lost any customizations to i3-wm, Rofi, i3bar, Conky, or i3blocks, this is due to a new versioning scheme.  Initially, config files were copied from a common location into your user directory upon new session creation.  However, some recent backwards-incompatable changes to support easier theming were introduced.  In order to be more consistent with where Linux expects config files to be, they have moved to `/etc/regolith/`.  To make modifications, copy the file you wish to modify to your user directory first.  Here are the steps to copy default configurations to your user directory where you can make edits:
+
+### i3 Config
+```
+$ mkdir -p ~/.config/regolith/i3
+$ cp /etc/regolith/i3/config ~/.config/regolith/i3/config
+```
+Now you can edit `~/.config/regolith/i3/config` and reload i3 to see your changes.
+
+### Xresources
+```
+$ cp /etc/regolith/styles/root ~/.Xresources-regolith
+```
+Now you can edit `~/.Xresources-regolith`.  To see your changes, log back in to your session.
+
+### i3xrocks (i3blocks)
+Edit your i3 configuration file, changing this line:
+```
+  status_command i3xrocks -c /etc/regolith/i3xrocks/config
+```
+
+To:
+```
+  status_command i3xrocks -c ~/.config/regolith/i3xrocks/config
+```
+
+And now copy the file there:
+```
+$ mkdir -p ~/.config/regolith/i3xrocks
+$ cp /etc/regolith/i3xrocks/config ~/.config/regolith/i3xrocks/
+```
+Now edit `~/.config/regolith/i3xrocks/config` and reload i3 to see your changes.
 
 # Installation
 

@@ -44,7 +44,7 @@ From your existing Ubuntu 18.04 (Bionic), 18.10 (Cosmic), or 19.04 (Disco) syste
 3. Some packages will be installed.  When this completes, reboot.
 4. At the login screen, select the "gear" icon and select `Regolith` from the list, and then login.
 
-<sub>If you encounter errors during step 2, please refer to the [troubleshooting page]({% link troubleshooting.md %}) for help.</sub>
+<sub>If you encounter errors, please refer to the [troubleshooting page]({% link troubleshooting.md %}) for help.</sub>
 
 #### Uninstalling Regolith
 

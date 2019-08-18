@@ -112,3 +112,10 @@ You should be able to see your changes in your new patch file in `debian/patches
 
 ## [Enable an Icon Tray in the Bar](#i3-tray)
 Enabling the task/icon tray in the bar requires a single change to your i3 config file, located at `~/.config/i3-regolith/config-4.16-1ubuntu18ppa10`.  Find the line with `tray_output none` and replace it with `tray_output primary`.  After logging back in or [reloading i3](https://regolith-linux.org/keybindings.html), the tray is active.  To verify it's working, run `nm-applet` from a terminal and notice the icon appears in the tray.  With the tray enabled, you'll then need to run applet programs of your choosing to show up in the tray.  This can be done via the i3 `exec` command.  See the [i3-wm User Guide](https://i3wm.org/docs/userguide.html#_tray_output) for more information.
+
+## [Switch from Solarized to Nord colors](#nord-colors)
+1. Install the Nordic GTK theme:
+`sudo apt install nordic`
+2. Configure Regolith to use the Nordic system colors by editing `~/.Xresources-regolith` and disabling `color-solarized-dark` and enabling `color-nord`.  Read the documentation in the file to learn how.
+3. Configure Regolith to use the Nordic GTK theme by editing `~/.Xresources-regolith` and disabling `theme-regolith` and enabling `theme-nordic`.
+4. 
