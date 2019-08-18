@@ -25,7 +25,7 @@ Because Regolith utilizes i3-wm for window management, you get more out of every
 
 <a href="/assets/screenshot-nord.png"><img class="screenshot" alt="Nord" src="/assets/screenshot-nord.png"/></a>
 
-Regolith is built to be customized.  Color, font, and theme information is defined in a single location: Xresources.  Change a color definition in one file, and have it be updated across all of your programs.  Here is Regolith with a user-contributed [Nord color scheme](https://github.com/arcticicestudio/nord) and the [Nordic GTK theme](https://github.com/EliverLara/Nordic).
+Regolith is built to be customized.  Color, font, and theme information is defined in a single location: Xresources.  Change a color definition in one file, and have it be updated across all of your programs.  Pictured here is Regolith with a user-contributed [Nord color scheme](https://github.com/arcticicestudio/nord) and the [Nordic GTK theme](https://github.com/EliverLara/Nordic).
 
 ## How to Get Regolith Linux
 

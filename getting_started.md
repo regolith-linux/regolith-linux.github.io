@@ -25,11 +25,11 @@ The terminal, browser, and settings applications are special because they can be
 |Configure Sound|`⊞ Win`-`s`|
 |Configure Wifi|`⊞ Win`-`w`|
 
-### Installing Software
+## Installing Software
 
 Running the `software` from app launcher will load the Ubuntu app store.  The terminal can also be used to install software, for example `sudo apt install vim` will install the vim editor.
 
-### Terminal Commands
+## Terminal Commands
 
 To page up past the top of the screen to see the buffered text, use `shift`-`page up`.  To adjust the font size in the active terminal, use `shift`-`ctrl`-`page up` `shift`-`ctrl`-`page down`.  To cycle between light and dark Solarized themes, press `F6`.
 
@@ -90,6 +90,13 @@ A transient window overlay at the top right of the screen shows notifications fr
 
 Upon first login, a cheat-sheet of keybindings is launched on the right side of the screen.  Subsequent logins do not show the shortcuts, but they can be viewed on the desktop with the `⊞
 Win`-`?` key sequence.
+
+## [Customizing Regolith](#copy-configs)
+```
+$ mkdir -p ~/.config/regolith/i3
+$ cp /etc/regolith/i3/config ~/.config/regolith/i3/config
+$ cp /etc/regolith/styles/root ~/.Xresources-regolith
+```
 
 ## Digging Deeper
 
