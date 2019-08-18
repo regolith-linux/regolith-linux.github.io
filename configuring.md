@@ -118,7 +118,7 @@ $ cp /etc/regolith/styles/root ~/.Xresources-regolith
 3. Run `xrdb -merge ~/.Xresources-regolith`.
 4. Reload i3.
 
-# [Migration Guide](#migration-guide)
+# [Config Files](#config-files)
 
 Prior to August 2019, Regolith did not have a consistent way of updating theme information.  To update colors or typeface, several files with different syntax and rules had to be modified directly.  If you have done this, to use the Xresource system, you'll need to move your changes into Xresource files as described above.  
 

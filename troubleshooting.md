@@ -9,7 +9,7 @@ This page contains information that may help if you encounter an issue with Rego
 
 ## [Lost Configuration Changes](#where-is-config)
 
-If you've just updated Regolith and have lost any customizations to i3-wm, Rofi, i3bar, Conky, or i3blocks, this is due to a new versioning scheme.  Initially, config files were copied from a common location into your user directory upon new session creation.  However, some recent backwards-incompatable changes to support easier theming were introduced.  In order to be more consistent with where Linux expects config files to be, they have moved to `/etc/regolith/`.  To make modifications, copy the file you wish to modify to your user directory first.  Here are the steps to copy default configurations to your user directory where you can make edits:
+If you've just updated Regolith and have lost any customizations to i3-wm, Rofi, i3bar, Conky, or i3blocks, this is due to a new versioning scheme.  Initially, config files were copied from a common location into your user directory upon new session creation.  However, some recent backwards-incompatable changes to support easier themeing were introduced.  To address this and to be more consistent with where Linux expects config files to be, they have moved to `/etc/regolith/`.  To make modifications, copy the file you wish to modify to your user directory first.  Here are the steps to copy default configurations to your user directory where you can make edits:
 
 ### i3 Config
 ```
