@@ -124,9 +124,9 @@ Prior to August 2019, Regolith did not have a consistent way of updating theme i
 
 |---------|----------|------------------------|---|----|
 | Config | Original | July 2019 | Current | Current Custom
-| i3 | `~/.config/i3-regolith/config` | `~/.config/i3-regolith/config-<version>` | `/etc/regolith/i3/config` | `~/.config/regolith/i3/config` 
-| rofi | hard-coded in i3 config | Defined in Xresources | | |
-| conky | `/etc/xdg/conky/config` | `/etc/xdg/conky/config` | `/etc/xdg/conky/config` |
+| i3 [(source)](https://github.com/regolith-linux/regolith-i3-gaps-config/blob/master/config) | `~/.config/i3-regolith/config` | `~/.config/i3-regolith/config-<version>` | `/etc/regolith/i3/config` | `~/.config/regolith/i3/config` 
+| rofi [(source)](https://github.com/regolith-linux/regolith-rofi-config/blob/master/regolith-theme.rasi) | hard-coded in i3 config | Defined in Xresources | | |
+| conky [(source)](https://github.com/regolith-linux/regolith-conky-config/blob/master/conky.config) | `/etc/xdg/conky/config` | `/etc/xdg/conky/config` | `/etc/xdg/conky/config` |
 | i3blocks | `~/.config/i3-regolith/i3blocks.conf` | Deprecated | Deprecated |
-| i3xrocks | Not Used | `~/.config/i3-regolith/i3xrocks.conf` | `/etc/regolith/i3xrocks/config` | User defined, in i3 config.
+| i3xrocks [(source)](https://github.com/regolith-linux/regolith-i3xrocks-config/blob/master/i3xrocks.conf) | Not Used | `~/.config/i3-regolith/i3xrocks.conf` | `/etc/regolith/i3xrocks/config` | User defined, in i3 config.
 
