@@ -9,6 +9,7 @@ Regolith news is moving to freelists.org.  The [Regolith Linux Announcements mai
 
 ### Active Development Tasks
 
+* [Regolith 1.2 ISO Release](https://github.com/orgs/regolith-linux/projects/1).
 * Adding a shutdown menu via Rofi. [Issue](https://github.com/regolith-linux/regolith-desktop/issues/45)
 * Adding i3-snapshot to save/restore window layout. 
 * Adding ARM platform support. [Issue](https://github.com/regolith-linux/regolith-desktop/issues/34)

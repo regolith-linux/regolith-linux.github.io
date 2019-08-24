@@ -26,6 +26,7 @@ title: Keybindings
 |Reload i3 Config|`⊞ Win`-`Shift`-`C`|
 |Exit Session|`⊞ Win`-`Shift`-`E`|
 |Lock Screen|`⊞ Win`-`Shift`-`S`|
+|Control Panel|`⊞ Win`-`c`|
 |Configure Bluetooth|`⊞ Win`-`b`|
 |Configure Displays|`⊞ Win`-`d`|
 |Configure Network|`⊞ Win`-`n`|
