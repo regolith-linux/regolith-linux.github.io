@@ -3,7 +3,7 @@ layout: default
 title: 
 lang: en
 ---
-Regolith Linux is a distro for people that prefer a spartan interface with polished and consistent system management. It brings together a trifecta of [Ubuntu](https://www.ubuntu.com/)'s ubiquity, [i3-wm](https://i3wm.org/)'s efficient and productive interface, and Gnome's [system configuration](https://gitlab.gnome.org/GNOME/gnome-control-center) features.
+Regolith is a unique desktop environment that ditches the cruft of Windows and Mac derivatives to provide clean, productive, and beautiful place to get work done. Built on top of Ubuntu and GNOME, Regolith offers a stable, well-supported, and consistent foundation.
 
 ### What Regolith looks like
 
@@ -13,11 +13,13 @@ For more screenshots of Regolith look [here](http://127.0.0.1:4000/screenshots.h
 
 ### About Regolith
 
-- Detail 1 
-- Detail 2
-- Detail 3
-- Detail 4
-- Detail 5
+
+- Provides GNOME's system management features with i3's productive workflow.
+- Enables new users a fast and fun way to try out the i3 window manager environment.
+- Supports easy customization and ricing via a consistent Xresource configuration.
+- Relies on Ubuntu's app store and package repositories for a large, high quality selection of software.
+- Delivers a desktop with small set of UI features that can be customized and expanded as needed.
+- Ships with an overlay of basic keybindings to navigate over windows, launching apps, and managing your system.
 
 ### Get Regolith
 
