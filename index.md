@@ -23,4 +23,10 @@ For more screenshots of Regolith look [here](http://127.0.0.1:4000/screenshots.h
 
 ### Get Regolith
 
-Regolith can be installed in two ways:  If you already have an existing Ubuntu setup, Regolith can simply be added as another desktop session by installing the package `regolith-desktop` from the [Regolith PPA](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable). You can also download a premade Regolith ISO file [here](https://sourceforge.net/projects/regolith-linux/)
+Regolith can be installed in two ways:  If you already have an existing Ubuntu setup, Regolith can simply be added as another desktop session by installing the package `regolith-desktop` from the [Regolith PPA](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable). You can also download a Regolith ISO file [here](https://sourceforge.net/projects/regolith-linux/)*
+
+*Ubuntu 18.04 and Ubuntu 19.04 bases available
+
+## Next Steps
+
+Have a look at the [Getting Started](https://regolith-linux.org/getting-started.html) guide to learn more about using Regolith Linux, see the [latest updates](https://regolith-linux.org/news.html), or check out the [configuration](https://regolith-linux.org/configuring.html) page to learn about how to tweak it to your liking. Also have a look at the [Keybindings](https://regolith-linux.org/keybindings.html) to learn your new desktop environment. 
