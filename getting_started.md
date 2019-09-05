@@ -92,11 +92,19 @@ Upon first login, a cheat-sheet of keybindings is launched on the right side of 
 Win`-`?` key sequence.
 
 ## [Customizing Regolith](#copy-configs)
+
+Colors, fonts, themes, default applications, and X specific settings are customised via your own `~/.Xresources-regolith` file.
+```
+$ cp /etc/regolith/styles/root ~/.Xresources-regolith
+```
+
+Everything specific to i3wm is customised via your own i3 config file.
 ```
 $ mkdir -p ~/.config/regolith/i3
 $ cp /etc/regolith/i3/config ~/.config/regolith/i3/config
-$ cp /etc/regolith/styles/root ~/.Xresources-regolith
 ```
+You'll need to logout and login after the file is first created.  The reload keystroke is sufficient thereafter.
+
 
 ## Digging Deeper
 
