@@ -29,4 +29,4 @@ Regolith can be installed in two ways:  If you already have an existing Ubuntu s
 
 ## Next Steps
 
-Have a look at the [Getting Started](https://regolith-linux.org/getting-started.html) guide to learn more about using Regolith Linux, see the [latest updates](https://regolith-linux.org/news.html), or check out the [configuration](https://regolith-linux.org/configuring.html) page to learn about how to tweak it to your liking. Also have a look at the [Keybindings](https://regolith-linux.org/keybindings.html) to learn your new desktop environment. 
+Have a look at the [Getting Started](https://regolith-linux.org/getting-started.html) guide to learn more about using Regolith Linux, see the [latest updates](https://regolith-linux.org/news.html), or check out the [configuration](https://regolith-linux.org/configuring.html) page to learn about how to tweak it to your liking. Also have a look at the [Keybindings](https://regolith-linux.org/keybindings.html) to learn the quickest way around your new desktop environment. 
