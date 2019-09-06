@@ -19,3 +19,14 @@ From your existing Ubuntu 18.04 (Bionic) or 19.04 (Disco) system, perform the fo
 4. At the login screen, select the "gear" icon and select `Regolith` from the list, and then login.
 
 <sub>If you encounter errors, please refer to the [troubleshooting page]({% link troubleshooting.md %}) for help.</sub>
+
+## Uninstallation of `regolith-desktop`
+
+If Regolith is not for you, simply follow these steps to remove it from your system:
+
+1. Log out of the Regolith session and into the default Ubuntu session.
+2. Open a terminal and run: <br/>`sudo apt remove regolith-desktop regolith-st && sudo apt autoremove` 
+3. Now remove the PPA:  <br/>`sudo add-apt-repository --remove ppa:kgilmer/regolith-stable`
+4. To restore your GNOME settings, run: <br/>`source ~/.regolith-gnome-backup`
+5. You can safely delete `~/.config/regolith`.
+
