@@ -3,7 +3,7 @@ layout: default
 title: 
 lang: en
 ---
-Regolith is a unique desktop environment that ditches the cruft of Windows and Mac clones to provide a productive and beautiful place to get work done. Built on top of Ubuntu and GNOME, Regolith stands on a stable, well-supported, and consistent foundation.
+Regolith is a unique desktop environment that ditches the cruft of Windows and Mac knockoffs to provide a productive and beautiful place to get work done. Built on top of Ubuntu and GNOME, Regolith stands on a stable, well-supported, and consistent foundation.
 
 <a href="/assets/screenshot-intro.png"><img class="screenshot" alt="Intro Screenshot" src="/assets/screenshot-intro.png"/></a>
 
