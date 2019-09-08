@@ -105,6 +105,7 @@ $ cp /etc/regolith/i3/config ~/.config/regolith/i3/config
 ```
 You'll need to logout and login after the file is first created.  The reload keystroke is sufficient thereafter.
 
+This topic is covered in depth on the [Configuration page](/configuring.html).
 
 ## Digging Deeper
 
