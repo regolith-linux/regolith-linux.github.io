@@ -61,3 +61,13 @@ If `add-apt-repository` is not installed, you may have to install `software-prop
 ## [Keybinding to toggle horizontal/vertical window layout doesn't work.](#layout-keybinding)
 
 The keybinding `⊞ Win`-`backspace` toggles the layout mode for the current workspace, and will change the layout for the __next__ window opened on that workspace.  Toggling the layout by itself will not change anything on screen, but will effect how the next window is added to the workspace.
+
+## [Screen locks twice when waking up from Suspend](#screen-lock)
+
+This issue can occur if 'Blank Screen' and 'Automatic Suspend' set for the same amount of time.<br/>
+
+For example, if Automatic Suspend and Blank Screen are both set for 15 minutes, after 15 minutes of Idle time the signal to suspend and blank the screen will be sent simultaneously.  The signal to suspend takes priority and is processed immediatley, the signal to Blank the screen is delayed. After waking the computer from suspend and typing the password to unlock, the signal to Blank the screen is processed.  This causes the user to have to press a key to wake the screen.  If 'Automatic Screen Lock' is set in the Privacy settings, it also causes the user to need to re-enter their password.
+<br/>
+To resolve this issue, change 'Blank Screen' and 'Automatic Suspend' to happen at different times.
+<br/>
+To find these settings press `⊞ Win` - `Space` and open Settings.  Click Power on the left-side. Change 'Blank Screen' as desired, for example 12 minutes.  Click 'Automatic Suspend' and change the Delay as desired, for example 15 minutes.
