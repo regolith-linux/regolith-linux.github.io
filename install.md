@@ -16,7 +16,7 @@ From your existing Ubuntu 18.04 (Bionic) or 19.04 (Disco) system, perform the fo
 1. Open a terminal, and enter: <br/>`sudo add-apt-repository -y ppa:kgilmer/regolith-stable`
 2. After the sync completes, enter: <br/>`sudo apt install regolith-desktop`
 3. Some packages will be installed.  When this completes, reboot.
-4. At the login screen, select the "gear" icon and select `Regolith` from the list, and then login.
+4. At the login screen, select the "gear" (⚙️) icon and select `Regolith` from the list, and then login.
 
 <sub>If you encounter errors, please refer to the [troubleshooting page]({% link troubleshooting.md %}) for help.</sub>
 
@@ -29,4 +29,3 @@ If Regolith is not for you, simply follow these steps to remove it from your sys
 3. Now remove the PPA:  <br/>`sudo add-apt-repository --remove ppa:kgilmer/regolith-stable`
 4. To restore your GNOME settings, run: <br/>`source ~/.regolith-gnome-backup`
 5. You can safely delete `~/.config/regolith`.
-
