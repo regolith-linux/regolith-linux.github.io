@@ -34,12 +34,12 @@ Regolith is more curation than creation.  Here are some of people and entities t
 
 |---------|----------|
 | [Michael Stapelberg](https://i3wm.org) and [Ingo Bürk](https://github.com/Airblader/i3) | Desktop UI
-| [Arctic Ice Studio](https://github.com/arcticicestudio) and [Ethan Schoonover](https://ethanschoonover.com/solarized/) | Colors
-| [Eliver Lara](https://github.com/EliverLara/Nordic) | Theme
 | [Dave Davenport](https://github.com/davatorium/rofi) | Desktop UI
 | [yshui](https://github.com/yshui/compton) | Desktop UI
 | [Alberts Muktupāvels](https://wiki.gnome.org/Projects/GnomeFlashback) | Desktop UI
 | [Vivien Didelot](https://github.com/vivien/i3blocks) | Desktop UI
+| [Arctic Ice Studio](https://github.com/arcticicestudio) and [Ethan Schoonover](https://ethanschoonover.com/solarized/) | Colors
+| [Eliver Lara](https://github.com/EliverLara/Nordic) | Theme
 | [Sam Hewitt](https://snwh.org/paper) | Icons
 | [suckless.org](https://st.suckless.org) | Terminal
 | [Lucas Bellator](https://unsplash.com/photos/C0OD8OM-oM0) and [Luca Bravo](https://unsplash.com/photos/xnqVGsbXgV4) | Wallpaper
