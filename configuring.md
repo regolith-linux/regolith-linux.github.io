@@ -123,7 +123,7 @@ $ cp /etc/regolith/styles/root ~/.Xresources-regolith
 Prior to August 2019, Regolith did not have a consistent way of updating theme information.  To update colors or typeface, several files with different syntax and rules had to be modified directly.  If you have done this, to use the Xresource system, you'll need to move your changes into Xresource files as described above.  
 
 |---------|----------|------------------------|---|----|
-| Config | R1.0 | R1.1 | R1.2 | User File
+| **Config** | **R1.0** | **R1.1** | **R1.2** | **User File**
 | i3 [(source)](https://github.com/regolith-linux/regolith-i3-gaps-config/blob/master/config) | `~/.config/i3-regolith/config` | `~/.config/i3-regolith/config-<version>` | `/etc/regolith/i3/config` | `~/.config/regolith/i3/config` 
 | Xresources [(source)](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root) | | | `/etc/regolith/styles/root` | `~/.Xresources-regolith`
 | rofi [(source)](https://github.com/regolith-linux/regolith-rofi-config/blob/master/regolith-theme.rasi) | hard-coded in i3 config | Defined in Xresources | `/etc/regolith/rofi/regolith-theme.rasi` | Defined in `/etc/regolith/styles/rofi` |
