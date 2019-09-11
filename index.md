@@ -27,3 +27,21 @@ Install or test drive Regolith from scratch with the [LiveCD Installer](https://
 ### Next Steps
 
 Have a look at the [Getting Started](/getting_started.html) guide to learn more about using Regolith Linux, see the [latest updates](/news.html), or check out the [configuration](/configuring.html) page to learn about how to tweak it to your liking. Also have a look at the [Keybindings](/keybindings.html) to learn the quickest way around your new desktop environment.
+
+### Credits
+
+Regolith is more curation than creation.  Here are some of people and entities that produced work independently from which Regolith is based.
+
+|---------|----------|
+| [Michael Stapelberg](https://i3wm.org) and [Ingo Bürk](https://github.com/Airblader/i3) | Desktop UI
+| [Arctic Ice Studio](https://github.com/arcticicestudio) and [Ethan Schoonover](https://ethanschoonover.com/solarized/) | Colors
+| [Eliver Lara](https://github.com/EliverLara/Nordic) | Theme
+| [Dave Davenport](https://github.com/davatorium/rofi) | Desktop UI
+| [yshui](https://github.com/yshui/compton) | Desktop UI
+| [Alberts Muktupāvels](https://wiki.gnome.org/Projects/GnomeFlashback) | Desktop UI
+| [Vivien Didelot](https://github.com/vivien/i3blocks) | Desktop UI
+| [Sam Hewitt](https://snwh.org/paper) | Icons
+| [suckless.org](https://st.suckless.org) | Terminal
+| [Lucas Bellator](https://unsplash.com/photos/C0OD8OM-oM0) and [Luca Bravo](https://unsplash.com/photos/xnqVGsbXgV4) | Wallpaper
+| [PJ Singh](https://launchpad.net/cubic) | Infrastructure
+| [Canonical](https://canonical.com) and [GitHub](https://github.com) | Infrastructure
