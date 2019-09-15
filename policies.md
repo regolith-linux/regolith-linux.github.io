@@ -13,8 +13,8 @@ Regolith Linux is continually being updated with bug fixes and feature enhanceme
 
 ## Contribution
 
-As an open source project, Regolith Linux is open to anyone to extend, fork, or modify as they see fit.  People are welcome to join as contributors to the project if interested. Please file an issue describing the change you'd like to be made to Regolith before doing the work however, so we do not waste your time. Also take a look at [the roadmap](https://regolith-linux.org/news.html#roadmap) to see what is actively being developed and future plans.
+As an open source project, Regolith Linux is open to anyone to extend, fork, or modify as they see fit.  People are welcome to join as contributors to the project if interested. Please file an issue describing the change you'd like to be made to Regolith before doing the work however, so we do not waste your time. Also take a look at [the roadmap](https://regolith-linux.org/news.html#roadmap) and [list of issues looking for help](https://github.com/regolith-linux/regolith-desktop/labels/help%20wanted) to see what is actively being developed and future plans.
 
 ## Monetization
 
-Regolith Linux is an open source project with no profit motives.  Because this software can be provided without cost via GitHub, Source Forge, and Launchpad.net, there is no overhead and no need to spray advertisements all over everything.  GitHub, Launchpad.net, and Source Forge may have advertisements for their costs.
+Regolith Linux is an open source project with no profit motives.  Because this software can be provided without cost via GitHub, Source Forge, and Launchpad.net, there is no overhead and no need to spray advertisements all over everything.  GitHub, Launchpad.net, and Source Forge may have advertisements for their costs.  Some upstream projects are listed on the home page.  They may be a good place to look if you're looking for a place to provide some compensation.
