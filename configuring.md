@@ -3,7 +3,7 @@ layout: page
 title: Configuring
 ---
 
-Configuration files relating to the look and feel of Regolith are stored in `/etc/regolith/`.  For example, the i3 config file is at `/etc/regolith/i3/config`, and the root Xresources file is at `/etc/regolith/styles/root`.  These files are read-only for the user and are not intended to be modified.  If you find that you'd like to modify a config file, the first step is to copy the default into your user directory under the `~/.config` directory, or `~/.Xresources` for Xresources definitions.
+Configuration files relating to the look and feel of Regolith are stored in `/etc/regolith/`.  For example, the i3 config file is at `/etc/regolith/i3/config`, and the root Xresources file is at `/etc/regolith/styles/root`.  These files are read-only for the user and are not intended to be modified.  If you find that you'd like to modify a config file, the first step is to copy the default into your user directory under the `~/.config` directory, or `~/.Xresources` for Xresources definitions.  Refer to the [table at the bottom of this page](#config-files) to determine where each user-defined config file should be placed in order for Regolith to pick it up automatically upon login.
 
 ### Simple Example
 
