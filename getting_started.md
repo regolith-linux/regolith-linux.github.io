@@ -31,11 +31,11 @@ Running the `software` from app launcher will load the Ubuntu app store.  The te
 
 ## Terminal Commands
 
-To page up past the top of the screen to see the buffered text, use `shift`-`page up`.  To adjust the font size in the active terminal, use `shift`-`ctrl`-`page up` `shift`-`ctrl`-`page down`.  To cycle between light and dark Solarized themes, press `F6`.
+To page up past the top of the screen to see the buffered text, use `shift`-`page up`.  To adjust the font size in the active terminal, use `shift`-`ctrl`-`page up` `shift`-`ctrl`-`page down`.
 
 ## Workspaces
 
-Stacks of overlapping windows is something Regolith avoids.  In tiling window systems, it is common to arrange windows into groupings of workspaces.  These can be thought of as virtual screens. These workspaces are used to group and organize work, depending on how you prefer it.  Perhaps by program, task, or mood ~ it's up to you!  In traditional window systems, you would search out the window you need from the stack, or use a dock application.  In Regolith, you navigate to the workspace that contains the window, or use  `⊞ Win`-`w` to explicitly select the window from the dialog.
+Stacks of overlapping windows is something Regolith avoids by default. In tiling window systems, it is common to arrange windows into groupings of workspaces.  These can be thought of as virtual screens. These workspaces are used to group and organize work, depending on how you prefer it.  Perhaps by program, task, or mood ~ it's up to you!  In traditional window systems, you would search out the window you need from the stack, or use a dock application.  In Regolith, you navigate to the workspace that contains the window, or use  `⊞ Win`-`w` to explicitly select the window from the dialog.
 
 The currently active workspace and all workspaces that you have open will be visible as a series of indexed colored boxes at the lower left part of the screen.  The active workspace will be highlighted.  To switch to a specific workspace, enter  `⊞ Win`-`<workspace number>`.  For example, to move to workspace 3, enter  `⊞ Win`-`3`.  Relative navigation can be performed with  `⊞ Win`-`tab` (next) and  `⊞ Win`-`shift`-`tab` (previous).
 
@@ -92,18 +92,6 @@ Upon first login, a cheat-sheet of keybindings is launched on the right side of 
 Win`-`?` key sequence.
 
 ## [Customizing Regolith](#copy-configs)
-
-Colors, fonts, themes, default applications, and X specific settings are customised via your own `~/.Xresources-regolith` file.
-```
-$ cp /etc/regolith/styles/root ~/.Xresources-regolith
-```
-
-Everything specific to i3wm is customised via your own i3 config file.
-```
-$ mkdir -p ~/.config/regolith/i3
-$ cp /etc/regolith/i3/config ~/.config/regolith/i3/config
-```
-You'll need to logout and login after the file is first created.  The reload keystroke is sufficient thereafter.
 
 This topic is covered in depth on the [Configuration page](/configuring.html).
 

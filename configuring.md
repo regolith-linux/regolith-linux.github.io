@@ -3,6 +3,41 @@ layout: page
 title: Configuring
 ---
 
+Configuration files relating to the look and feel of Regolith are stored in `/etc/regolith/`.  For example, the i3 config file is at `/etc/regolith/i3/config`, and the root Xresources file is at `/etc/regolith/styles/root`.  These files are read-only for the user and are not intended to be modified.  If you find that you'd like to modify a config file, the first step is to copy the default into your user directory under the `~/.config` directory, or `~/.Xresources` for Xresources definitions.
+
+### Simple Example
+
+To change the default super key binding in i3 to `alt`~
+
+1. Copy the default file into the user directory:
+
+```
+$ mkdir ~/.config/regolith/i3 
+$ cp /etc/regolith/i3/config ~/.config/regolith/i3/
+```
+
+2. Edit your user copy to change the default mapping of the `$mod` variable.  Do this by editing `~/.config/regolith/i3/config` and changing `set $mod Mod4` to `set $mod Mod1`.
+
+3. Restart i3.  This step is required only in the case that you wish i3 to load a new config file.  If you've already done the copy operation in step #1 in the past, simply reloading i3 interactively should suffice.
+
+### Xresources Example
+
+You may need to copy multiple files depending on what you want to change.  For example, Xresources is defined as a set of files that are loaded together.  In order to make a change to, say `typeface-ubuntu` you'll also need to copy the root Xresource file because it directly references `typeface-ubuntu`. 
+
+1. Copy the Xresource files we want to change into the user directory:
+
+```
+$ cp /etc/regolith/styles/root ~/.Xresources-regolith # You can also use ~/.Xresources if you prefer
+$ mkdir ~/.Xresources.d
+$ cp /etc/regolith/styles/typeface-ubuntu ~/.Xresources.d/typeface-ubuntu
+```
+
+2. Modify the root file to refer to our user copy of `typeface-ubuntu` by editing `~/.Xresources-regolith` and updating the path of `typeface-ubuntu` to point to our user copy.  The edit should be to set to `#include ".Xresources.d/typeface-ubuntu"`.
+
+3. Log out and back in to see changes take effect.  Alternatively, you can manually load the updated files with `xrdb` and then reload i3 interactively: `xrdb -merge ~/.Xresources-regolith`.
+
+# Configuring Xresources
+
 <sub>_See [quick steps](#quick-steps) below for just making changes quickly, or read this to get an understanding of how configuration works in Regolith._</sub>
 
 Regolith Linux utilizes the [Xresource facility](https://en.wikipedia.org/wiki/X_resources#Location_and_use) to define colors, fonts, and themes.  These resources live can be customized in your home directory, and are designed to be easy to understand, modify, and reset.  The default Regolith Xresources file is at `/etc/regolith/styles/root` and to customize, copy it to `~/.Xresources-regolith`.  Here's what that file looks like:
@@ -101,6 +136,8 @@ $ cp /etc/regolith/styles/root ~/.Xresources-regolith
 1. Edit `~/.Xresources-regolith`, add a `!` to the line `#include ".Xresources.d/theme-regolith"` and uncomment one of the other lines in the same section, say Ubuntu Dark by removing the `!` at the beginning of the line: `#include ".Xresources.d/theme-ubuntu-dark"`.
 2. Log out and back in.
 
+<sub>Note: any Icon or GTK theme you specify in Xresources must be installed via `apt`.  For example the Ubuntu package `arc-icon-theme` must be installed if you wish to set `icon_theme` to Arc.</sub>
+
 ## Add a New Color Theme
 
 1. Copy the new theme file into your `~/.Xresources.d` directory.  For example, if you have a color theme `color-sunday`, `cp color-sunday ~/.Xresources.d/`.
@@ -128,6 +165,7 @@ Prior to August 2019, Regolith did not have a consistent way of updating theme i
 | **Xresources** [(source)](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root) | | | `/etc/regolith/styles/root` | `~/.Xresources-regolith`
 | **Rofi** [(source)](https://github.com/regolith-linux/regolith-rofi-config/blob/master/regolith-theme.rasi) | hard-coded in i3 config | Defined in Xresources | `/etc/regolith/rofi/regolith-theme.rasi` | Defined in `/etc/regolith/styles/rofi` |
 | **Conky** [(source)](https://github.com/regolith-linux/regolith-conky-config/blob/master/conky.config) | `/etc/xdg/conky/config` | `/etc/xdg/conky/config` | `/etc/regolith/conky/config` |
-| **i3blocks** | `~/.config/i3-regolith/i3blocks.conf` | Deprecated | Deprecated |
+| **i3blocks** | `~/.config/i3-regolith/i3blocks.conf` | Deprecated | |
 | **i3xrocks** [(source)](https://github.com/regolith-linux/regolith-i3xrocks-config/blob/master/i3xrocks.conf) | Not Used | `~/.config/i3-regolith/i3xrocks.conf` | `/etc/regolith/i3xrocks/config` | User defined, in i3 config.
+| **compton** [(source)](https://github.com/regolith-linux/regolith-compton-config/blob/master/config) | | | `/etc/regolith/compton/config` | User defined, in i3 config.
 
