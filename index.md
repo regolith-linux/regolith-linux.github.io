@@ -7,7 +7,7 @@ Regolith is a unique desktop environment that ditches the cruft of Windows and M
 
 <a href="/assets/screenshot-intro.png"><img class="screenshot" alt="Intro Screenshot" src="/assets/screenshot-intro.png"/></a>
 
-[More screenshots of Regolith](/screenshots.html)
+[Visual tour of Regolith](/visual-tour.html)
 
 ### What Makes Regolith Different
 
