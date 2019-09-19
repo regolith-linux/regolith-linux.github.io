@@ -8,7 +8,7 @@ Ways to contribute to Regolith Linux:
 
 ## Join our Slack channel
 
-There is a link in the menu on the left of this website.
+There is a link in the menu on the left of this website where you can speak to the developers of Regolith and other users. Where we can brainstorm about new features, ways to improve current features and fix bugs. 
 
 ## Install the regolith-unstable PPA
 
@@ -21,6 +21,6 @@ From your existing Ubuntu 18.04 (Bionic) or 19.04 (Disco) system, perform the fo
 3. The following command will need to be ran <br/>`sudo apt update && sudo apt upgrade && sudo apt full-upgrade`
 4. Some packages will be upgraded.  When this completes, reboot.
 
-## Code and Documenation
+## Code and Documentation
 
 As an open source project, Regolith Linux is open to anyone to extend, fork, or modify as they see fit.  People are welcome to join as contributors to the project if interested. Please file an issue describing the change you'd like to be made to Regolith before doing the work however, so we do not waste your time. Also take a look at [the roadmap](https://regolith-linux.org/news.html#roadmap) and [list of issues looking for help](https://github.com/regolith-linux/regolith-desktop/labels/help%20wanted) to see what is actively being developed and future plans.
