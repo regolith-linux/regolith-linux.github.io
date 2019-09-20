@@ -93,7 +93,7 @@ Win`-`?` key sequence.
 
 ## [Customizing Regolith](#copy-configs)
 
-This topic is covered in depth on the [Configuration page](/configuring.html).
+This topic is covered in depth on the [Configuration page](/configure.html).
 
 ## Digging Deeper
 
