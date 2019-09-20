@@ -46,30 +46,33 @@ Regolith Linux utilizes the [Xresource facility](https://en.wikipedia.org/wiki/X
 !
 ! -- Styles - Colors
 !
-! Uncomment one and only one of the following color definitions:
-#include "/etc/regolith/styles/color-solarized-dark"
+! Uncomment one and only one of the following color definitions: 
+!#include "/etc/regolith/styles/color-solarized-dark"
 !#include "/etc/regolith/styles/color-solarized-light"
 !#include "/etc/regolith/styles/color-gruvbox"
-!#include "/etc/regolith/styles/color-nord"
+#include "/etc/regolith/styles/color-nord"
 
 ! -- Styles - Fonts
-!
+! NOTE: Font packages may need to be installed when enabling typefaces.
 ! Uncomment one and only one of the following font definitions:
 #include "/etc/regolith/styles/typeface-sourcecodepro"
 !#include "/etc/regolith/styles/typeface-ubuntu"
 
 ! -- Styles - Theme
-!
+! NOTE: GTK theme and icon packages may need to be installed when enabling themes.
 ! Uncomment one and only one of the following theme definitions:
-#include "/etc/regolith/styles/theme-regolith"
+!
+! The following theme requires solarc-theme and arc-icon-theme to be installed.
+!#include "/etc/regolith/styles/theme-regolith"
+!
+! The following theme requires gnome-themes-extra-data and adwaita-icon-theme to be installed.
 !#include "/etc/regolith/styles/theme-ubuntu-dark"
-!#include "/etc/regolith/styles/theme-nordic"
+!
+! The following theme requires nordic and paper-icon-theme to be installed
+#include "/etc/regolith/styles/theme-nordic"
 
 ! -- Applications
-! These files are not intended to be modified, however if you
-! would like to configure a new apps Xresources to use Regolith
-! theme info, this is the place to add it.
-!
+! These files map values defined above into specific app settings.
 #include "/etc/regolith/styles/st-term"
 #include "/etc/regolith/styles/i3-wm"
 #include "/etc/regolith/styles/i3xrocks"
