@@ -26,20 +26,27 @@ github_username:  regolith-linux
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-multiple-languages-plugin
 
 # Custom vars
 version: 9-15-2019
 
-defaults:
+#defaults:
   #languages
-  -
-    scope:
-      path: ""
-    values:
-      lang: "en"
-      layout: default
-  -
-    scope:
-      path: "cn"
-    values:
-      lang: "cn"
+#  -
+#    scope:
+#      path: ""
+#    values:
+#      lang: "en"
+#      layout: default
+#  -
+#    scope:
+#      path: "cn"
+#    values:
+#      lang: "cn"
+
+languages: ["en", "cn"]
+defaultLang: en
+languageNames:
+  en: English
+  cn: Chinese

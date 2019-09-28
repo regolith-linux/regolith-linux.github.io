@@ -1,0 +1,9 @@
+site:
+  name: Regolith Linux
+  keywords: ubuntu, i3
+
+main:
+  welcomeSection:
+    anchor: welcome
+    heading: Welcome to Regolith Linux
+
