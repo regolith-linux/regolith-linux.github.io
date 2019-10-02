@@ -7,6 +7,10 @@ This page contains information that may help if you encounter an issue with Rego
 
 # Update
 
+## [Regolith Uninstalled after Update](#uninstalled)
+
+Some users have reported that `regolith-desktop` and other packages are removed when performing a `apt dist-upgrade`.  The root cause of [this issue](https://github.com/regolith-linux/regolith-desktop/issues/120) is unclear, however re-installing `regolith-desktop` via `apt install regolith-desktop` should suffice to resolve the issue.  Any configuration files in the user directory will not be impacted by this issue.
+
 ## [After Update see `Could not parse JSON` in bar](#outdated-xresources)
 
 If you just updated your version of Regolith and you are seeing an error on your bottom bar (something like Could not parse JSON), it's most probably your `~/.Xresources-regolith` file that has incorrect/insufficient config in it. To fix it (and go back to stock config) you can delete or move that file somewhere else and log out and back in again (gnome-session-quit). If you want to pick a different theme or customize your Xresources, feel free to copy `/etc/regolith/styles/root` (the stock Xresources file) to `~/.Xresources-regolith` and customise it!
