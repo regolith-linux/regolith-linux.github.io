@@ -16,7 +16,8 @@ Regolith is a unique desktop environment that ditches the cruft of Windows and M
 - Supports [easy customization](/configure.html) and [ricing](https://www.reddit.com/r/unixporn/) via a consistent [Xresource configuration](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root).
 - Relies on [Ubuntu's app store](https://snapcraft.io/store) and package repositories for a large, high quality selection of software.
 - Delivers a desktop with small set of UI features that can be customized and expanded as needed.
-- Ships with an overlay of basic keybindings to navigate over windows, launch apps, and manage your system.
+- Ships with a toggle overlay of basic keybindings to navigate over windows, launch apps, and manage your system.
+- Provides a [build script](https://github.com/regolith-linux/regolith-desktop/blob/master/build.sh) and [package metadata](https://github.com/regolith-linux/regolith-desktop/blob/master/package-model.json) to allow users to easily fork the desktop environment and distribution.
 
 ### Get Regolith
 
