@@ -3,7 +3,7 @@ layout: default
 title: 
 lang: se
 ---
-Regolith är en unik skrivbordsmiljö som dumpar allt cruft från Windows- och Mac-kloner och erbjuder en produktiv och vacker plats att få jobb gjort på. Built on top of Ubuntu and GNOME, Regolith stands on a stable, well-supported, and consistent foundation.
+Regolith är en unik skrivbordsmiljö som dumpar allt cruft från Windows- och Mac-kloner och erbjuder en produktiv och vacker miljö att få jobb gjort på. Med GNOME och Ubuntu som bas står Regolith på en stabil och välunderstödd grund.
 
 <a href="/assets/screenshot-intro.png"><img class="screenshot" alt="Intro Screenshot" src="/assets/screenshot-intro.png"/></a>
 
