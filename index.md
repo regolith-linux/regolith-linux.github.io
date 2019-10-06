@@ -1,48 +1,48 @@
 ---
 layout: default
 title: 
-lang: en
+lang: se
 ---
-Regolith is a unique desktop environment that ditches the cruft of Windows and Mac knockoffs to provide a productive and beautiful place to get work done. Built on top of Ubuntu and GNOME, Regolith stands on a stable, well-supported, and consistent foundation.
+Regolith är en unik skrivbordsmiljö som dumpar allt cruft från Windows- och Mac-kloner och erbjuder en produktiv och vacker plats att få jobb gjort på. Built on top of Ubuntu and GNOME, Regolith stands on a stable, well-supported, and consistent foundation.
 
 <a href="/assets/screenshot-intro.png"><img class="screenshot" alt="Intro Screenshot" src="/assets/screenshot-intro.png"/></a>
 
-[Visual tour of Regolith](/visual-tour.html)
+[Regolith Linux i bilder](/visual-tour.html)
 
-### What Makes Regolith Different
+### Vad gör Regolith unikt?
 
-- Provides GNOME's system management features with [i3](https://i3wm.org/)'s productive workflow.
-- Enables new users a fast and fun way to try out a [tiling window manager](https://opensource.com/article/18/8/i3-tiling-window-manager).
-- Supports [easy customization](/configure.html) and [ricing](https://www.reddit.com/r/unixporn/) via a consistent [Xresource configuration](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root).
-- Relies on [Ubuntu's app store](https://snapcraft.io/store) and package repositories for a large, high quality selection of software.
-- Delivers a desktop with small set of UI features that can be customized and expanded as needed.
-- Ships with a toggle overlay of basic keybindings to navigate over windows, launch apps, and manage your system.
-- Provides a [build script](https://github.com/regolith-linux/regolith-desktop/blob/master/build.sh) and [package metadata](https://github.com/regolith-linux/regolith-desktop/blob/master/package-model.json) to allow users to easily fork the desktop environment and distribution.
+- Erbjuder GNOME's systemhantering tillsammans med [i3](https://i3wm.org/)'s produktiva arbetsmiljö.
+- Gör det möjligt för nya användare att snabbt och enkelt testa en[tiling window manager](https://opensource.com/article/18/8/i3-tiling-window-manager). 
+- Stödjer [enkel konfiguration](/configure.html) och [ricing](https://www.reddit.com/r/unixporn/) via en konsistent [Xresource konfigurationsfil](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root).
+- Har genom [Ubuntus appbutik](https://snapcraft.io/store) och bibliotek ett stort urval av högkvalitativa applikationer.
+- Levererar en skrivbordsmiljö med få UI detaljer som kan enkelt förändras och utvecklas efter behov.
+- Installeras med ett lättillgängligt av/påslagbart fönster som visar dom vanliga kortkommandona som används för att navigera applikationsfönster, starta appar, och kontrollera datorsystemet.
+- Erbjuder ett [kompilerings-script](https://github.com/regolith-linux/regolith-desktop/blob/master/build.sh) och [paket-metadata](https://github.com/regolith-linux/regolith-desktop/blob/master/package-model.json) så att användare lätt kan forka skrivbordsmiljön och distributionen.
 
-### Get Regolith
+### Skaffa Regolith
 
-Install or test drive Regolith from scratch with the [LiveCD Installer](https://sourceforge.net/projects/regolith-linux/), or if you already have an existing Ubuntu setup*, simply add it as another desktop session by installing the package `regolith-desktop` from the [Regolith PPA](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable). See the [install page](/install.html) for more details.
+Installera och testa Regolith från grunden med en [LiveCD Installerare](https://sourceforge.net/projects/regolith-linux/), eller om du redan har Ubuntu installerat*, kan du bara lägga till det som en ytterligare skrivbords-session genom att installera 'regolith-desktop' från [Regolith PPA](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable). För mer information se [installeringsinstruktioner](/install.html).
 
-<sub>*Ubuntu 18.04 and Ubuntu 19.04 bases available</sub>
+<sub>*Ubuntu 18.04 och Ubuntu 19.04 grunder tillgängliga</sub>
 
-### Next Steps
+### Utforska Vidare
 
-Have a look at the [Getting Started](/getting_started.html) guide to learn more about using Regolith Linux, see the [latest updates](/news.html), or check out the [configuration](/configure.html) page to learn about how to tweak it to your liking. Also have a look at the [Keybindings](/keybindings.html) to learn the quickest way around your new desktop environment.
+Ta en titt på [startguiden](/getting_started.html) för att lära dig mer om hur man använder Regolith Linux, läsa om dom [Senaste Uppdateringarna](/news.html), eller kolla upp [Konfigurationssidan](/configure.html) för att lära dig mer om hur man moddar skrivbordsmiljön. Vidare kan du också läsa om dom olika [tangentbordskortkommandona](/keybindings.html) för att lära dig det enklaste sättet att navigera runt i din nya skrivbordsmiljö
 
-### Credits
+### Tack till
 
-Regolith is more curation than creation.  Here are some of people and entities that produced work independently from which Regolith is based.
+Regolith är mer en kurering av olika saker än en enskild skapelse. Här nedan är några av dom människor och organisation som skapat dom olika delarna på vilka Regolith Linux är baserat.
 
 |---------|----------|
-| [Michael Stapelberg](https://i3wm.org) and [Ingo Bürk](https://github.com/Airblader/i3) | Desktop UI
-| [Dave Davenport](https://github.com/davatorium/rofi) | Desktop UI
-| [yshui](https://github.com/yshui/compton) | Desktop UI
-| [Alberts Muktupāvels](https://wiki.gnome.org/Projects/GnomeFlashback) | Desktop UI
-| [Vivien Didelot](https://github.com/vivien/i3blocks) | Desktop UI
-| [Arctic Ice Studio](https://github.com/arcticicestudio) and [Ethan Schoonover](https://ethanschoonover.com/solarized/) | Colors
-| [Eliver Lara](https://github.com/EliverLara/Nordic) | Theme
-| [Sam Hewitt](https://snwh.org/paper) | Icons
-| [suckless.org](https://st.suckless.org) | Terminal
-| [Lucas Bellator](https://unsplash.com/photos/C0OD8OM-oM0) and [Luca Bravo](https://unsplash.com/photos/xnqVGsbXgV4) | Wallpaper
-| [PJ Singh](https://launchpad.net/cubic) | Infrastructure
-| [Canonical](https://canonical.com) and [GitHub](https://github.com) | Infrastructure
+| [Michael Stapelberg](https://i3wm.org) och [Ingo Bürk](https://github.com/Airblader/i3) | Skrivbordsmiljöns UI
+| [Dave Davenport](https://github.com/davatorium/rofi) | Skrivbordsmiljöns UI
+| [yshui](https://github.com/yshui/compton) | Skrivbordsmiljöns UI
+| [Alberts Muktupāvels](https://wiki.gnome.org/Projects/GnomeFlashback) | Skrivbordsmiljöns UI
+| [Vivien Didelot](https://github.com/vivien/i3blocks) | Skrivbordsmiljöns UI
+| [Arctic Ice Studio](https://github.com/arcticicestudio) och [Ethan Schoonover](https://ethanschoonover.com/solarized/) | Färgtema
+| [Eliver Lara](https://github.com/EliverLara/Nordic) | Tema
+| [Sam Hewitt](https://snwh.org/paper) | Ikoner
+| [suckless.org](https://st.suckless.org) | Terminalen
+| [Lucas Bellator](https://unsplash.com/photos/C0OD8OM-oM0) och [Luca Bravo](https://unsplash.com/photos/xnqVGsbXgV4) | Skrivbordsbakgrund
+| [PJ Singh](https://launchpad.net/cubic) | Infrastruktur
+| [Canonical](https://canonical.com) och [GitHub](https://github.com) | Infrastruktur
