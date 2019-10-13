@@ -1,100 +1,90 @@
 ---
 layout: page
-title: Getting Started
-lang: en
+title: 入门
+lang: cn
 ---
 
-## Key Bindings
+## 热键绑定  
 
-Regolith is designed for keyboard interaction.  The first time you log into a Regolith session, you'll see a listing of the most useful key bindings on the right-hand side of the screen.  This helper will not appear by default on subsequent logins, but you can view them at any time with the `⊞ Win`-`?` sequence while on an empty workspace.  A full list of keybindings is [available here]({% link keybindings.md %}).
+Regolith 的核心设计理念是键盘交互。当你第一次登录 Regolith，你会在屏幕的右边看到一些常用的热键。 这个热键提示信息不会在以后的
+登录中出现。如果你想在任何时候打开这个提示，在空白的工作间（虚拟桌面，Workspace) 使用 `⊞ Win`-`/`。
 
-## Launching Programs
+## 打开应用程序  
 
-In Regolith Linux, applications are launched via the `⊞ Win`-`space` sequence.  A full screen dialog is presented.  Begin typing the app or command and the list will filter as you type.  Launch the app by selecting it and pressing `enter`.
+在 Regolith Linux 里， 使用 `⊞ Win`-`space` 组合 来打开应用程序。 一个全屏的对话框出现以后，就可以开始输入应用程序的名字。
+当你在输入的时候，程序列表会进行实时的过滤。 选择想要打开的程序，敲击 `enter`。  
+  
+控制台程序在Regolith中很特殊，可以直接用快捷键 `⊞ Win`-`enter`。
 
-The terminal, browser, and settings applications are special because they can be directly launched from a keybinding as well as from the application launcher.
+### 安装软件
 
-| Application | Key Binding |
-|-------------|-------------|
-|Terminal|`⊞ Win`-`enter`|
-|Browser|`⊞ Win`-`shift`-`enter`|
-|Configure Bluetooth|`⊞ Win`-`b`|
-|Configure Displays|`⊞ Win`-`d`|
-|Configure Network|`⊞ Win`-`n`|
-|Configure Power|`⊞ Win`-`p`|
-|Configure Sound|`⊞ Win`-`s`|
-|Configure Wifi|`⊞ Win`-`w`|
+在 app launcher 里运行`software` 会打开Ubuntu app store。 你也可以用终端来安装软件，比如 `sudo apt install vim` 可以安装 vim.
 
-## Installing Software
+### 终端命令
 
-Running the `software` from app launcher will load the Ubuntu app store.  The terminal can also be used to install software, for example `sudo apt install vim` will install the vim editor.
+查看终端上一页的缓存内容，使用 `shift`-`page up`。 调整当前终端的字体大小，使用 `shift`-`ctrl`-`page up` `shift`-`ctrl`-`page down`。
+切换浅、深色主题， 使用 `F6`。
 
-## Terminal Commands
+## 工作区 （虚拟窗口， Workspaces)
 
-To page up past the top of the screen to see the buffered text, use `shift`-`page up`.  To adjust the font size in the active terminal, use `shift`-`ctrl`-`page up` `shift`-`ctrl`-`page down`.
+Regolith 极力避免窗口的重叠。 在平铺窗口系统中， 常见的作法是把窗口组合排列在工作区当中。 工作区可以当作虚拟的屏幕。 这些工作区是用来根据自己的程序、任务或者心情组织工作。
+在传统的窗口系统中，你必须手动在重叠的程序窗口中寻找。 在Regolith 中， 你可以用快捷键 `⊞ Win`-`w` 来选择包含你需要的程序窗口的工作区。  
+  
+当前的工作区的和创建过的工作区的索引会显示在屏幕的左下角。 当前工作区较其它工作区标签会更突出。  `⊞ Win`-`<workspace number>` 可以用来切换工作区。
+比如， 想要去工作区3，  `⊞ Win`-`3`。 切换下一个工作区， `⊞ Win`-`tab`。 切换上一个工作区， `⊞ Win`-`shift`-`tab`。
+  
+## 管理窗口  
 
-## Workspaces
+当你在工作区打开更多窗口时，窗口管理系统会重新排列当前所有的窗口，使得所有窗口都不会重叠 （或称“平铺”）。 垂直和水平方向平铺可以通过 `⊞ Win`-`v` 和 `⊞ Win`-`h` 来设置。
+在工作区对窗口进行垂直和水平方向互换是一种比较简单的完成常用布局的方式。 在这个基础上，如果想要得到特别的布局，可以改变窗口大小或者直接移动窗口。
+想要调整窗口之间的距离， 可以用 `⊞ Win`-`-` and `⊞ Win`-`+`。
 
-Stacks of overlapping windows is something Regolith avoids by default. In tiling window systems, it is common to arrange windows into groupings of workspaces.  These can be thought of as virtual screens. These workspaces are used to group and organize work, depending on how you prefer it.  Perhaps by program, task, or mood ~ it's up to you!  In traditional window systems, you would search out the window you need from the stack, or use a dock application.  In Regolith, you navigate to the workspace that contains the window, or use  `⊞ Win`-`w` to explicitly select the window from the dialog.
+### 调整窗口尺寸
 
-The currently active workspace and all workspaces that you have open will be visible as a series of indexed colored boxes at the lower left part of the screen.  The active workspace will be highlighted.  To switch to a specific workspace, enter  `⊞ Win`-`<workspace number>`.  For example, to move to workspace 3, enter  `⊞ Win`-`3`.  Relative navigation can be performed with  `⊞ Win`-`tab` (next) and  `⊞ Win`-`shift`-`tab` (previous).
+`⊞ Win`-`r` 使 Regolith 进入窗口尺寸模式。 在此模式下，"resize" 字样会在下方状态条显示出来。 使用方向键来调整当前窗口。 使用`enter` 或者 `escape` 来退出此模式。
 
-## Managing Windows
+### 移动窗口
 
-As you launch more applications in a given workspace, the window manager will re-arrange the existing windows such that all windows are visible without overlap, also known as 'tiled'.  The window manager has a strategy for determining the size and position relative to the other active windows.  Layout mode can be toggled between horizontal and vertical modes with `⊞ Win`-`backspace`.  Flipping between horizontal and vertical layouts before launching new windows is a simple way of building the window layout you desire.  Resizing and moving windows can also be needed for an exact layout.  See below for resize mode.  To adjust the distance between windows (gaps) on the active workspace, use `⊞ Win`-`-` and `⊞ Win`-`+`.
+`⊞ Win`-`shift`-`<arrow key>` 可以用来移动当前窗口的相对其它窗口的位置。  `⊞ Win`-`shift`-`<workspace number>` 可以将当前窗口移动到其它的工作区。
 
-### Resizing Windows
+## 系统状态
 
-`⊞ Win`-`r` will cause Regolith to enter window size mode.  You'll note a text message on the bar, "resize" when this mode is active.  After pressing `⊞ Win`-`r` use the arrow keys to change the size of the active window.  Press `enter` or `escape` to exit resize mode.
+在下端状态栏的右边是一些实时更新的系统状态数据。 从左到右依次为： 系统负荷， 电池状态 （如果电池状态可以被监测到）， 日期和时间。
 
-### Moving Windows
+## 系统设置和管理
 
-`⊞ Win`-`shift`-`<arrow key>` is used to move the active window on the screen relative to other windows on the same screen.  `⊞ Win`-`shift`-`<workspace number>` is used to move windows among workspaces.
+`⊞ Win`-`space` 然后输入 "settings" 可以打开系统设置程序(Setting app)。 这个程序是可视化的系统设置程序。 连接WIFI, 设置显示器， 设置电源等可以在这个系统设置程序实现。
 
-## System Status
+## 登入和登出
 
-On the right side of the bar are a few system statistics that are periodically updated.  From left to right; first is system load, then battery status, (if a battery is detected on the system) followed by the date and time.
+在第一次用 **PPA** 安装Regolith后，必须选择使用Regolith 环境才能正常使用Regolith。 在录入界面，点选工具图标，选择Regolith即可。
+如果Regolith 是用LiveCD安装的话，这个步骤可以忽略因为默认的Ubuntu桌面环境已经被移除。  
 
-## System Configuration and Management
+登出可以用 `⊞ Win`-`shift`-`e`。 `⊞ Win`-`escape` 用来锁屏。 `⊞ Win`-`shift`-`s` 进入睡眠模式。
 
-The Setting app can be launched via `⊞ Win`-`c` (or `⊞ Win`-`space` and then typing "settings" to launch the control pannel by name).  This application is the UI for configuring the computer.  Connecting to wifi access points, configuring monitors, configuring power saving policy, and similar tasks can be achieved from this application.
+## Regolith 界面简介
 
-## Logging In and Out
+### 桌面状态条
 
-When logging in, if Regolith was installed via the PPA rather than the LiveCD, upon the first login after installation you must specify the Regolith session at the login screen.  This is done by clicking the small gear icon near the login button and selecting "Regolith".  This step isn't required when using Regolith from the LiveCD as the default Ubuntu session has been removed.  To log out, `⊞ Win`-`shift`-`e` will cause you to immediately log out of your session.  `⊞ Win`-`escape` will lock the screen.  `⊞ Win`-`shift`-`s` will cause the system to enter sleep mode.
+唯一一个永久显示的界面部件。 状态条显示你的工作区以及其它系统状态。
 
-## Regolith Interface Tour
+### 窗口
 
-### Desktop Bar
+和其它操作系统（Mac OS, Windows）的窗口类似， 区别在于Regolith的窗口不显示标题或者花里胡哨的装饰。 它们的窗口大小或者位置都可以用键盘来控制，尽管鼠标也可以使用。
+更多的操作细节在以后的窗口管理部分有说明。
 
-The only UI widget persistently on screen.  This shows your workspace state as well as some system information such as CPU load and the date.
+### 工作区 （Workspaces）
 
-### Windows
-
-Essentially as is in other graphical windowing environments such as Mac OS X or Windows, but without titles or decorations. Their size and position are generally managed via the keyboard,
-although you can use a mouse of you prefer.  More details below about window management.
-
-### Workspaces
-
-A workspace is simply a computer screen's worth of windows.  By default Regolith provides 19 workspaces to manage your work in.
+工作区其实就是一个虚拟桌面。 默认情况下， Regolith 提供10个工作区。
 
 ### Launcher
 
-A full-screen dialog that allows you to launch programs or select windows is available via keybindings.
+一个可以让你打开应用程序的全屏对话框。
 
-### Notifications
+### 提示消息（Notifications）
 
-A transient window overlay at the top right of the screen shows notifications from applications.
+一个在屏幕右上角的透明的窗口。 它用来提供应用程序的提示信息。
 
-### Keybinding Helper
+### 快捷键帮助窗口
 
-Upon first login, a cheat-sheet of keybindings is launched on the right side of the screen.  Subsequent logins do not show the shortcuts, but they can be viewed on the desktop with the `⊞
-Win`-`?` key sequence.
-
-## [Customizing Regolith](#copy-configs)
-
-This topic is covered in depth on the [Configuration page](/configure.html).
-
-## Digging Deeper
-
-i3-wm provides an excellent [user manual](https://i3wm.org/docs/userguide.html) for those wishing to customize their keybindings or other window behavior.  Additionally the [i3-wm FAQ page on Reddit](https://www.reddit.com/r/i3wm/) is a great resource for asking questions and searching for answers.
+当你第一次登录 Regolith，你会在屏幕的右边看到一些常用的热键。 这个热键提示信息不会在以后的登录中出现。 如果你想在任何时候打开这个提示，在空白的工作间（虚拟桌面，Workspace) 使用 `⊞ Win`-`/`。

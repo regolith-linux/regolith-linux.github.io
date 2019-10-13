@@ -1,27 +1,46 @@
 ---
 layout: page
-title: Motivations
+title: 动机
+lang: cn
 ---
 
-The following describes several slow moving thought processes that resulted in the creation of Regolith Linux.
+以下描述了一些创建Regolith背后的原因和想法。
 
 <p align="center"> *** </p>
 
 
-In 2016 Apple released a new version of their "pro" laptop line without function keys.  Replacing the keys was a small LCD screen designed to provide dynamic functionality depending on the application.  As one who writes software, I rely heavily on function keys for my day-to-day work.  It seemed like an obvious mistake and I assumed Apple would provide updated high performance models with the function keys.  This hasn't happened, and so instead I bought the fastest version of the computer that came with physical function keys.  Ultimately, the machine proved too underpowered for my needs and the keyboard in general caused me many typos, taxing my productivity.  It occurred to me then; that the price I'd paid a decade earlier, in switching to a Mac had been a mistake.  I was locked to a single hardware and operating system vendor.  Apple clearly does not consider me and my type in their focus groups when designing "pro" computers.  I was stuck in a dead-end product line, and would have to do a lot of learning and adapting of a different system to dig my way out.  At this time I began to look at Linux distributions and Linux friendly hardware in earnest, resolved to not allow this to happen again.  As Linux comes in many variations, and runs on hardware from a large variety of manufacturers, it seemed like a good bet.  But, there was a lot of ground to cover...
+2016年，苹果公司发布了新一款没有功能键的“PRO” 笔记本电脑。 代替功能键的是一个小的LCD触屏 - 触控栏。 触控栏会随着你正在使用的 app 而变化。
+作为一个写软件的人， 我每天的工作中都非常依赖这些消失的功能键。 看起来是苹果犯的一个很明显的错误。 我想当然的认为苹果公司会另外发布一款高性能但拥有功能键的机型。
+但这些并没有发生。 所以我买了市面上性能最高的拥有功能键的机型。 最后发现这个机型仍然无法满足我的需要，而且它的键盘很容易让我打错字， 使我的工作效率降低很多。
+我认为花大价在过去10年中转成苹果用户是一个很大的错误。 我被困于单一的硬件和软件供应商。 苹果很明显并没有把我和我的打字习惯作为他们设计“Pro” 笔记本的主要对象。
+我不得不对其它的系统做很多的学习和适应工作来将我自己“拔”出来。 一开始，我很认真的看了一些Linux Distribution 和兼容Linux的硬件， 希望之前的事不再发生。
+因为Linux有很多不同的变种， 在不同的硬件供应商的产品都能够运行，所以我觉得这个赌打的很值得。 然而， 这个选择也有它一些不足的地方。
 
 <p align="center"> *** </p>
 
-When working in teams that write software, it is common for me to visit coworkers at their desks to work together. Sometimes I'd notice the inefficiency of their interactions with their computers. With many windows layered over each other, hand continually moving from keyboard to mouse, and big desktop widgets and gizmos that crowded their screens, I found it strange that they would work daily in such a manner.  In an effort to gain productivity, I remove as much of the desktop stuff (such as the dock) as possible when setting up a new computer.  I realized that frequent window switching, resizing, and organizing took a significant amount of time.  Additionally, when switching between programs, I'd often lose my train of thought due to some random thing popping up or my inability to find the right window instantaneously.  Some success was had in customizing the Mac's UI, but I still found myself spending a lot of time micromanaging my computer.  Around this time I recalled a colleague many years ago showing me his work setup with a strange thing called a "tiling window manager".  At the time I thought of it as a nerdy fad...too esoteric for real work.  At this point I looked back into the state of affairs of tiling window managers, to see if they still existed.  They do!  And happily they are the perfect antidote for the clutter and inefficiency of the modern "desktop UI".  But, I found that often these components needed to be compiled from source and looked pretty ugly by default...  
+在一个软件小组工作时， 我经常会到同事的电脑上一起解决问题。 有时候我发现他们操作他们自己的电脑时效率不高。 在他们的屏幕上， 很多的窗口叠加在一起，手会经常在键盘和鼠标间移动，
+很大的图形组件充满了他们的屏幕。 我对他们每天以这种方式工作感到很诧异。 在重新设置电脑时，为了提高工作效率， 我尽可能的移除了屏幕上很多不必要的图形组件 （比如说任务栏）。
+我意识到频繁的切换窗口，调整窗口大小， 组织窗口位置费掉很多时间。 另外， 当切换应用程序时， 我总是会因为一些零碎的东西显示出来或者不能准确找到我想找的程序而使我失去我当前的思路。
+尽管我自定义了一些Mac的界面， 我还是在微控我的电脑上花费了很多精力和时间。 这时候我想起来多年前我的同事给我看了一下他的电脑桌面环境设置 --- 一种很奇怪的东西叫做 “平铺式窗口管理（tiling window manager）”。
+在那个时候我觉得这就是一个“书呆子赶流行”的东西， 真正工作中使用的话太麻烦了。 现在我发现这种平铺窗口管理软件还存在。 我对此非常兴奋，因为它就是这个现代化杂乱无章的电脑桌面的完美解药。
+但是， 这些组件必须得从源码编译而且默认的样子十分难看。
 
 <p align="center"> *** </p>
 
-A year or so back, I discovered that YouTube.com hosts a vast array of content for computer nerds such as myself.  Having cut my teeth on programming in the 80's with computers such as the Commodore 64 and Amiga 500, I found many videos of these old machines still in use.  In recalling these times from my childhood and in watching the vidoes, it came to me that the playfulness and accessibility of computers has been lost to layers of sophistication and advertisements.  Some of it is useful (switching between languages, configuring monitors), and some of it is not (oversized, if beautiful, icons to launch applications you may never use, notifications, things bouncing, jumping, and curving off of the screen).  Simply loading a terminal on modern computers takes several clicks, and is typically a poor experience out of the box.  Earlier computers often booted right into a programming environment.  Nothing to fuss with, just get to business!  I wanted to bring this simplicity back to my daily compute.
+差不多一年前， 我发现"油管"(Youtube) 上有很多像我一样的技术狂热者发布的一些视频。 我这样在80年代使用像Commodore 64 和 Amiga 500 这样的机器编程的人， 看到很多这样的“老”机器仍然在被使用。
+看着这些视频并回想差我的童年， 我意识到计算机的乐趣在当今的精密复杂的内容和广告的一层一层包裹中渐渐流失。 有一些还是有用的， 比如说切换语言， 设置显示器。 有一些则是没用的，
+比如说过大的用来启动你可能永远不会用的程序的图标， 短消息提醒， 屏幕上的东西到处跳动， 杂乱无章的界面小部件等等。 简单的打开终端的这种事情都需要点好几下鼠标， 而这样的终端的默认功能也是非常差的体验。
+早期的电脑往往一开机就是编程环境。 “不啰嗦”，直奔主题（工作）！ 我希望把这些简约的东西带回我的日常编程工作中来。
 
 <p align="center"> *** </p>
 
-When researching tiling window managers, an initial reaction I had was that they are generally pretty ugly out of the box. Often they are designed by people who care less about aesthetics than they do pure functionality.  Of course, it is not difficult to configure these systems to be more pleasant to look at.  For example, I would often visit [Reddit](https://www.reddit.com/r/unixporn/) topics with screenshots of "riced" desktops which often featured systems with tiling window managers.  It fascinated me that so many would spend so much time to make amazing, clean, and elegant computing interfaces.  I was hooked.  However, there I had a problem with "ricing": it's all about personal customization.  People would create amazing interfaces, but always custom to their specific system.  I wanted to have a consistent experience on my home PC as well as what I use at the office.  I wanted to be able to update in one place and have all my systems just get the update.  There is a simple way of achieving this; by using a package system.  And so I decided that my rice needed to be packaged so that I could just install easily and consistently.  My day job at the time would allow me to use Linux at work, as long as it was Ubuntu.  So, I learned how to package my riced configurations as Ubuntu packages.    
+当我在研究平铺窗口管理系统时， 最初的反应是它们通常在默认的情况下都很丑。 往往设计它们的人都比较在乎功能而不是外观。 当然，把它们设置成比较好看的样式也并非难事。
+比如说， 我会经常到[Reddit, 一种美国流行的论坛](https://www.reddit.com/r/unixporn/) 看一看其它人改动“平铺式窗口系统”后的桌面截图。 我对这些人愿意花这么多精力和时间来把电脑界面改的如此漂亮，整洁的事感到非常惊讶。
+我被这些深深的吸引住了。 然而， 这样的自定义更改也有他的不足： 这些都是针对个人喜好的自定义。 他们都是根据他们自己的特殊的系统来做的这些修改。 我想要我的工作机器和我的家用机器拥有一致的体验。
+我希望能够做到在一个地方更新， 我所有的机器都能得到更新。 有一种比较简单的方法可以做到这一点： 用程序包系统(Package System)。 所以我决定把我的自定义系统打包，这样我就能够做到快捷的安装并保持所有系统的体验一致。
+我在我的全职工作中使用Linux， 只要它是Ubuntu。 所以， 我学会了如何把我的自定义系统打包成Ubuntu程序包。
 
 <p align="center"> *** </p>
 
-In summary, the functional regression of the Macintosh for professional work lead me to realize that the value of "it just works" was less than the value of being able to control the interface of my computer as I desired.  *But* the cost of customization is also high.  I sought but could not find a simple but beautiful configuration that worked out of the box without a lot of tweaks.  The innovative desktop ricing community taught me that beautiful and efficient computer interfaces can be created by anyone.   Learning how to make Debian packages allowed me to host my customizations in Ubuntu so I could manage and share my desktop with others.  So all of this came together in Regolith Linux, with the hopes that it might help others.
+总得来说， 针对专业人士的Mac的功能退化使我意识到苹果的“就是好用”的价值远远比控制自己的电脑界面的价值要小很多。 这个创新的电脑桌面自宝义社区教会我了一个道理：
+任何人都可以创造自己想要的简洁高效的界面。 把我的自定义桌面整合成Ubuntu 程序包， 我就真正做到了自给自足。

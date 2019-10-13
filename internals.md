@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Internals
-lang: en
+title: 内部构成
+lang: cn
 ---
 
-Regolith is comprised of existing open source projects and some minor custom configuration and package metadata. The following table lists the primary components that make up Regolith Linux:
+Regolith 是由一些开源项目/软件， 一些自定义设置和 Package 元数据构成。 以下表格列举了主要组件:
+Regolith Linux:  
 
-| Package | Function | Regolith Customization |
+| Package | 功能 | Regolith 自定义 |
 |---------|----------|------------------------|
 |[Gnome-flashback](https://wiki.gnome.org/Projects/GnomeFlashback)|System Management|[package](https://github.com/regolith-linux/regolith-gnome-flashback)|
 |[i3-wm](https://i3wm.org/)|Tiling Window Manager|[package](https://github.com/regolith-linux/regolith-i3)|
@@ -23,7 +24,7 @@ Regolith is comprised of existing open source projects and some minor custom con
 
 # Distribution
 
-Regolith is a set of Ubuntu packages distributed via two "Private Package Repositories" (PPA):
+Regolith是一系列由 "Private Package Repositories" (PPA) 分布的 Ubuntu packages:
 
 | Repository | URL | Purpose |
 | [Regolith Stable](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable) | https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable | Primary repository for Regolith packages |
@@ -31,26 +32,18 @@ Regolith is a set of Ubuntu packages distributed via two "Private Package Reposi
 
 # Hacking
 
-## Configuration
+## 设置
 
-Colors and fonts can be changed in Regolith by updating your Xresource values.  The primary Xresources file that Regolith uses is `/etc/regolith/styles/root`.  To customize them, copy that file to `~/.Xresources-regolith`.  After logging back in your new settings should take effect.
-
-### Colors
-
-Color values can be selected by toggling the `#includes` in your Regolith Xresources file.  Lines in Xresources are commented if `!` is the first character of the line.
-
-
-## Package Changes
-
-| Function | Component | Configuration File | Package |
+| 功能 | 组件 | 设置文件 | Package |
 |----------|-----------|--------------------|---------|
-|Desktop Bar|i3-bar|`~/.config/regolith/i3/config`|regolith-i3|
-|System Status Indicators|i3xrocks|`~/.config/regolith/i3xrocks/config`|regolith-i3xrocks|
-|Window Manager|i3-wm|`~/.config/regolith/i3/config`|regolith-i3|
+|状态条|i3-bar|`~/.config/i3-regolith/config-4.16-1ubuntu18ppa10`|regolith-i3|
+|系统状态提示|i3blocks|`/etc/i3blocks.conf`|regolith-i3blocks|
+|窗口管理|i3-wm|`~/.config/i3-regolith/config-4.16-1ubuntu18ppa10`|regolith-i3|
 |App Launcher|Rofi|`/etc/rofi.conf`|regolith-rofi-config|
-|System Keybindings|i3-wm|`~/.config/regolith/i3/config`|regolith-i3|
-|Keybinding Guide|Conky|`/etc/xdg/conky/config`|regolith-conky-config|
+|系统快捷键绑定|i3-wm|`~/.config/i3-regolith/config-4.16-1ubuntu18ppa10`|regolith-i3|
 
-## Packaging
+## 打包
 
-All deployable aspects of Regolith Linux are expressed via debian packages.  These packages are available in source form on the [Regolith Linux Github project](https://github.com/regolith-linux).  Creating packages is not necessary to change the look and feel of Regolith, however there are advantages to packaging changes.  More easily sharing changes, ability to have a common configuration across machines, automatic updates, and a clean versioning strategy are all advantages to using a packaging system.
+Regolith Linux 所有可布署的组件都是由debian packages 来描述的。 这些 packages 都在 [Regolith Linux Github project](https://github.com/regolith-linux) 以源码的形式存在。
+创建 packages 对更改Regolith的外观来说是不必要的。 但是创建Packages有一些好处。
+比如说更容易分享更改，在不同的机器上使用同一种设置，自动更新，以及更好的版本控制。

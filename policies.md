@@ -1,16 +1,20 @@
 ---
 layout: page
-title: Policies
+title: 条款
+lang: cn
 ---
 
-## Privacy
+## 隐私
 
-There is nothing in Regolith Linux itself that collects any user data, either anonymously or otherwise.  Because Regolith is a customization of Ubuntu Linux, any data collection that Ubuntu is doing will also be performed by Regolith Linux.  This website has vanilla Google Analytics integration.
+Regolith Linux 本身不会以任何方式（不管是匿名的或者其它）采集任何用户数据。 因为 Regolith 是 Ubuntu的一种自定义系统， Ubuntu存在的任何形式的数据采集，在Regolith 中也会同样存在。
+这个网站使用了谷歌分析集成。
 
-## Updates
+## 贡献 (Contribution)
 
-Regolith Linux is continually being updated with bug fixes and feature enhancements.  ~~At times, these updates will introduce changes that are not backwards compatible with earlier versions.  When this occurs, new copies of any user configuration files (such as the i3 config file) will be staged in the user directory with a version postfix.~~  Regolith's configuration files live in various places in `/etc`, mainly in `/etc/regolith/`.  To customize these files, make copies in your user directory and make changes there.  These files will not be modified by Regolith.  Existing files will not be deleted or modified, allowing the user to merge their customizations as needed.  Notification of upcoming updates that introduce breaking changes will be announced on the [Regolith Linux Announcements mailing list](https://www.freelists.org/list/regolith-linux).
+作为一个开源项目， Regolith Linux 欢迎任何人延展， 克隆， 或者做自己觉得合适的更改。 我们也欢迎感兴趣的朋友成为Contributor。
+但是在你想做代码贡献之前，请提交一个描述你想对Regolith做的更改的Issue， 这样的话就不会浪费任何人的时间。
 
-## Monetization
+## 货币化 (Monetization)
 
-Regolith Linux is an open source project with no profit motives.  Because this software can be provided without cost via GitHub, Source Forge, and Launchpad.net, there is no overhead and no need to spray advertisements all over everything.  GitHub, Launchpad.net, and Source Forge may have advertisements for their costs.  Some upstream projects are listed on the home page.  They may be a good place to look if you're looking for a place to provide some compensation.
+Regolith Linux 是一个开源的，无盈利目的项目。 因为这款软件可以免费由 Github, Source Forge, 和 Launchpad.net 支持， 所以就没有放广告的必要。
+Github, Source Forge, 和 Launchpad.net 可能会为了他们自己盈利放置广告。
