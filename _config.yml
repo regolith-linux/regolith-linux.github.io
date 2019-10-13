@@ -48,3 +48,8 @@ defaults:
       path: "it"
     values:
       lang: "it"
+-
+    scope:
+      path: "sv"
+    values:
+      lang: "sv"
