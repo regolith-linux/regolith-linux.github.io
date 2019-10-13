@@ -43,3 +43,8 @@ defaults:
       path: "cn"
     values:
       lang: "cn"
+  -
+    scope:
+      path: "it"
+    values:
+      lang: "it"
