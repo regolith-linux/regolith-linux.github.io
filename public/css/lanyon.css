@@ -41,11 +41,11 @@ body {
 }
 
 html {
-  font-family: "Source Code Pro Light", "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: "Source Code Pro Light", "PT Serif", "Georgia", "Times New Roman", "serif";
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Source Code Pro", "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "Source Code Pro", "PT Sans", "Helvetica", "Arial", "sans-serif";
   font-weight: 400;
   color: #313131;
   letter-spacing: -.025rem;
@@ -65,6 +65,31 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+.lang-selector {
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+.lang-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.lang-list-item {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 6px;
+  text-decoration: none;
+}
+
+.lang-icon {
+  font-size: .700rem;
+}
 
 /*
  * Container

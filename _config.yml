@@ -53,3 +53,8 @@ defaults:
       path: "sv"
     values:
       lang: "sv"
+  -
+    scope:
+      path: "de"
+    values:
+      lang: "de"
