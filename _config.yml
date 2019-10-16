@@ -58,3 +58,8 @@ defaults:
       path: "de"
     values:
       lang: "de"
+  -
+    scope:
+      path: "fr"
+    values:
+      lang: "fr"
