@@ -9,7 +9,7 @@ Regolith est un environnement de bureau qui s'écarte complètement des interfac
 
 [Visual tour of Regolith](/visual-tour.html)
 
-### En quoi Regolith est-il différent ?
+### En quoi Regolith est-il différent ?
 
 - Fournit les fonctionnalités système de GNOME avec un workflow [i3](https://i3wm.org/).
 - Permet aux nouveaux utilisateurs de tester rapidement un [tiling window manager](https://opensource.com/article/18/8/i3-tiling-window-manager).
@@ -21,13 +21,13 @@ Regolith est un environnement de bureau qui s'écarte complètement des interfac
 
 ### Obtenir Regolith
 
-Testez et installez Regolith directevement avec le [LiveCD](https://sourceforge.net/projects/regolith-linux/), ou, si votre ordinateur tourne déjà sous Ubuntu*, en ajoutant simplement une nouvelle session en installant le paquet `regolith-desktop` depuis le [PPA Regolith](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable). Voir la [page d'installation](/install.html) pour plus de précisions.
+Testez et installez Regolith directement avec le [LiveCD](https://sourceforge.net/projects/regolith-linux/), ou, si votre ordinateur tourne déjà sous Ubuntu*, en ajoutant simplement une nouvelle session en installant le paquet `regolith-desktop` depuis le [PPA Regolith](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable). Voir la [page d'installation](/install.html) pour plus de précisions.
 
 <sub>*Disponible pour Ubuntu 18.04 LTS et Ubuntu 19.04</sub>
 
 ### Prochaines étapes
 
-Jetez un œil sur notre [guide de démarrage](/getting_started.html) pour obtenir plus d'informations sur Regolith Linx, consultez les [dernières nouvelles](/news.html), ou bien lisez notre [guide de configuration](/configure.html) pour apprendre à personnaliser votre bureau selon vos goûts. Les [raccourcis claviers](/keybindings.html) sont la manière la plus rapide d'être productif dans ce nouvel environnement.
+Jetez un œil sur notre [guide de démarrage](/getting_started.html) pour obtenir plus d'informations sur Regolith Linx, consultez les [dernières nouvelles](/news.html), ou bien lisez notre [guide de configuration](/configure.html) pour apprendre à personnaliser votre bureau selon vos goûts. Les [raccourcis clavier](/keybindings.html) sont la manière la plus rapide d'être productif dans ce nouvel environnement.
 
 ### Credits
 
