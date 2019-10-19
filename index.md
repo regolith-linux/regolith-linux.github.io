@@ -27,7 +27,7 @@ Install or test drive Regolith from scratch with the [LiveCD Installer](https://
 
 ### Next Steps
 
-Have a look at the [Getting Started](/getting_started.html) guide to learn more about using Regolith Linux, see the [latest updates](/news.html), or check out the [configuration](/configure.html) page to learn about how to tweak it to your liking. Also have a look at the [Keybindings](/keybindings.html) to learn the quickest way around your new desktop environment.
+Have a look at the [Getting Started](/getting_started.html) guide to learn more about using Regolith Linux, see the [latest updates](/news.html), or check out the [configuration](/configure.html) page and [list of HowTos](https://github.com/search?utf8=✓&q=org%3Aregolith-linux+HowTo+in%3Atitle&type=Wikis) to learn about how to tweak it to your liking. Also have a look at the [Keybindings](/keybindings.html) to learn the quickest way around your new desktop environment.
 
 ### Credits
 
