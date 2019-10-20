@@ -31,13 +31,14 @@ Have a look at the [Getting Started](/getting_started.html) guide to learn more 
 
 ### Credits
 
-Regolith is more curation than creation.  Here are some of people and entities that produced work independently from which Regolith is based.
+Regolith is more curation than creation.  Here are some of the notable people and entities that produced unaffiliated work **independently** from which Regolith is based.
 
 |---------|----------|
 | [Michael Stapelberg](https://i3wm.org) and [Ingo Bürk](https://github.com/Airblader/i3) | Desktop UI
 | [Dave Davenport](https://github.com/davatorium/rofi) | Desktop UI
 | [yshui](https://github.com/yshui/compton) | Desktop UI
 | [Alberts Muktupāvels](https://wiki.gnome.org/Projects/GnomeFlashback) | Desktop UI
+| [Jesús Castro](https://github.com/jcstr) and [Alex Palaistras](https://github.com/deuill) | Desktop UI
 | [Vivien Didelot](https://github.com/vivien/i3blocks) | Desktop UI
 | [Arctic Ice Studio](https://github.com/arcticicestudio) and [Ethan Schoonover](https://ethanschoonover.com/solarized/) | Colors
 | [Eliver Lara](https://github.com/EliverLara/Nordic) | Theme
