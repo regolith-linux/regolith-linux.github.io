@@ -21,7 +21,7 @@ Regolith è un ambiente desktop unico che elimina la ridondanza di copie di Wind
 
 ### Ottieni Regolith
 
-Installa o testa Regolith dalle fondamenta con il [LiveCD Installer](https://sourceforge.net/projects/regolith-linux/), o se hai già una chiavetta setup Ubuntu*, aggiungilo semplicemente come un altra sessione desktop installando il package `regolith-desktop` da [Regolith PPA](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable). Vedi [pagina d'installazione](/install.html) per maggiori dettagli.
+Installa o testa Regolith dalle fondamenta con il [LiveCD Installer](https://sourceforge.net/projects/regolith-linux/), o se hai già una chiavetta setup Ubuntu*, aggiungilo semplicemente come un altra sessione desktop installando il package `regolith-desktop` da [Regolith PPA](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable). Vedi [pagina d'installazione](https://github.com/regolith-linux/regolith-desktop/wiki/Install-Regolith) per maggiori dettagli.
 
 <sub>*Ubuntu 18.04 e Ubuntu 19.04 base disponibili</sub>
 

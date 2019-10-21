@@ -21,7 +21,7 @@ Regolith är en unik skrivbordsmiljö som dumpar allt cruft från Windows- och M
 
 ### Skaffa Regolith
 
-Installera och testa Regolith från grunden med en [LiveCD Installerare](https://sourceforge.net/projects/regolith-linux/), eller om du redan har Ubuntu installerat*, kan du bara lägga till det som en ytterligare skrivbords-session genom att installera 'regolith-desktop' från [Regolith PPA](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable). För mer information se [installeringsinstruktioner](/install.html).
+Installera och testa Regolith från grunden med en [LiveCD Installerare](https://sourceforge.net/projects/regolith-linux/), eller om du redan har Ubuntu installerat*, kan du bara lägga till det som en ytterligare skrivbords-session genom att installera 'regolith-desktop' från [Regolith PPA](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable). För mer information se [installeringsinstruktioner](https://github.com/regolith-linux/regolith-desktop/wiki/Install-Regolith).
 
 <sub>*Ubuntu 18.04 och Ubuntu 19.04 grunder tillgängliga</sub>
 

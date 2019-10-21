@@ -21,7 +21,7 @@ Regolith ist eine einzigartige Desktop-Umgebung, welche die Überflüssigkeiten 
 
 ### Regolith Herunterladen
 
-Installiere oder probiere Regolith mithilfe des [LiveCD Installers](https://sourceforge.net/projects/regolith-linux/), oder falls du schon über ein Ubuntu System* aufgesetzt hast, füge es einfach als weitere Desktop-Sitzung  hinzu indem du das Paket `regolith-desktop` von dem [Regolith PPA](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable) installierst. Weitere Informationen findest du auf der [Installations Seite](/install.html).
+Installiere oder probiere Regolith mithilfe des [LiveCD Installers](https://sourceforge.net/projects/regolith-linux/), oder falls du schon über ein Ubuntu System* aufgesetzt hast, füge es einfach als weitere Desktop-Sitzung  hinzu indem du das Paket `regolith-desktop` von dem [Regolith PPA](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable) installierst. Weitere Informationen findest du auf der [Installations Seite](https://github.com/regolith-linux/regolith-desktop/wiki/Install-Regolith).
 
 
 <sub>*verfügbar für Ubuntu 18.04 und Ubuntu 19.04</sub>

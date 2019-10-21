@@ -21,7 +21,7 @@ Regolith est un environnement de bureau qui s'écarte complètement des interfac
 
 ### Obtenir Regolith
 
-Testez et installez Regolith directement avec le [LiveCD](https://sourceforge.net/projects/regolith-linux/), ou, si votre ordinateur tourne déjà sous Ubuntu*, en ajoutant simplement une nouvelle session en installant le paquet `regolith-desktop` depuis le [PPA Regolith](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable). Voir la [page d'installation](/install.html) pour plus de précisions.
+Testez et installez Regolith directement avec le [LiveCD](https://sourceforge.net/projects/regolith-linux/), ou, si votre ordinateur tourne déjà sous Ubuntu*, en ajoutant simplement une nouvelle session en installant le paquet `regolith-desktop` depuis le [PPA Regolith](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable). Voir la [page d'installation](https://github.com/regolith-linux/regolith-desktop/wiki/Install-Regolith) pour plus de précisions.
 
 <sub>*Disponible pour Ubuntu 18.04 LTS et Ubuntu 19.04</sub>
 
