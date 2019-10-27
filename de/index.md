@@ -13,7 +13,7 @@ Regolith ist eine einzigartige Desktop-Umgebung, welche die Überflüssigkeiten 
 
 - Bietet GNOME's Systemverwaltungsfunktionen vereint mit dem porduktiven Workflow von [i3](https://i3wm.org/).
 - Ermöglicht neuen Benutzern einen schnellen und einfachen Weg um einen [tiling window manager](https://opensource.com/article/18/8/i3-tiling-window-manager) zu probieren.
-- Unterstützt [einfache Anpassung](/configure.html) und [ricing](https://www.reddit.com/r/unixporn/) mittels einer einheitlichen [Xresource Konfiguration](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root).
+- Unterstützt [einfache Anpassung](https://github.com/regolith-linux/regolith-desktop/wiki/Customize) und [ricing](https://www.reddit.com/r/unixporn/) mittels einer einheitlichen [Xresource Konfiguration](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root).
 - Vertraut auf dem 
 - Stützt sich auf dem [Ubuntu App Store](https://snapcraft.io/store) und Packet Repository für eine vielfältige, qualitative Auswahl von Software.
 - Liefert einen Desktop mit minimaler Anzahl Features, welche bei Bedarf angepasst und erweitert werden können.
@@ -28,7 +28,7 @@ Installiere oder probiere Regolith mithilfe des [LiveCD Installers](https://sour
 
 ### Nächste Schritte
 
-Schau dir mal die [Ersten Schritte](/getting_started.html) an um mehr über die Benutzung von Regolith Linux zu erfahren, siehe die [aktuellen Neuerungen](/news.html) oder besuche die [Konfiguration](/configure.html) Seite um zu erfahren wie Regolith an dein Bedürfnis angepasst werden kann. Wirf zudem einen Blick auf die [Tastenkombinationen](/keybindings.html) um den schnellsten Weg durch deine neue Desktop-Ungebung zu finden.
+Schau dir mal die [Ersten Schritte](https://github.com/regolith-linux/regolith-desktop/wiki/Getting-Started) an um mehr über die Benutzung von Regolith Linux zu erfahren, siehe die [aktuellen Neuerungen](/news.html) oder besuche die [Konfiguration](https://github.com/regolith-linux/regolith-desktop/wiki/Customize) Seite um zu erfahren wie Regolith an dein Bedürfnis angepasst werden kann. Wirf zudem einen Blick auf die [Tastenkombinationen](https://github.com/regolith-linux/regolith-desktop/wiki/Keybindings) um den schnellsten Weg durch deine neue Desktop-Ungebung zu finden.
 
 ### Danksagung
 Regolith ist eher eine Kuration als eine Kreation. Hier sind einige der Personen, auf deren Arbeit Regolith aufsetzt.

@@ -13,7 +13,7 @@ Regolith est un environnement de bureau qui s'écarte complètement des interfac
 
 - Fournit les fonctionnalités système de GNOME avec un workflow [i3](https://i3wm.org/).
 - Permet aux nouveaux utilisateurs de tester rapidement un [tiling window manager](https://opensource.com/article/18/8/i3-tiling-window-manager).
-- Supporte [la personnalisation](/configure.html) et le [« ricing »](https://www.reddit.com/r/unixporn/) grâce à une [configuration Xresource](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root).
+- Supporte [la personnalisation](https://github.com/regolith-linux/regolith-desktop/wiki/Customize) et le [« ricing »](https://www.reddit.com/r/unixporn/) grâce à une [configuration Xresource](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root).
 - Se base sur [l'app store Ubuntu](https://snapcraft.io/store) et ses dépôts pour offrir une large gamme de logiciels et d'applications.
 - Offre un bureau avec un petit nombre de fonctionnalités qui peuvent être personnalisées et étoffées si nécessaire.
 - Affiche, au premier démarrage, une sélection de raccourcis clavier pour naviguer entre les fenêtres, lancer des applications et gérer votre système.
@@ -27,7 +27,7 @@ Testez et installez Regolith directement avec le [LiveCD](https://sourceforge.ne
 
 ### Prochaines étapes
 
-Jetez un œil sur notre [guide de démarrage](/getting_started.html) pour obtenir plus d'informations sur Regolith Linx, consultez les [dernières nouvelles](/news.html), ou bien lisez notre [guide de configuration](/configure.html) pour apprendre à personnaliser votre bureau selon vos goûts. Les [raccourcis clavier](/keybindings.html) sont la manière la plus rapide d'être productif dans ce nouvel environnement.
+Jetez un œil sur notre [guide de démarrage](https://github.com/regolith-linux/regolith-desktop/wiki/Getting-Started) pour obtenir plus d'informations sur Regolith Linx, consultez les [dernières nouvelles](/news.html), ou bien lisez notre [guide de configuration](https://github.com/regolith-linux/regolith-desktop/wiki/Customize) pour apprendre à personnaliser votre bureau selon vos goûts. Les [raccourcis clavier](https://github.com/regolith-linux/regolith-desktop/wiki/Keybindings) sont la manière la plus rapide d'être productif dans ce nouvel environnement.
 
 ### Credits
 

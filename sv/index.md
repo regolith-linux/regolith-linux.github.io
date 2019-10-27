@@ -13,7 +13,7 @@ Regolith är en unik skrivbordsmiljö som dumpar allt cruft från Windows- och M
 
 - Erbjuder GNOME's systemhantering tillsammans med [i3](https://i3wm.org/)'s produktiva arbetsmiljö.
 - Gör det möjligt för nya användare att snabbt och enkelt testa en[tiling window manager](https://opensource.com/article/18/8/i3-tiling-window-manager). 
-- Stödjer [enkel konfiguration](/configure.html) och [ricing](https://www.reddit.com/r/unixporn/) via en konsistent [Xresource konfigurationsfil](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root).
+- Stödjer [enkel konfiguration](https://github.com/regolith-linux/regolith-desktop/wiki/Customize) och [ricing](https://www.reddit.com/r/unixporn/) via en konsistent [Xresource konfigurationsfil](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root).
 - Har genom [Ubuntus appbutik](https://snapcraft.io/store) och bibliotek ett stort urval av högkvalitativa applikationer.
 - Levererar en skrivbordsmiljö med få UI detaljer som kan enkelt förändras och utvecklas efter behov.
 - Installeras med ett lättillgängligt av/påslagbart fönster som visar dom vanliga kortkommandona som används för att navigera applikationsfönster, starta appar, och kontrollera datorsystemet.
@@ -27,7 +27,7 @@ Installera och testa Regolith från grunden med en [LiveCD Installerare](https:/
 
 ### Utforska Vidare
 
-Ta en titt på [startguiden](/getting_started.html) för att lära dig mer om hur man använder Regolith Linux, läsa om dom [Senaste Uppdateringarna](/news.html), eller kolla upp [Konfigurationssidan](/configure.html) för att lära dig mer om hur man moddar skrivbordsmiljön. Vidare kan du också läsa om dom olika [tangentbordskortkommandona](/keybindings.html) för att lära dig det enklaste sättet att navigera runt i din nya skrivbordsmiljö
+Ta en titt på [startguiden](https://github.com/regolith-linux/regolith-desktop/wiki/Getting-Started) för att lära dig mer om hur man använder Regolith Linux, läsa om dom [Senaste Uppdateringarna](/news.html), eller kolla upp [Konfigurationssidan](https://github.com/regolith-linux/regolith-desktop/wiki/Customize) för att lära dig mer om hur man moddar skrivbordsmiljön. Vidare kan du också läsa om dom olika [tangentbordskortkommandona](https://github.com/regolith-linux/regolith-desktop/wiki/Keybindings) för att lära dig det enklaste sättet att navigera runt i din nya skrivbordsmiljö
 
 ### Tack till
 

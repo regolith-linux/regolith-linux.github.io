@@ -13,7 +13,7 @@ Regolith è un ambiente desktop unico che elimina la ridondanza di copie di Wind
 
 - Fornisce i sistemi di gestione GNOME con workflow produttivo [i3](https://i3wm.org/)
 - Fornisce ai nuovi utenti possibilità di provare un [tiling window manager](https://opensource.com/article/18/8/i3-tiling-window-manager) in modo divertente ed agile.
-- Supporta [modifiche personalizzate](/configure.html) e [ricing](https://www.reddit.com/r/unixporn/) tramite una consistente [configurazione Xresource](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root)
+- Supporta [modifiche personalizzate](https://github.com/regolith-linux/regolith-desktop/wiki/Customize) e [ricing](https://www.reddit.com/r/unixporn/) tramite una consistente [configurazione Xresource](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root)
 - Fa affidamento all'[Ubuntu app store](https://snapcraft.io/store) e package repositories per una qualitativa ed ampia selezione di software.
 - Fornisce un desktop con un piccolo set di features UI che possono essere personalizzate ed espanse come necessario.
 - Offre un overlay di comandi base con cui navigare finestre, lanciare applicazione e gestire il sistema.
@@ -26,7 +26,7 @@ Installa o testa Regolith dalle fondamenta con il [LiveCD Installer](https://sou
 <sub>*Ubuntu 18.04 e Ubuntu 19.04 base disponibili</sub>
 
 ### Prossimi passi
-Dai un occhio alla guida [Getting Started](/getting_started.html) per imparare ad usare Regolith Linux, vedi [ultimi aggiornamenti](/news.html), o controlla la pagina di [configurazione](/configure.html) per imparare come modificarlo a tuo piacimento. Dai un'occhiata anche a [Keybindings](/keybindings.html) per imparare i migliori trucchi del tuo nuovo desktop environment.
+Dai un occhio alla guida [Getting Started](https://github.com/regolith-linux/regolith-desktop/wiki/Getting-Started) per imparare ad usare Regolith Linux, vedi [ultimi aggiornamenti](/news.html), o controlla la pagina di [configurazione](https://github.com/regolith-linux/regolith-desktop/wiki/Customize) per imparare come modificarlo a tuo piacimento. Dai un'occhiata anche a [Keybindings](https://github.com/regolith-linux/regolith-desktop/wiki/Keybindings) per imparare i migliori trucchi del tuo nuovo desktop environment.
 
 ### Credits
 

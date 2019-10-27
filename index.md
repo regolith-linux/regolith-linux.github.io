@@ -13,7 +13,7 @@ Regolith is a unique desktop environment that ditches the cruft of Windows and M
 
 - Provides GNOME's system management features with [i3](https://i3wm.org/)'s productive workflow.
 - Enables new users a fast and fun way to try out a [tiling window manager](https://opensource.com/article/18/8/i3-tiling-window-manager).
-- Supports [easy customization](/configure.html) and [ricing](https://www.reddit.com/r/unixporn/) via a consistent [Xresource configuration](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root).
+- Supports [easy customization](https://github.com/regolith-linux/regolith-desktop/wiki/Customize) and [ricing](https://www.reddit.com/r/unixporn/) via a consistent [Xresource configuration](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root).
 - Relies on [Ubuntu's app store](https://snapcraft.io/store) and package repositories for a large, high quality selection of software.
 - Delivers a desktop with small set of UI features that can be customized and expanded as needed.
 - Ships with a toggle overlay of basic keybindings to navigate over windows, launch apps, and manage your system.
@@ -27,7 +27,15 @@ Install or test drive Regolith from scratch with the [LiveCD Installer](https://
 
 ### Next Steps
 
-Have a look at the [Getting Started](/getting_started.html) guide to learn more about using Regolith Linux, see the [latest updates](/news.html), or check out the [configuration](/configure.html) page and [list of HowTos](https://github.com/search?utf8=✓&q=org%3Aregolith-linux+HowTo+in%3Atitle&type=Wikis) to learn about how to tweak it to your liking. Also have a look at the [Keybindings](/keybindings.html) to learn the quickest way around your new desktop environment.
+Have a look at the [Getting Started](https://github.com/regolith-linux/regolith-desktop/wiki/Getting-Started) guide to learn more about using Regolith Linux, see the [latest updates](/news.html), or check out the [configuration](https://github.com/regolith-linux/regolith-desktop/wiki/Customize) page and [list of HowTos](https://github.com/search?utf8=✓&q=org%3Aregolith-linux+HowTo+in%3Atitle&type=Wikis) to learn about how to tweak it to your liking. Also have a look at the [Keybindings](https://github.com/regolith-linux/regolith-desktop/wiki/Keybindings) to learn the quickest way around your new desktop environment.  Once you've gotten familiar with Regolith have a look at the [active RfCs](https://github.com/regolith-linux/regolith-desktop/issues?utf8=✓&q=is%3Aissue+is%3Aopen+"Request+for+Comment").
+
+### Contact
+
+|---------|----------|
+| Bug Reports | [Github Issues](https://github.com/regolith-linux/regolith-desktop/issues) |
+| Feature Requests | [Github Issues](https://github.com/regolith-linux/regolith-desktop/issues) |
+| Chat | [Slack Channel](https://regolith-linux.herokuapp.com) |
+| Change Announcements | [Mailing List](https://www.freelists.org/list/regolith-linux) |
 
 ### Credits
 
