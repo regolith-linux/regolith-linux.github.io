@@ -1,0 +1,97 @@
+html, body {
+    width: 100%;
+    background-color: #ffffff;
+  }
+
+.navbar {
+    text-align: left;
+    min-width: 300px;
+  }
+
+.navbar li {
+    float: left;
+    text-align: center;
+    display: block;
+    font-family: Richardson Brand Revolution Block;
+    font-weight: 300;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #232629;
+  }
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.centered {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.regolith-logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: 196px;
+}
+
+.content li {
+    font-family: Fira sans, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-align: left;
+    float: center;
+}
+
+h1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 200;
+    font-size: 32px;
+    font-family: Fira sans, sans-serif;
+}
+
+p {
+    text-align: left;
+}
+
+.screenshot {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.list-link a {
+    font-family: Fira sansm sans-serif;
+    font-size: 18px;
+}
+
+ /* Style the button that is used to open and close the collapsible content */
+ .collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content2 {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    width: ;
+  } 
