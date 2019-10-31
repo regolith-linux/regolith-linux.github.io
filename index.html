@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Regolith Linux</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  </head>
+
+  <div class="navbar"><div class="centered">
+    <ul>
+      <li><a href="https://github.com/regolith-linux/regolith-desktop/wiki">Wiki</a></li>
+      <li><a href="https://github.com/regolith-linux">Github</a></li>
+      <li><a href="https://regolith-linux.herokuapp.com/">Slack</a></li>
+    </ul>
+  </div>
+
+  <div class="regolith-logo"><div class="centered">
+    <img class="regolith-logo" src="images/regolith-linux-logo.jpg">
+  </div>
+
+  <div class="content">
+    <p>Regolith is a unique desktop environment that ditches the 
+    cruft of Windows and Mac knockoffs to provide a productive
+    and beautiful place to get work done. Built on top of Ubuntu 
+    and GNOME, Regolith stands on a stable, well-supported, and 
+    consistent foundation.</p>
+  </div>
+
+  <div class="centered">
+      <a href="https://raw.githubusercontent.com/regolith-linux/regolith-linux.github.io/new-index-page/images/screenshot-intro.png"><img class="screenshot" src="images/screenshot-intro.png"></a>
+  </div>
+
+  <!-- Visual Tour of Regolith -->
+
+  <button type="button" class="collapsible">Visual Tour of Regolith</button>
+  <div class="content2">
+    <h1>
+      Visual Tour
+    </h1>
+    <p>Upon login, Regolith is relatively free of clutter.</p>
+    <a href="https://raw.githubusercontent.com/regolith-linux/regolith-linux.github.io/new-index-page/images/screenshot-empty.png"><img class="screenshot" src="images/screenshot-empty.png"></a>
+    <p>For those that do most of their work in the terminal, pressing <kbd>super</kbd>-<kbd>enter</kbd> is all it takes to get to business.</p>
+    <a href="https://raw.githubusercontent.com/regolith-linux/regolith-linux.github.io/new-index-page/images/screenshot-terminal.png"><img class="screenshot" src="images/screenshot-terminal.png"></a>
+    <p>Need more terminals? Toggle between horizontal and vertical layouts with <kbd>super</kbd>-<kbd>backspace</kbd>.</p>
+    <a href="https://raw.githubusercontent.com/regolith-linux/regolith-linux.github.io/new-index-page/images/screenshot-terminals.png"><img class="screenshot" src="images/screenshot-terminals.png"></a>
+    <p>Launching apps is as simple as <kbd>super</kbd>-<kbd>space</kbd>, type a few letters of the app you’re looking for and press <kbd>enter</kbd> to launch it.</p>
+    <a href="https://raw.githubusercontent.com/regolith-linux/regolith-linux.github.io/new-index-page/images/screenshot-rofi.png"><img class="screenshot" src="images/screenshot-rofi.png"></a>
+    <p>GNOME integration provides consistent and simple system management. Tweak your UI, auto mount your USB drives, connect to a wireless router.</p>
+    <a href="https://raw.githubusercontent.com/regolith-linux/regolith-linux.github.io/new-index-page/images/screenshot-gnome.png"><img class="screenshot" src="images/screenshot-gnome.png"></a>
+    <p>Toggle an overlay that presents the most important keybindings until they become muscle-memory.</p>
+    <a href="https://raw.githubusercontent.com/regolith-linux/regolith-linux.github.io/new-index-page/images/screenshot-conky.png"><img class="screenshot" src="images/screenshot-conky.png"></a>
+    <p>Big on multitasking? Quickly find the window you’re looking for via <kbd>super</kbd>-<kbd>ctrl</kbd>-<kbd>space</kbd>.</p>
+    <a href="https://raw.githubusercontent.com/regolith-linux/regolith-linux.github.io/new-index-page/images/screenshot-window.png"><img class="screenshot" src="images/screenshot-window.png"></a>
+    <p>Waste no space on frivilous UI and take advantage of every pixel.</p>
+    <a href="https://raw.githubusercontent.com/regolith-linux/regolith-linux.github.io/new-index-page/images/screenshot-develop.png"><img class="screenshot" src="images/screenshot-develop.png"></a>
+  </div> 
+
+  <!-- Credit to w3schools : https://www.w3schools.com/howto/howto_js_collapsible.asp -->
+  <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+          content.style.display = "none";
+       } else {
+          content.style.display = "block";
+       }
+      });
+  } 
+  </script>
+  <!-- End of code from w3school -->
+
+  <div class="content">
+    <h1>
+        What Makes Regolith Different?
+    </h1>
+    <ul class="list-link">
+      <li>Provides GNOME’s system management features with i3’s productive workflow.</li>
+      <li>Enables new users a fast and fun way to try out a <a href="https://opensource.com/article/18/8/i3-tiling-window-manager">tiling window manager</a>.</li>
+      <li>Supports <a href="https://github.com/regolith-linux/regolith-desktop/wiki/Customize">easy customization</a> and <a href="https://www.reddit.com/r/unixporn/">ricing</a> via a consistent <a href="https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root">Xresource configuration</a>.</li>
+      <li>Relies on <a href="https://snapcraft.io/store">Ubuntu’s app store</a> and package repositories for a large, high quality selection of software.</li>
+      <li>Delivers a desktop with small set of UI features that can be customized and expanded as needed.</li>
+      <li>Ships with a toggle overlay of basic keybindings to navigate over windows, launch apps, and manage your system.</li>
+      <li>Provides a <a href="https://github.com/regolith-linux/regolith-desktop/blob/master/build.sh">build script</a> and <a href="https://github.com/regolith-linux/regolith-desktop/blob/master/package-model.json">package metadata</a>  to allow users to easily fork the desktop environment and distribution.</li>
+    </ul>
+    <p style="text-align: center;">
+        *Ubuntu 18.04 and Ubuntu 19.04 bases available
+    </p>
+
+  <div class="content">
+    <h1>
+        Get Regolith
+    </h1>
+    <p>
+        Install or test drive Regolith from scratch with the <a href="https://sourceforge.net/projects/regolith-linux/">LiveCD Installer</a>, or 
+        if you already have an existing Ubuntu setup*, simply add it as another desktop session by installing the package <code>regolith-desktop</code> 
+        from the <a href="https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable">Regolith PPA</a>. See the <a href="https://github.com/regolith-linux/regolith-desktop/wiki/Install-Regolith">install page</a> for more details.
+    </p>
+    <h1>
+        Next Steps
+    </h1>
+    <p>
+        Have a look at the <a href="https://github.com/regolith-linux/regolith-desktop/wiki/Getting-Started">Getting Started</a> guide to learn 
+        more about using Regolith Linux, see the <a href="https://regolith-linux.org/news.html">latest updates</a>, or check out the <a href="https://github.com/regolith-linux/regolith-desktop/wiki/Customize">configuration</a> page 
+        and list of <a href="https://github.com/search?utf8=%E2%9C%93&q=org%3Aregolith-linux+HowTo+in%3Atitle&type=Wikis">HowTos</a> to learn about how to tweak it to your liking. Also have a look at the <a href="https://github.com/regolith-linux/regolith-desktop/wiki/Keybindings">Keybindings</a> to learn the quickest way around your new 
+        desktop environment. Once you’ve gotten familiar with Regolith have a look at the <a href="https://github.com/regolith-linux/regolith-desktop/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+%22Request+for+Comment%22">active RfCs</a>.
+    </p>
+    <h1>
+        Credits
+    </h1>
+    <p>
+        Regolith is more curation than creation. Here are some of the notable people and entities that produced unaffiliated work <b>independently</b> from which Regolith is based.
+    </p>
+    <table style="width: 100%;">
+        <tr>
+           <td>
+              <a href="https://i3wm.org/">Michael Stapelberg</a> and <a href="https://github.com/Airblader/i3">Ingo Bürk</a>
+           </td> 
+           <td>Desktop UI</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://github.com/davatorium/rofi">Dave Davenport</a>
+          </td>
+          <td>Desktop UI</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://github.com/yshui/compton">yshui</a>
+          </td>
+          <td>Desktop UI</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://wiki.gnome.org/Projects/GnomeFlashback">Alberts Muktupāvels</a>
+          </td>
+          <td>Desktop UI</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://github.com/jcstr">Jesús Castro</a> and <a href="Jesús Castro">Alex Palaistras</a>
+          </td>
+          <td>Desktop UI</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://github.com/vivien/i3blocks">Vivien Didelot</a>
+          </td>
+          <td>Desktop UI</td>
+        </tr>
+        <tr>
+          <td>
+          <a href="https://github.com/arcticicestudio">Arctic Ice Studio</a> and <a href="https://ethanschoonover.com/solarized/">Ethan Schoonover</a>
+          </td>
+        <td>Colors</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://github.com/EliverLara/Nordic">Eliver Lara</a>
+          </td>
+          <td>Theme</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://snwh.org/paper">Sam Hewitt</a>
+          </td>
+          <td>Icons</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://st.suckless.org/">suckless.org</a>
+          </td>
+          <td>Terminal</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://unsplash.com/photos/C0OD8OM-oM0">Lucas Bellator</a> and <a href="https://unsplash.com/photos/xnqVGsbXgV4">Luca Bravo</a>
+          </td>
+          <td>Wallpaper</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://launchpad.net/cubic">PJ Singh</a>
+          </td>
+          <td>Infrastructure</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://canonical.com/">Canonical</a> and <a href="https://github.com/">Github</a>
+          </td>
+          <td>Infrastructure</td>
+        </tr>
+    </table>
+
+  </div>
+
+  </html>
