@@ -11,7 +11,6 @@ html, body {
 .navbar li {
     float: left;
     text-align: center;
-    display: block;
     font-family: Richardson Brand Revolution Block;
     font-weight: 300;
     text-align: center;
@@ -36,7 +35,7 @@ html, body {
     height: 196px;
 }
 
-.content li {
+.content {
     font-family: Fira sans, sans-serif;
     font-weight: 300;
     font-size: 18px;
@@ -69,8 +68,11 @@ p {
 }
 
 .list-link li {
+    text-align: left;
+    float: center;
     font-family: Fira sans, sans-serif;
     font-size: 18px;
+    font-weight: 300;
     color: #000000;
     list-style-type: disc;
 }
