@@ -42,7 +42,7 @@ html, body {
     font-size: 18px;
     text-align: left;
     float: center;
-    color: #000000
+    color: #000000;
 }
 
 h1 {
@@ -76,6 +76,7 @@ p {
 }
 
  /* Style the button that is used to open and close the collapsible content */
+ /* Credit to w3schools : https://www.w3schools.com/howto/howto_js_collapsible.asp */
  .collapsible {
     background-color: #eee;
     color: #444;
@@ -94,8 +95,9 @@ p {
   }
   
   /* Style the collapsible content. Note: hidden by default */
+  /* End of code from w3school */
   .content2 {
-    padding: 0 18px;
+    padding: 0 0px;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
