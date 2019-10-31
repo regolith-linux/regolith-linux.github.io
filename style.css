@@ -8,7 +8,7 @@ html, body {
     min-width: 300px;
   }
 
-.navbar li a {
+.navbar li {
     float: left;
     text-align: center;
     display: block;
@@ -20,7 +20,7 @@ html, body {
     color: #268bd1;
   }
 
-.navbar ul {
+.navbar li {
     list-style-type: none;
 }
 
@@ -36,7 +36,7 @@ html, body {
     height: 196px;
 }
 
-.content li a {
+.content li {
     font-family: Fira sans, sans-serif;
     font-weight: 300;
     font-size: 18px;
@@ -68,11 +68,11 @@ p {
     height: 100%;
 }
 
-.list-link li a {
+.list-link li {
     font-family: Fira sans, sans-serif;
     font-size: 18px;
     color: #000000;
-
+    list-style-type: disc;
 }
 
  /* Style the button that is used to open and close the collapsible content */
