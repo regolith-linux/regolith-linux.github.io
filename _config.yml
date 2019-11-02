@@ -64,3 +64,8 @@ defaults:
       path: "fr"
     values:
       lang: "fr"
+  -
+    scope:
+      path: "pt_br"
+    values:
+      lang: "pt_br"
