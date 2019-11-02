@@ -33,16 +33,59 @@ Ta en titt på [startguiden](https://github.com/regolith-linux/regolith-desktop/
 
 Regolith är mer en kurering av olika saker än en enskild skapelse. Här nedan är några av dom människor och organisation som skapat dom olika delarna på vilka Regolith Linux är baserat.
 
-|---------|----------|
-| [Michael Stapelberg](https://i3wm.org) och [Ingo Bürk](https://github.com/Airblader/i3) | Skrivbordsmiljöns UI
-| [Dave Davenport](https://github.com/davatorium/rofi) | Skrivbordsmiljöns UI
-| [yshui](https://github.com/yshui/compton) | Skrivbordsmiljöns UI
-| [Alberts Muktupāvels](https://wiki.gnome.org/Projects/GnomeFlashback) | Skrivbordsmiljöns UI
-| [Vivien Didelot](https://github.com/vivien/i3blocks) | Skrivbordsmiljöns UI
-| [Arctic Ice Studio](https://github.com/arcticicestudio) och [Ethan Schoonover](https://ethanschoonover.com/solarized/) | Färgtema
-| [Eliver Lara](https://github.com/EliverLara/Nordic) | Tema
-| [Sam Hewitt](https://snwh.org/paper) | Ikoner
-| [suckless.org](https://st.suckless.org) | Terminalen
-| [Lucas Bellator](https://unsplash.com/photos/C0OD8OM-oM0) och [Luca Bravo](https://unsplash.com/photos/xnqVGsbXgV4) | Skrivbordsbakgrund
-| [PJ Singh](https://launchpad.net/cubic) | Infrastruktur
-| [Canonical](https://canonical.com) och [GitHub](https://github.com) | Infrastruktur
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://i3wm.org">Michael Stapelberg</a> and <a href="https://github.com/Airblader/i3">Ingo Bürk</a></td>
+      <td>Skrivbordsmiljöns UI</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/davatorium/rofi">Dave Davenport</a></td>
+      <td>Skrivbordsmiljöns UI</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/yshui/compton">yshui</a></td>
+      <td>Skrivbordsmiljöns UI</td>
+    </tr>
+    <tr>
+      <td><a href="https://wiki.gnome.org/Projects/GnomeFlashback">Alberts Muktupāvels</a></td>
+      <td>Skrivbordsmiljöns UI</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/jcstr">Jesús Castro</a> and <a href="https://github.com/deuill">Alex Palaistras</a></td>
+      <td>Skrivbordsmiljöns UI</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/vivien/i3blocks">Vivien Didelot</a></td>
+      <td>Skrivbordsmiljöns UI</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/arcticicestudio">Arctic Ice Studio</a> and <a href="https://ethanschoonover.com/solarized/">Ethan Schoonover</a></td>
+      <td>Färgtema</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/EliverLara/Nordic">Eliver Lara</a></td>
+      <td>Tema</td>
+    </tr>
+    <tr>
+      <td><a href="https://snwh.org/paper">Sam Hewitt</a></td>
+      <td>Ikoner</td>
+    </tr>
+    <tr>
+      <td><a href="https://st.suckless.org">suckless.org</a></td>
+      <td>Terminalen</td>
+    </tr>
+    <tr>
+      <td><a href="https://unsplash.com/photos/C0OD8OM-oM0">Lucas Bellator</a> and <a href="https://unsplash.com/photos/xnqVGsbXgV4">Luca Bravo</a></td>
+      <td>Skrivbordsbakgrund</td>
+    </tr>
+    <tr>
+      <td><a href="https://launchpad.net/cubic">PJ Singh</a></td>
+      <td>Infrastruktur</td>
+    </tr>
+    <tr>
+      <td><a href="https://canonical.com">Canonical</a> and <a href="https://github.com">GitHub</a></td>
+      <td>Infrastruktur</td>
+    </tr>
+  </tbody>
+</table>

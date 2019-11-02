@@ -32,18 +32,59 @@ Dai un occhio alla guida [Getting Started](https://github.com/regolith-linux/reg
 
 Regolith è più cura che crazione. Di seguito alcune persone ed entità che hanno prodotto lavoro indipendente sul quale Regolith si basa.
 
-|---------|----------|
-| [Michael Stapelberg](https://i3wm.org) e [Ingo Bürk](https://github.com/Airblader/i3) |
-Desktop UI
-| [Dave Davenport](https://github.com/davatorium/rofi) | Desktop UI
-| [yshui](https://github.com/yshui/compton) | Desktop UI
-| [Alberts Muktupāvels](https://wiki.gnome.org/Projects/GnomeFlashback) | Desktop UI
-| [Vivien Didelot](https://github.com/vivien/i3blocks) | Desktop UI
-| [Arctic Ice Studio](https://github.com/arcticicestudio) e [Ethan Schoonover](https://ethanschoonover.com/solarized/) | 
-Colori
-| [Eliver Lara](https://github.com/EliverLara/Nordic) | Temi
-| [Sam Hewitt](https://snwh.org/paper) | Icone
-| [suckless.org](https://st.suckless.org) | Terminale
-| [Lucas Bellator](https://unsplash.com/photos/C0OD8OM-oM0) and [Luca Bravo](https://unsplash.com/photos/xnqVGsbXgV4) | Wallpaper
-| [PJ Singh](https://launchpad.net/cubic) | Infrastruttura
-| [Canonical](https://canonical.com) and [GitHub](https://github.com) | Infrastruttura
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://i3wm.org">Michael Stapelberg</a> and <a href="https://github.com/Airblader/i3">Ingo Bürk</a></td>
+      <td>Desktop UI</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/davatorium/rofi">Dave Davenport</a></td>
+      <td>Desktop UI</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/yshui/compton">yshui</a></td>
+      <td>Desktop UI</td>
+    </tr>
+    <tr>
+      <td><a href="https://wiki.gnome.org/Projects/GnomeFlashback">Alberts Muktupāvels</a></td>
+      <td>Desktop UI</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/jcstr">Jesús Castro</a> and <a href="https://github.com/deuill">Alex Palaistras</a></td>
+      <td>Desktop UI</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/vivien/i3blocks">Vivien Didelot</a></td>
+      <td>Desktop UI</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/arcticicestudio">Arctic Ice Studio</a> and <a href="https://ethanschoonover.com/solarized/">Ethan Schoonover</a></td>
+      <td>Colori</td>
+    </tr>
+    <tr>
+      <td><a href="https://github.com/EliverLara/Nordic">Eliver Lara</a></td>
+      <td>Temi</td>
+    </tr>
+    <tr>
+      <td><a href="https://snwh.org/paper">Sam Hewitt</a></td>
+      <td>Icone</td>
+    </tr>
+    <tr>
+      <td><a href="https://st.suckless.org">suckless.org</a></td>
+      <td>Terminale</td>
+    </tr>
+    <tr>
+      <td><a href="https://unsplash.com/photos/C0OD8OM-oM0">Lucas Bellator</a> and <a href="https://unsplash.com/photos/xnqVGsbXgV4">Luca Bravo</a></td>
+      <td>Wallpaper</td>
+    </tr>
+    <tr>
+      <td><a href="https://launchpad.net/cubic">PJ Singh</a></td>
+      <td>Infrastruttura</td>
+    </tr>
+    <tr>
+      <td><a href="https://canonical.com">Canonical</a> and <a href="https://github.com">GitHub</a></td>
+      <td>Infrastruttura</td>
+    </tr>
+  </tbody>
+</table>
