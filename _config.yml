@@ -23,12 +23,13 @@ twitter_username: RegolithL
 github_username:  regolith-linux
 
 # Build settings
-markdown: kramdown
+markdown: CommonMarkGhPages
+#markdown: kramdown
 plugins:
   - jekyll-feed
 
 # Custom vars
-version: 10-26-2019
+version: 11-02-2019
 
 defaults:
   #languages
