@@ -69,3 +69,8 @@ defaults:
       path: "pt_br"
     values:
       lang: "pt_br"
+  -
+    scope:
+      path: "hu"
+    values:
+      lang: "hu"
