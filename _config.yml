@@ -24,12 +24,11 @@ github_username:  regolith-linux
 
 # Build settings
 markdown: CommonMarkGhPages
-#markdown: kramdown
 plugins:
   - jekyll-feed
 
 # Custom vars
-version: 11-02-2019
+version: 11-17-2019
 
 defaults:
   #languages

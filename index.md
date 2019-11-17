@@ -11,7 +11,7 @@ Regolith is a unique desktop environment that ditches the cruft of Windows and M
 
   <summary>Visual Tour of Regolith...</summary>
   
-<br/>Upon login, Regolith is relatively free of clutter:
+<br/>Upon login, Regolith is relatively free of clutter.  A bar at the bottom provides important information such as the time and active workspace.
 
 <a href="/assets/screenshot-empty.png"><img class="screenshot" alt="Empty Screenshot" src="/assets/screenshot-empty.png"/></a><br/>
 
@@ -27,19 +27,19 @@ Launching apps is as simple as `<super>`-`<space>`, type a few letters of the ap
 
 <a href="/assets/screenshot-rofi.png"><img class="screenshot" alt="Rofi Screenshot" src="/assets/screenshot-rofi.png"/></a><br/>
 
-GNOME integration provides consistent and simple system management.  Tweak your UI, auto mount your USB drives, connect to a wireless router:
+`gnome-flashback` provides consistent and simple system management.  Tweak your UI, auto mount your USB drives, connect to a wireless router:
 
 <a href="/assets/screenshot-gnome.png"><img class="screenshot" alt="Gnome Screenshot" src="/assets/screenshot-gnome.png"/></a><br/>
 
-Toggle an overlay that presents the most important keybindings until they become muscle-memory:
+Toggle an overlay via `<super>`-`<?>` that presents the most important keybindings until they become muscle-memory:
 
 <a href="/assets/screenshot-conky.png"><img class="screenshot" alt="Conky Screenshot" src="/assets/screenshot-conky.png"/></a><br/>
 
-Big on multitasking?  Quickly find the window you're looking for via `<super>`-`<ctrl>`-`<space>`:
+Big on multitasking?  Quickly find the window you're looking for via `<super>`-`<ctrl>`-`<space>`, or navigate over workspaces with `<super>`-`<number>`:
 
 <a href="/assets/screenshot-window.png"><img class="screenshot" alt="Conky Screenshot" src="/assets/screenshot-window.png"/></a><br/>
 
-Waste no space on frivilous UI and take advantage of every pixel:
+Waste no space on frivilous UI and take advantage of every pixel without micro-managing your window layouts:
 
 <a href="/assets/screenshot-develop.png"><img class="screenshot" alt="Dev Screenshot" src="/assets/screenshot-develop.png"/></a><br/>
 
