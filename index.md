@@ -53,7 +53,7 @@ Waste no space on frivilous UI and take advantage of every pixel without micro-m
 - Relies on [Ubuntu's app store](https://snapcraft.io/store) and package repositories for a large, high quality selection of software.
 - Delivers a desktop with small set of UI features that can be customized and expanded as needed.
 - Ships with a toggle overlay of basic keybindings to navigate over windows, launch apps, and manage your system.
-- Provides a [build script](https://github.com/regolith-linux/regolith-desktop/blob/master/build.sh) and [package metadata](https://github.com/regolith-linux/regolith-desktop/blob/master/package-model.json) to allow users to easily fork the desktop environment and distribution.
+- Provides a [build script](https://github.com/regolith-linux/regolith-builder/blob/master/build.sh) and [package metadata](https://github.com/regolith-linux/regolith-builder/blob/master/package-model.json) to allow users to easily fork the desktop environment and distribution.
 
 ### Get Regolith
 
