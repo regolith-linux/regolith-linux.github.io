@@ -39,7 +39,7 @@ Big on multitasking?  Quickly find the window you're looking for via `<super>`-`
 
 <a href="/assets/screenshot-window.png"><img class="screenshot" alt="Conky Screenshot" src="/assets/screenshot-window.png"/></a><br/>
 
-Waste no space on frivilous UI and take advantage of every pixel without micro-managing your window layouts:
+Waste no space on frivolous UI and take advantage of every pixel without micro-managing your window layouts:
 
 <a href="/assets/screenshot-develop.png"><img class="screenshot" alt="Dev Screenshot" src="/assets/screenshot-develop.png"/></a><br/>
 
