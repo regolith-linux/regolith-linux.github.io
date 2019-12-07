@@ -14,7 +14,7 @@ Regolith ist eine einzigartige Desktop-Umgebung, welche die Überflüssigkeiten 
 - Bietet GNOME's Systemverwaltungsfunktionen vereint mit dem porduktiven Workflow von [i3](https://i3wm.org/).
 - Ermöglicht neuen Benutzern einen schnellen und einfachen Weg um einen [tiling window manager](https://opensource.com/article/18/8/i3-tiling-window-manager) zu probieren.
 - Unterstützt [einfache Anpassung](https://github.com/regolith-linux/regolith-desktop/wiki/Customize) und [ricing](https://www.reddit.com/r/unixporn/) mittels einer einheitlichen [Xresource Konfiguration](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root).
-- Stützt sich auf dem [Ubuntu App Store](https://snapcraft.io/store) und Packet Repository für eine vielfältige, qualitative Auswahl von Software.
+- Nutzt den [Ubuntu App Store](https://snapcraft.io/store) und das Paket-Repository für eine vielfältige, qualitative Auswahl von Software.
 - Liefert einen minimalen Desktop, welcher bei Bedarf angepasst und erweitert werden kann.
 - Besitzt eine Schnellübersicht über Tastenkombinationen für die Navigation, das Starten von Apps und fürs Systemmanagement. 
 - Kommt mit einem Overlay, welches die grundlegenden Tastenkombinationen zum Navigieren, Starten von Apps und Verwalten des Systems erklärt.
