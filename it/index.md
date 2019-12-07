@@ -7,7 +7,7 @@ Regolith è un ambiente desktop unico che elimina la ridondanza di copie di Wind
 
 <a href="/assets/screenshot-intro.png"><img class="screenshot" alt="Intro Screenshot" src="/assets/screenshot-intro.png"/></a>
 
-[Tour visivo di Regolith](/visual-tour.html)
+[Tour visivo di Regolith](/it/visual-tour.html)
 
 ### Cosa rende Regolith differente
 

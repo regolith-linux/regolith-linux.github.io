@@ -7,7 +7,7 @@ Regolith est un environnement de bureau qui s'écarte complètement des interfac
 
 <a href="/assets/screenshot-intro.png"><img class="screenshot" alt="Intro Screenshot" src="/assets/screenshot-intro.png"/></a>
 
-[Visual tour of Regolith](/visual-tour.html)
+[Visual tour of Regolith](/fr/visual-tour.html)
 
 ### En quoi Regolith est-il différent ?
 

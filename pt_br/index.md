@@ -8,7 +8,7 @@ Regolith é um ambiente de área de trabalho que se desvia completamente das int
 
 <a href="/assets/screenshot-intro.png"><img class="screenshot" alt="Intro Screenshot" src="/assets/screenshot-intro.png"/></a>
 
-[Visual tour of Regolith](/visual-tour.html)
+[Visual tour of Regolith](/pt_br/visual-tour.html)
 
 ### O que faz o Regolith diferente?
 

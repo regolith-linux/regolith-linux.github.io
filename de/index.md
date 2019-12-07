@@ -7,7 +7,7 @@ Regolith ist eine einzigartige Desktop-Umgebung, welche die Überflüssigkeiten 
 
 <a href="/assets/screenshot-intro.png"><img class="screenshot" alt="Einführungs Screenshot" src="/assets/screenshot-intro.png"/></a>
 
-[Visuelle Führung durch Regolith](/visual-tour.html)
+[Visuelle Führung durch Regolith](/de/visual-tour.html)
 
 ### Was macht Regolith anders
 

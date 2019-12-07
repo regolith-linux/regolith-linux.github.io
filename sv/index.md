@@ -7,7 +7,7 @@ Regolith är en unik skrivbordsmiljö som dumpar allt cruft från Windows- och M
 
 <a href="/assets/screenshot-intro.png"><img class="screenshot" alt="Intro Screenshot" src="/assets/screenshot-intro.png"/></a>
 
-[Regolith Linux i bilder](/visual-tour.html)
+[Regolith Linux i bilder](/sv/visual-tour.html)
 
 ### Vad gör Regolith unikt?
 
