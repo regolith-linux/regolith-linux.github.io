@@ -8,7 +8,7 @@ Nach dem Login begrüßt dich Regolith mit einem aufgeräumten Desktop.
 
 <a href="/assets/screenshot-empty.png"><img class="screenshot" alt="Empty Screenshot" src="/assets/screenshot-empty.png"/></a><br/>
 
-Für alle, die die meiste Arbeit im Terminal erledigen, reicht es `<super>`-`<enter>` zu drücken um loszulegen.
+Für alle die die meiste Arbeit im Terminal erledigen, reicht es `<super>`-`<enter>` zu drücken um loszulegen.
 
 <a href="/assets/screenshot-terminal.png"><img class="screenshot" alt="Terminal Screenshot" src="/assets/screenshot-terminal.png"/></a><br/>
 
@@ -32,7 +32,6 @@ Multitasking? Finde das gesuchte Fenster schnell mit `<super>`-`<strg>`-`<leerta
 
 <a href="/assets/screenshot-window.png"><img class="screenshot" alt="Conky Screenshot" src="/assets/screenshot-window.png"/></a><br/>
 
-Verschwende keinen Platz mit sinnlosen Benutzeroberflächen und nutze jeden Pixel
-
+Verschwende keinen Platz mit sinnlosen Benutzeroberflächen und nutze jeden Pixel.
 
 <a href="/assets/screenshot-develop.png"><img class="screenshot" alt="Dev Screenshot" src="/assets/screenshot-develop.png"/></a><br/>
