@@ -8,8 +8,7 @@ Regolith is a unique desktop environment that ditches the cruft of Windows and M
 <a href="/assets/screenshot-intro.png"><img class="screenshot" alt="Intro Screenshot" src="/assets/screenshot-intro.png"/></a>
 
 <details>
-
-  <summary>Visual Tour of Regolith...</summary>
+<summary>Visual Tour of Regolith...</summary>
   
 <br/>Upon login, Regolith is relatively free of clutter.  A bar at the bottom provides important information such as the time and active workspace.
 
