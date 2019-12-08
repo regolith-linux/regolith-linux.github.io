@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Visual Tour
-lang: it
+lang: fr
 ---
 
 Upon login, Regolith is relatively free of clutter.
