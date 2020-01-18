@@ -6,7 +6,7 @@ linkTitle = "Regolith Linux"
 {{< blocks/cover image_anchor="top" height="full" >}}
 {{< img regolith-title.png "Regolith Linux" >}}
 
-<p class="lead mt-5">Regolith is a unique desktop environment that ditches the cruft of Windows and Mac knockoffs to provide a productive and beautiful place to get work done. Built on top of Ubuntu and GNOME, Regolith stands on a stable, well-supported, and consistent foundation.</p>
+<p class="lead m-5">Regolith is a modern desktop environment that saves you time by cutting out the clutter and ceremony that stand between you and your work. Built on top of Ubuntu and GNOME, Regolith stands on a well-supported and consistent foundation.</p>
 
 <div class="row">
   <div class="col-sm-8">{{< img screenshot-intro.png "Regolith Linux" >}}</div>
@@ -25,75 +25,76 @@ linkTitle = "Regolith Linux"
   </div>
 {{< /blocks/cover >}}
 
-{{< blocks/section color="dark" >}}
+{{< blocks/section color="white" >}}
 <div class="container">
   <div class="row">
-    <div class="col d-flex justify-content-center">
+    <div class="col my-auto">
       <p>Upon login, Regolith is relatively free of clutter.  A bar at the bottom provides important information such as the time and active workspace.</p>
     </div>
-    <div class="col d-flex justify-content-center">
+    <div class="col d-flex">
       <p>{{< screenshot screenshot-empty.png "Empty Desktop" >}}</p>
     </div>
-    <br/><div class="row">
-      <div class="col d-flex justify-content-center">
+    <br/>
+    <div class="row">
+      <div class="col">
         <p>{{< screenshot screenshot-terminal.png "Single Terminal" >}}</p>
       </div>
-      <div class="col d-flex justify-content-center">
-        <p>For those that work in the terminal, pressing `super`-`enter` is all it takes to get to business:</p>
+      <div class="col my-auto">
+        <p>For those that work in the terminal, pressing <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">enter</span></span> is all it takes to get to business.</p>
       </div>
     </div>
     <br/><div class="row">
-      <div class="col d-flex justify-content-center">
-        <p>Need more terminals?  Toggle between horizontal and vertical layouts with `<super>`-`<backspace>`:</p>
+      <div class="col d-flex my-auto">
+        <p>Need more terminals?  Toggle between horizontal and vertical layouts with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">backspace</span></span>.</p>
       </div>
-      <div class="col d-flex justify-content-center">
+      <div class="col d-flex">
         <p>{{< screenshot screenshot-terminals.png "Terminals" >}}</p>
       </div>
     </div>
     <br/><div class="row">
-      <div class="col d-flex justify-content-center">
+      <div class="col d-flex">
         <p>{{< screenshot screenshot-rofi.png "Launch Apps" >}}</p>
       </div>
-      <div class="col d-flex justify-content-center">
-        <p>Launching apps is as simple as `<super>`-`<space>`, type a few letters of the app you're looking for and press `<enter>` to launch it:</p>
+      <div class="col d-flex my-auto">
+        <p>Launching apps is as simple as <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">space</span></span>, type a few letters of the app you're looking for and press <span class="badge badge-warning">enter</span> to launch it:</p>
       </div>
     </div>
     <br/><div class="row">
-      <div class="col d-flex justify-content-center">
-        <p>`gnome-flashback` provides consistent and simple system management.  Tweak your UI, auto mount your USB drives, connect to a wireless router.</p>
+      <div class="col d-flex my-auto">
+        <p>Gnome Flashback provides consistent and simple system management. Tweak your UI, auto mount your USB drives, connect to wireless networks.</p>
       </div>
-      <div class="col d-flex justify-content-center">
+      <div class="col d-flexr">
         <p>{{< screenshot screenshot-gnome.png "GNOME system admin" >}}</p>
       </div>
     </div>
     <br/><div class="row">
-      <div class="col d-flex justify-content-center">
+      <div class="col d-flex">
         <p>{{< screenshot screenshot-conky.png "Shortcuts" >}}</p>
       </div>
-      <div class="col d-flex justify-content-center">
-        <p>Toggle an overlay via <super>-<?> that presents the most important keybindings until they become muscle-memory.</p>
+      <div class="col d-flex my-auto">
+        <p>Toggle an overlay via <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">?</span></span> that presents the most important keybindings until they become muscle-memory.</p>
       </div>
     </div>
     <br/><div class="row">
-      <div class="col d-flex justify-content-center">
-        <p>Big on multitasking?  Quickly find the window you're looking for via `<super>`-`<ctrl>`-`<space>`, or navigate over workspaces with `<super>`-`<number>`.</p>
+      <div class="col d-flex my-auto">
+        <p>Got a lot going on?  Quickly find the window you're looking for via <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">ctrl</span> <span class="badge badge-warning">space</span></span> or navigate over workspaces with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">[0 - 19]</span></span>.</p>
       </div>
-      <div class="col d-flex justify-content-center">
+      <div class="col d-flex">
         <p>{{< screenshot screenshot-window.png "Shortcuts" >}}</p>
       </div>
     </div>
     <br/><div class="row">
-      <div class="col d-flex justify-content-center">
+      <div class="col d-flex">
         <p>{{< screenshot screenshot-develop.png "Window Management" >}}</p>
       </div>
-      <div class="col d-flex justify-content-center">
+      <div class="col d-flex my-auto">
         <p>Waste no space on frivolous UI and take advantage of every pixel without micro-managing your window layouts.</p>
       </div>
     </div>
   </div>
 </div>
 {{< /blocks/section >}}
-{{< blocks/section >}}
+{{< blocks/section color="dark">}}
 ### What Makes Regolith Different
 
 - Provides GNOME's system management features with [i3](https://i3wm.org/)'s productive workflow.
@@ -111,30 +112,6 @@ linkTitle = "Regolith Linux"
 Install or test drive Regolith from scratch with the [LiveCD Installer](https://sourceforge.net/projects/regolith-linux/), or if you already have an existing Ubuntu setup*, simply add it as another desktop session by installing the package `regolith-desktop` from the [Regolith PPA](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable). See the [install page](https://github.com/regolith-linux/regolith-desktop/wiki/Install-Regolith) for more details.
 
 <sub>*Ubuntu 18.04 and Ubuntu 19.04 bases available</sub>
-{{< /blocks/section >}}
-{{< blocks/section >}}
-### Next Steps
-
-Have a look at the [Getting Started](https://github.com/regolith-linux/regolith-desktop/wiki/Getting-Started) guide to learn more about using Regolith Linux, see the [latest updates](/news.html), or check out the [configuration](https://github.com/regolith-linux/regolith-desktop/wiki/Customize) page and [list of HowTos](https://github.com/search?utf8=✓&q=org%3Aregolith-linux+HowTo+in%3Atitle&type=Wikis) to learn about how to tweak it to your liking. Also have a look at the [Keybindings](https://github.com/regolith-linux/regolith-desktop/wiki/Keybindings) to learn the quickest way around your new desktop environment.  Once you've gotten familiar with Regolith have a look at the [active RfCs](https://github.com/regolith-linux/regolith-desktop/issues?utf8=✓&q=is%3Aissue+is%3Aopen+"Request+for+Comment").
-{{< /blocks/section >}}
-{{< blocks/section >}}
-### Contact
-
-<table>
-  <tr>
-    <td>Bug Reports</td>
-    <td><a href="https://github.com/regolith-linux/regolith-desktop/issues">Github Issues</a></td>
-  </tr>
-  <tr>
-    <td>Feature Requests</td>
-    <td><a href="https://github.com/regolith-linux/regolith-desktop/issues">Github Issues</a></td>  </tr>
-  <tr>
-    <td>Chat</td>
-    <td><a href="https://regolith-linux.herokuapp.com">Slack Channel</a></td>  </tr>
-  <tr>
-    <td>Change Annoucements</td>
-    <td><a href="https://www.freelists.org/list/regolith-linux">Mailing List</a></td>  </tr>
-</table>
 {{< /blocks/section >}}
 {{< blocks/section >}}
 ### Credits
