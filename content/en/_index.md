@@ -27,15 +27,14 @@ linkTitle = "Regolith Linux"
 
 {{< blocks/section color="white" >}}
 <div class="container">
-  <div class="row">
+  <div class="row pb-5">
     <div class="col my-auto">
       <p>Upon login, Regolith is relatively free of clutter.  A bar at the bottom provides important information such as the time and active workspace.</p>
     </div>
     <div class="col d-flex">
       <p>{{< screenshot screenshot-empty.png "Empty Desktop" >}}</p>
-    </div>
-    <br/>
-    <div class="row">
+    </div>    
+    <div class="row pb-5 pt-5">
       <div class="col">
         <p>{{< screenshot screenshot-terminal.png "Single Terminal" >}}</p>
       </div>
@@ -43,7 +42,7 @@ linkTitle = "Regolith Linux"
         <p>For those that work in the terminal, pressing <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">enter</span></span> is all it takes to get to business.</p>
       </div>
     </div>
-    <br/><div class="row">
+    <div class="row pb-5">
       <div class="col d-flex my-auto">
         <p>Need more terminals?  Toggle between horizontal and vertical layouts with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">backspace</span></span>.</p>
       </div>
@@ -51,7 +50,7 @@ linkTitle = "Regolith Linux"
         <p>{{< screenshot screenshot-terminals.png "Terminals" >}}</p>
       </div>
     </div>
-    <br/><div class="row">
+    <div class="row pb-5">
       <div class="col d-flex">
         <p>{{< screenshot screenshot-rofi.png "Launch Apps" >}}</p>
       </div>
@@ -59,7 +58,7 @@ linkTitle = "Regolith Linux"
         <p>Launching apps is as simple as <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">space</span></span>, type a few letters of the app you're looking for and press <span class="badge badge-warning">enter</span> to launch it:</p>
       </div>
     </div>
-    <br/><div class="row">
+    <div class="row pb-5">
       <div class="col d-flex my-auto">
         <p>Gnome Flashback provides consistent and simple system management. Tweak your UI, auto mount your USB drives, connect to wireless networks.</p>
       </div>
@@ -67,7 +66,7 @@ linkTitle = "Regolith Linux"
         <p>{{< screenshot screenshot-gnome.png "GNOME system admin" >}}</p>
       </div>
     </div>
-    <br/><div class="row">
+    <div class="row pb-5">
       <div class="col d-flex">
         <p>{{< screenshot screenshot-conky.png "Shortcuts" >}}</p>
       </div>
@@ -75,7 +74,7 @@ linkTitle = "Regolith Linux"
         <p>Toggle an overlay via <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">?</span></span> that presents the most important keybindings until they become muscle-memory.</p>
       </div>
     </div>
-    <br/><div class="row">
+    <div class="row pb-5">
       <div class="col d-flex my-auto">
         <p>Got a lot going on?  Quickly find the window you're looking for via <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">ctrl</span> <span class="badge badge-warning">space</span></span> or navigate over workspaces with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">[0 - 19]</span></span>.</p>
       </div>
@@ -83,7 +82,7 @@ linkTitle = "Regolith Linux"
         <p>{{< screenshot screenshot-window.png "Shortcuts" >}}</p>
       </div>
     </div>
-    <br/><div class="row">
+    <div class="row">
       <div class="col d-flex">
         <p>{{< screenshot screenshot-develop.png "Window Management" >}}</p>
       </div>
@@ -97,27 +96,22 @@ linkTitle = "Regolith Linux"
 {{< blocks/section color="dark">}}
 ### What Makes Regolith Different
 
-- Provides GNOME's system management features with [i3](https://i3wm.org/)'s productive workflow.
+- Provides GNOME's system management features with [i3-wm](https://i3wm.org/)'s productive workflow.
 - Enables new users a fast and fun way to try out a [tiling window manager](https://opensource.com/article/18/8/i3-tiling-window-manager).
 - Supports [easy customization](https://github.com/regolith-linux/regolith-desktop/wiki/Customize) and [ricing](https://www.reddit.com/r/unixporn/) via a consistent [Xresource configuration](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root).
 - Relies on [Ubuntu's app store](https://snapcraft.io/store) and package repositories for a large, high quality selection of software.
 - Delivers a desktop with small set of UI features that can be customized and expanded as needed.
-- Ships with a toggle overlay of basic keybindings to navigate over windows, launch apps, and manage your system.
+- Built to be taken apart. Swap in your own UI components easily.
+- Ships with a toggle overlay of basic keybindings to make getting started easier.
 - Provides a [build script](https://github.com/regolith-linux/regolith-builder/blob/master/build.sh) and [package metadata](https://github.com/regolith-linux/regolith-builder/blob/master/package-model.json) to allow users to easily fork the desktop environment and distribution.
 
 {{< /blocks/section >}}
-{{< blocks/section >}}
-### Get Regolith
-
-Install or test drive Regolith from scratch with the [LiveCD Installer](https://sourceforge.net/projects/regolith-linux/), or if you already have an existing Ubuntu setup*, simply add it as another desktop session by installing the package `regolith-desktop` from the [Regolith PPA](https://launchpad.net/~kgilmer/+archive/ubuntu/regolith-stable). See the [install page](https://github.com/regolith-linux/regolith-desktop/wiki/Install-Regolith) for more details.
-
-<sub>*Ubuntu 18.04 and Ubuntu 19.04 bases available</sub>
-{{< /blocks/section >}}
-{{< blocks/section >}}
+{{< blocks/section color="white">}}
 ### Credits
 
-Regolith is more curation than creation.  Here are some of the notable people and entities that produced unaffiliated work **independently** from which Regolith is based.
+<p>Regolith is more curation than creation.  Here are some of the notable people and entities that produced unaffiliated work independently from which Regolith is based.</p>
 
+<div class="container">
 <table>
   <tbody>
     <tr>
@@ -174,4 +168,5 @@ Regolith is more curation than creation.  Here are some of the notable people an
     </tr>
   </tbody>
 </table>
+</div>
 {{< /blocks/section >}}
