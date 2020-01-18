@@ -53,13 +53,13 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Regolith Linux"
-description = "A Docsy example site"
+title = "Regolith"
+description = "Regolith Linux website"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
 [languages.no]
-title = "Regolith Linux"
+title = "Regolith"
 description = "Docsy er operativsystem for skyen"
 languageName ="Norsk"
 contentDir = "content/no"
@@ -74,8 +74,8 @@ time_format_blog = "02.01.2006"
 # Everything below this are Site Params
 
 [params]
-copyright = "The Docsy Authors"
-privacy_policy = "https://policies.google.com/privacy"
+copyright = "Ken Gilmer"
+privacy_policy = "https://github.com/regolith-linux/regolith-desktop/wiki/Policies"
 
 # First one is picked as the Twitter card image if not set on page.
 # images = ["images/project-illustration.png"]
@@ -85,15 +85,15 @@ privacy_policy = "https://policies.google.com/privacy"
 version_menu = "Releases"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/google/docsy-example"
+github_repo = "https://github.com/regolith-linux/regolith-linux.github.io"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/google/docsy"
+github_project_repo = "https://github.com/regolith-linux"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "011737558837375720776:fsdu1nryfng"
+gcs_engine_id = "000268677903008861770:ukuce0y3gy7"
 
 # Enable Algolia DocSearch
 algolia_docsearch = false
@@ -111,6 +111,7 @@ breadcrumb_disable = false
 sidebar_search_disable = false
 #  Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top nav bar
 navbar_logo = true
+
 # Set to true to disable the About link in the site footer
 footer_about_disable = true
 
@@ -121,29 +122,38 @@ footer_about_disable = true
 [params.ui.feedback]
 enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
-no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
+yes = 'Glad to hear it! Please <a href="https://github.com/regolith-linux/regolith-linux.github.io/issues/new">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.com/regolith-linux/regolith-linux.github.io/issues/new">tell us how we can improve</a>.'
 
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
-	name = "User mailing list"
-	url = "https://example.org/mail"
+	name = "Announcement mailing list"
+	url = "https://www.freelists.org/list/regolith-linux"
 	icon = "fa fa-envelope"
-        desc = "Discussion and help from your fellow users"
+        desc = "Get notified of new features and bug fixes."
 [[params.links.user]]
 	name ="Twitter"
-	url = "https://example.org/twitter"
+	url = "https://twitter.com/RegolithL"
 	icon = "fab fa-twitter"
         desc = "Follow us on Twitter to get the latest news!"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
 	name = "GitHub"
-	url = "https://github.com/google/docsy"
+	url = "https://github.com/regolith-linux"
 	icon = "fab fa-github"
         desc = "Development takes place here!"
 [[params.links.developer]]
 	name = "Slack"
-	url = "https://example.org/slack"
+	url = "https://regolith-linux.herokuapp.com/"
 	icon = "fab fa-slack"
-        desc = "Chat with other project developers"
+        desc = "Chat with other users."
+
+# Versions
+[[params.versions]]
+  version = "1.3"
+  url = "https://regolith-linux.org"
+
+[[params.versions]]
+  version = "1.2"
+  url = "https://regolith-linux.org"

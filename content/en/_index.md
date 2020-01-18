@@ -12,11 +12,11 @@ linkTitle = "Regolith Linux"
   <div class="col-sm-8">{{< img screenshot-intro.png "Regolith Linux" >}}</div>
   <div class="col-sm-4">
     <div class="mx-auto">
-    <a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/docs" >}}">
-      Documentation <i class="fas fa-arrow-alt-circle-right ml-2"></i>
-    </a>
     <a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/google/docsy-example">
-      Get Regolith <i class="fab fa-github ml-2 "></i>
+      Get Regolith <i class="fas fa-cloud-download-alt ml-2 "></i>
+    </a>
+    <a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/docs" >}}">
+      Documentation <i class="fas fa-book-reader ml-2"></i>
     </a>
 </div>
 </div>
@@ -93,8 +93,8 @@ linkTitle = "Regolith Linux"
   </div>
 </div>
 {{< /blocks/section >}}
-{{< blocks/section color="dark">}}
-### What Makes Regolith Different
+{{< blocks/section color="orange">}}
+### <i class="fas fa-info-circle pr-3"></i>What Makes Regolith Different
 
 - Provides GNOME's system management features with [i3-wm](https://i3wm.org/)'s productive workflow.
 - Enables new users a fast and fun way to try out a [tiling window manager](https://opensource.com/article/18/8/i3-tiling-window-manager).
@@ -103,70 +103,80 @@ linkTitle = "Regolith Linux"
 - Delivers a desktop with small set of UI features that can be customized and expanded as needed.
 - Built to be taken apart. Swap in your own UI components easily.
 - Ships with a toggle overlay of basic keybindings to make getting started easier.
-- Provides a [build script](https://github.com/regolith-linux/regolith-builder/blob/master/build.sh) and [package metadata](https://github.com/regolith-linux/regolith-builder/blob/master/package-model.json) to allow users to easily fork the desktop environment and distribution.
-
+- Provides a [build script](https://github.com/regolith-linux/regolith-builder/blob/master/build.sh) and [package metadata](https://github.com/regolith-linux/regolith-builder/blob/master/package-model.json) to allow users to easily fork the desktop environment and distribution. 
 {{< /blocks/section >}}
 {{< blocks/section color="white">}}
-### Credits
-
-<p>Regolith is more curation than creation.  Here are some of the notable people and entities that produced unaffiliated work independently from which Regolith is based.</p>
-
-<div class="container">
-<table>
-  <tbody>
-    <tr>
-      <td><a href="https://i3wm.org">Michael Stapelberg</a> and <a href="https://github.com/Airblader/i3">Ingo Bürk</a></td>
-      <td>Desktop UI</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/davatorium/rofi">Dave Davenport</a></td>
-      <td>Desktop UI</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/yshui/compton">yshui</a></td>
-      <td>Desktop UI</td>
-    </tr>
-    <tr>
-      <td><a href="https://wiki.gnome.org/Projects/GnomeFlashback">Alberts Muktupāvels</a></td>
-      <td>Desktop UI</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/jcstr">Jesús Castro</a> and <a href="https://github.com/deuill">Alex Palaistras</a></td>
-      <td>Desktop UI</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/vivien/i3blocks">Vivien Didelot</a></td>
-      <td>Desktop UI</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/arcticicestudio">Arctic Ice Studio</a> and <a href="https://ethanschoonover.com/solarized/">Ethan Schoonover</a></td>
-      <td>Colors</td>
-    </tr>
-    <tr>
-      <td><a href="https://github.com/EliverLara/Nordic">Eliver Lara</a></td>
-      <td>Theme</td>
-    </tr>
-    <tr>
-      <td><a href="https://snwh.org/paper">Sam Hewitt</a></td>
-      <td>Icons</td>
-    </tr>
-    <tr>
-      <td><a href="https://st.suckless.org">suckless.org</a></td>
-      <td>Terminal</td>
-    </tr>
-    <tr>
-      <td><a href="https://unsplash.com/photos/C0OD8OM-oM0">Lucas Bellator</a> and <a href="https://unsplash.com/photos/xnqVGsbXgV4">Luca Bravo</a></td>
-      <td>Wallpaper</td>
-    </tr>
-    <tr>
-      <td><a href="https://launchpad.net/cubic">PJ Singh</a></td>
-      <td>Infrastructure</td>
-    </tr>
-    <tr>
-      <td><a href="https://canonical.com">Canonical</a> and <a href="https://github.com">GitHub</a></td>
-      <td>Infrastructure</td>
-    </tr>
-  </tbody>
-</table>
+### <i class="fas fa-user-friends pr-3"></i>Credits
+<div class="container-fluid">
+  <div class="row pl-0 align-items-center">
+    <div class="col-5 col-md-0">
+      Regolith is more curation than creation.  Here are some of the notable people and entities that produced unaffiliated work independently from which Regolith is based.
+    </div>
+    <div class="col-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg"><a href="https://i3wm.org">Michael Stapelberg</a> and <a href="https://github.com/Airblader/i3">Ingo Bürk</a></div>
+          <div class="col-sm">Desktop UI</div>
+        </div>
+        <div class="row">
+          <div class="col-lg"><a href="https://github.com/davatorium/rofi">Dave Davenport</a></div>
+          <div class="col-sm">Desktop UI</div>
+        </div>
+        <div class="row">
+          <div class="col-lg"><a href="https://github.com/davatorium/rofi">Dave Davenport</a></div>
+          <div class="col-sm">Desktop UI</div>
+        </div>
+        <div class="row">
+          <div class="col-lg"><a href="https://github.com/yshui/compton">yshui</a></div>
+          <div class="col-sm">Desktop UI</div>
+        </div>
+        <div class="row">
+          <div class="col-lg"><a href="https://wiki.gnome.org/Projects/GnomeFlashback">Alberts Muktupāvels</a></div>
+          <div class="col-sm">Desktop UI</div>
+        </div>
+        <div class="row">
+          <div class="col-lg"><a href="https://github.com/jcstr">Jesús Castro</a> and <a href="https://github.com/deuill">Alex Palaistras</a></div>
+          <div class="col-sm">Desktop UI</div>
+        </div>
+        <div class="row">
+          <div class="col-lg"><a href="https://github.com/vivien/i3blocks">Vivien Didelot</a></div>
+          <div class="col-sm">Desktop UI</div>
+        </div>
+        <div class="row">
+          <div class="col-lg"><a href="https://github.com/arcticicestudio">Arctic Ice Studio</a> and <a href="https://ethanschoonover.com/solarized/">Ethan Schoonover</a></div>
+          <div class="col-sm">Colors</div>
+        </div>
+        <div class="row">
+          <div class="col-lg"><a href="http://www.alastairreynolds.com/">Alastair Reynolds</a></div>
+          <div class="col-sm">Proper Nouns</div>
+        </div>
+        <div class="row">
+          <div class="col-lg"><a href="https://github.com/EliverLara/Nordic">Eliver Lara</a></div>
+          <div class="col-sm">Theme</div>
+        </div>
+        <div class="row">
+          <div class="col-lg"><a href="https://snwh.org/paper">Sam Hewitt</a></div>
+          <div class="col-sm">Icons</div>
+        </div>
+        <div class="row">
+          <div class="col-lg"><a href="https://st.suckless.org">suckless.org</a></div>
+          <div class="col-sm">Terminal</div>
+        </div>
+        <div class="row">
+          <div class="col-lg"><a href="https://unsplash.com/photos/C0OD8OM-oM0">Lucas Bellator</a> and <a href="https://unsplash.com/photos/xnqVGsbXgV4">Luca Bravo</a></div>
+          <div class="col-sm">Wallpaper</div>
+        </div>
+        <div class="row">
+          <div class="col-lg"><a href="https://launchpad.net/cubic">PJ Singh</a></div>
+          <div class="col-sm">Infrastructure</div>
+        </div>
+        <div class="row">
+          <div class="col-lg"><a href="https://canonical.com">Canonical</a> and <a href="https://github.com">GitHub</a></div>
+          <div class="col-sm">Infrastructure</div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
 {{< /blocks/section >}}
