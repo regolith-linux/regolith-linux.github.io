@@ -2,3 +2,6 @@ Gemfile.lock
 _site
 *.bk
 .vscode
+node_modules
+public
+resources

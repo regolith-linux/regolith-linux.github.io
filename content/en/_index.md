@@ -95,15 +95,14 @@ linkTitle = "Regolith Linux"
 {{< /blocks/section >}}
 {{< blocks/section color="orange">}}
 ### <i class="fas fa-info-circle pr-3"></i>What Makes Regolith Different
-
-- Provides GNOME's system management features with [i3-wm](https://i3wm.org/)'s productive workflow.
-- Enables new users a fast and fun way to try out a [tiling window manager](https://opensource.com/article/18/8/i3-tiling-window-manager).
-- Supports [easy customization](https://github.com/regolith-linux/regolith-desktop/wiki/Customize) and [ricing](https://www.reddit.com/r/unixporn/) via a consistent [Xresource configuration](https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root).
-- Relies on [Ubuntu's app store](https://snapcraft.io/store) and package repositories for a large, high quality selection of software.
-- Delivers a desktop with small set of UI features that can be customized and expanded as needed.
+- Delivers a desktop with a functional yet minimal user interface that can be customized and expanded as needed.
+- Provides GNOME's system management features with <a class="text-light bg-dark" href="https://i3wm.org/">i3-wm</a>'s productive workflow.
+- Enables new users a fast and fun way to try out a <a class="text-light bg-dark" href="https://opensource.com/article/18/8/i3-tiling-window-manager">tiling window manager</a>.
+- Supports <a class="text-light bg-dark" href="https://github.com/regolith-linux/regolith-desktop/wiki/Customize">easy customization</a> and <a class="text-light bg-dark" href="https://www.reddit.com/r/unixporn">ricing</a> via a consistent <a class="text-light bg-dark" href="https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root">Xresource configuration</a>.
+- Relies on <a class="text-light bg-dark" href="https://snapcraft.io/store">Ubuntu's app store</a> and <a class="text-light bg-dark" href="https://packages.ubuntu.com/">package repositories</a> for a large, high quality selection of software.
 - Built to be taken apart. Swap in your own UI components easily.
 - Ships with a toggle overlay of basic keybindings to make getting started easier.
-- Provides a [build script](https://github.com/regolith-linux/regolith-builder/blob/master/build.sh) and [package metadata](https://github.com/regolith-linux/regolith-builder/blob/master/package-model.json) to allow users to easily fork the desktop environment and distribution. 
+- Provides a <a class="text-light bg-dark" href="https://github.com/regolith-linux/regolith-builder/blob/master/build.sh">build script</a> and <a class="text-light bg-dark" href="https://github.com/regolith-linux/regolith-builder/blob/master/package-model.json">package metadata</a> to allow users to easily fork the desktop environment and distribution. 
 {{< /blocks/section >}}
 {{< blocks/section color="white">}}
 ### <i class="fas fa-user-friends pr-3"></i>Credits
@@ -116,10 +115,6 @@ linkTitle = "Regolith Linux"
       <div class="container">
         <div class="row">
           <div class="col-lg"><a href="https://i3wm.org">Michael Stapelberg</a> and <a href="https://github.com/Airblader/i3">Ingo Bürk</a></div>
-          <div class="col-sm">Desktop UI</div>
-        </div>
-        <div class="row">
-          <div class="col-lg"><a href="https://github.com/davatorium/rofi">Dave Davenport</a></div>
           <div class="col-sm">Desktop UI</div>
         </div>
         <div class="row">
@@ -163,8 +158,8 @@ linkTitle = "Regolith Linux"
           <div class="col-sm">Terminal</div>
         </div>
         <div class="row">
-          <div class="col-lg"><a href="https://unsplash.com/photos/C0OD8OM-oM0">Lucas Bellator</a> and <a href="https://unsplash.com/photos/xnqVGsbXgV4">Luca Bravo</a></div>
-          <div class="col-sm">Wallpaper</div>
+          <div class="col-lg"><a href="http://wallpaper-site.webflow.io/">Psiu Puxa</a>,<a href="https://unsplash.com/photos/C0OD8OM-oM0">Lucas Bellator</a>, and <a href="https://unsplash.com/photos/xnqVGsbXgV4">Luca Bravo</a></div>
+          <div class="col-sm">Artwork</div>
         </div>
         <div class="row">
           <div class="col-lg"><a href="https://launchpad.net/cubic">PJ Singh</a></div>
