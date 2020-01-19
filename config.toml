@@ -1,4 +1,4 @@
-baseURL = "https://kgilmer.hgithub.io/r13-dev-site"
+baseURL = "https://kgilmer.github.io/r13-dev-site"
 title = "Regolith Linux"
 
 enableRobotsTXT = true
