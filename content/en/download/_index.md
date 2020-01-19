@@ -26,7 +26,7 @@ Starting from scratch or simply want to try Regolith out in a VM or LiveUSB envi
 
 {{% blocks/feature icon="fas fa-box-open" title="Regolith Desktop PPA" %}}
 Add the <a href="https://launchpad.net/~regolith-linux/+archive/ubuntu/stable">Regolith PPA</a> to your existing Ubuntu system and install the regolith-desktop package with the following terminal commands:
-<pre class="text-left">
+<pre class="text-left border rounded p-2">
 $ sudo add-apt-repository ppa:regolith-linux/release
 $ sudo apt install regolith-desktop
 </pre>After installation, Regolith will appear as a desktop session on the login screen.  Learn more about <a href="https://help.ubuntu.com/community/Repositories/CommandLine#Adding_Launchpad_PPA_Repositories">adding PPAs here</a>.
@@ -34,7 +34,7 @@ $ sudo apt install regolith-desktop
 
 {{% blocks/feature icon="fas fa-external-link-alt" title="Upgrade from earlier version" %}}
 To upgrade your existing 1.1 or 1.2 version of Regolith to 1.3, simply move to the new PPA and perform a <code>dist-upgrade</code>:
-<pre class="text-left">
+<pre class="text-left border rounded p-2">
 $ sudo add-apt-repository --remove ppa:kgilmer/regolith-stable
 $ sudo add-apt-repository ppa:regolith-linux/release
 $ sudo apt dist-upgrade
@@ -42,7 +42,7 @@ $ sudo apt dist-upgrade
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fas fa-snowplow" title="Remove Regolith Desktop" %}}
-If you decide Regolith isn't what you're looking for, completely remove Regolith by logging in to the standard Ubuntu session and executing the following commands from a terminal:<pre class="text-left">
+If you decide Regolith isn't what you're looking for, completely remove Regolith by logging in to the standard Ubuntu session and executing the following commands from a terminal:<pre class="text-left border rounded p-2">
 $ sudo add-apt-repository --remove ppa:regolith-linux/release
 $ sudo apt remove regolith-*
 $ sudo apt autoremove
