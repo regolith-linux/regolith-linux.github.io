@@ -137,6 +137,11 @@ no = 'Sorry to hear that. Please <a href="https://github.com/regolith-linux/rego
 	url = "https://twitter.com/RegolithL"
 	icon = "fab fa-twitter"
         desc = "Follow us on Twitter to get the latest news!"
+[[params.links.user]]
+	name ="Github Issues"
+	url = "https://github.com/regolith-linux/regolith-desktop/issues"
+	icon = "fab fa-github"
+        desc = "Check for existing or create new bug reports and feature requests."
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
 	name = "GitHub"
@@ -148,6 +153,11 @@ no = 'Sorry to hear that. Please <a href="https://github.com/regolith-linux/rego
 	url = "https://regolith-linux.herokuapp.com/"
 	icon = "fab fa-slack"
         desc = "Chat with other users."
+[[params.links.developer]]
+	name ="Internals"
+	url = "https://github.com/regolith-linux/regolith-desktop/issues"
+	icon = "fas fa-cog"
+        desc = "Learn how Regolith is put together."
 
 # Versions
 [[params.versions]]
