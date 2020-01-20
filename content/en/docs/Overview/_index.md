@@ -36,3 +36,4 @@ Give your users next steps from the Overview. For example:
 * [Getting Started](/getting-started/): Get started with $project
 * [Examples](/examples/): Check out some example code!
 
+## Terminology

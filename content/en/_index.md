@@ -6,7 +6,7 @@ linkTitle = "Regolith Linux"
 {{< blocks/cover image_anchor="top" height="full" >}}
 {{< img regolith-title.png "Regolith Linux" >}}
 
-<p class="lead m-5">Regolith is a modern desktop environment that saves you time by cutting out the clutter and ceremony that stand between you and your work. Built on top of Ubuntu and GNOME, Regolith stands on a well-supported and consistent foundation.</p>
+<p class="lead m-5">Regolith is a modern desktop environment that saves you time by reducing the clutter and ceremony that stand between you and your work. Built on top of Ubuntu and GNOME, Regolith stands on a well-supported and consistent foundation.</p>
 
 <div class="row">
   <div class="col-sm-8">{{< img screenshot-intro.png "Regolith Linux" >}}</div>
@@ -21,7 +21,7 @@ linkTitle = "Regolith Linux"
 </div>
 </div>
     <div class="mx-auto mt-5">
-      {{< blocks/link-down color="info" >}}
+      {{< blocks/link-down color="white" >}}
   </div>
 {{< /blocks/cover >}}
 
@@ -29,7 +29,7 @@ linkTitle = "Regolith Linux"
 <div class="container">
   <div class="row pb-5">
     <div class="col my-auto">
-      <p>Upon login, Regolith is relatively free of clutter.  A bar at the bottom provides important information such as the time and active workspace.</p>
+      <p>Upon login, Regolith is relatively free of clutter.  A collapsible bar at the bottom provides important information such as the time and active workspace.</p>
     </div>
     <div class="col d-flex">
       <p>{{< screenshot screenshot-empty.png "Empty Desktop" >}}</p>

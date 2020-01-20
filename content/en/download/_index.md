@@ -13,7 +13,7 @@ menu:
 		<span class="h4 mb-0">
 <h1><i class="fas fa-cloud-download-alt ml-2 "></i> Get Regolith</h1>
 
-<p>Regolith is available in two forms; as a <b>stand-alone ISO</b> that can be installed as a complete Linux operating system, and as a "<b>personal package archive</b>" (PPA) that installs the Regolith desktop into an existing Ubuntu-based Linux system.
+<p>Regolith is available in two forms; as a <b>stand-alone ISO</b> that can be installed as a complete Linux operating system, and as a "<b>personal package archive</b>" (PPA) that installs the Regolith desktop into an existing Ubuntu desktop.
 <p>Both installation methods result in the same Regolith experience. Both are offered for your convienence.</p>
 </span>
 	</div>
@@ -42,7 +42,7 @@ $ sudo apt dist-upgrade
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fas fa-snowplow" title="Remove Regolith Desktop" %}}
-If you decide Regolith isn't what you're looking for, completely remove Regolith by logging in to the standard Ubuntu session and executing the following commands from a terminal:<pre class="text-left border rounded p-2">
+If you decide Regolith isn't what you're looking for, restore your previous GNOME settings and completely remove Regolith by logging in to the standard Ubuntu session and executing the following commands from a terminal:<pre class="text-left border rounded p-2">
 $ sudo add-apt-repository --remove ppa:regolith-linux/release
 $ sudo apt remove regolith-*
 $ sudo apt autoremove

@@ -1,7 +1,7 @@
 ---
-title: "Contribution Guidelines"
-linkTitle: "Contribution Guidelines"
-weight: 10
+title: "Policy and Process"
+linkTitle: "Policy and Process"
+weight: 2
 description: >
   How to contribute to the docs
 ---
