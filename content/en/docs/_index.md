@@ -8,17 +8,23 @@ menu:
     weight: 20
 ---
 
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
+This site contains the information to use the Regolith desktop environment.  The content is structured in an order inteded for new users, but feel free to skip around as you see fit.  Feedback is always welcome and we appriciate any tips on how the documentation can be more complete, easy to read, and effective.
+
+## Terminology
+
+Before diving in it's good to define some terms to avoid confusion.
+
+| Term            | Description |
+|-------------------|-----------|
+| Keybinding      | A mapping between a set of key presses to a specific action performed by the desktop environment or application. |
+| Desktop Environment   | A collection of software programs that used as a whole allow a user to interact with a computer using a keyboard, mouse, and monitor.|
+| Bar            | A passive UI component typically placed at the top or bottom of the screen used to provide system information to the user.|
+| Launcher       | An active UI component a user will invoke to perform an action, such as navigate to a window or launch a program.|
+| Workspace      | A collection of windows all present together on the same computer monitor. |
+| Window         | A program presents a graphical interface to users via windows. Some programs are text based and do not create windows of their own. |
+
+## Table of Contents
 
 
-This section is where the user documentation for your project lives - all the information your users need to understand and successfully use your project. 
-
-For large documentation sets we recommend adding content under the headings in this section, though if some or all of them don’t apply to your project feel free to remove them or add your own. You can see an example of a smaller Docsy documentation site in the [Docsy User Guide](https://docsy.dev/docs/), which lives in the [Docsy theme repo](https://github.com/google/docsy/tree/master/userguide) if you'd like to copy its docs section. 
-
-Other content such as marketing material, case studies, and community updates should live in [Community](/community/) pages.
-
-Find out how to use the Docsy theme in the [Docsy User Guide](https://docsy.dev/docs/). You can learn more about how to organize your documentation (and how we organized this site) in [Organizing Your Content](https://docsy.dev/docs/best-practices/organizing-content/).
 
 
