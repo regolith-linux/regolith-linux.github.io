@@ -39,6 +39,12 @@ $ sudo add-apt-repository --remove ppa:kgilmer/regolith-stable
 $ sudo add-apt-repository ppa:regolith-linux/release
 $ sudo apt dist-upgrade
 </pre>
+If you have made customizations to i3wm or your styles, it's recommended to use the defaults upon login and then manually integrate your changes back in.  To ensure that the defaults are loaded, move your changes and then log back in.
+<pre class="text-left border rounded p-2">
+$ mv ~/.config/regolith ~/old-regolith-config
+$ mv ~/.Xresources-regolith ~/old-regolith-styles
+$ # now log back in
+</pre>
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fas fa-snowplow" title="Remove Regolith Desktop" %}}
