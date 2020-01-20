@@ -3,37 +3,31 @@ title: "Overview"
 linkTitle: "Overview"
 weight: 1
 description: >
-  Here's where your user finds out if your project is for them.
+  What is Regolith?
 ---
 
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
+Regolith is a collection of open source components that together form a desktop environment. Almost all of the UI components that are used to build Regolith are independent open source projects that have simply been configured for a specific workflow and visual aesthetic. Most computer desktop environments are optimized for ease-of-use and familiarity with commercial operating systems such as Microsoft Windows or Apple's OS X. In contrast, Regolith provides a way of interacting with a computer that is **optimized for user productivity**.
 
+## The Keyboard, the Mouse, and the Monitor
 
-The Overview is where your users find out about your project. Depending on the size of your docset, you can have a separate overview page (like this one) or put your overview contents in the Documentation landing page (like in the Docsy User Guide). 
+Regolith places emphasis on the keyboard input device over the mouse, in relation to most other desktop environments.  This is for one reason: productivity.  But this benefit comes with a one-time cost: learning the keybindings.  In exchange for this up-front cost, the user is subsequently able to perform general computer actions faster and with less foreground thought.  Additionally, by pushing more of the computer actions into the user's memory, more of the computer's visual interface can be devoted to the user's applications.  Put another way, user/computer interface bandwidth devotes less to general management and more to the user's applications.  And because ultimately the productive output of the user is a result of interaction with *applications*, the general productivity of the user is enhanced. This is a subjective benefit, and may be more or less important to the user. 
 
-Try answering these questions for your user in this page:
+## Tiling Windows
 
-## What is it?
+Perhaps the most user-impacting component in Regolith is the window manager, an open source project called <code>i3-gaps</code> (which is a customization of <code>i3-wm</code>).  This program organizes windows into tiles.  By default, i3-gaps strives to fill the entire screen with tiles.  If only one program is presenting a window, then that window occupies the entire screen.  For two windows, both get an equal portion of the screen, and so on.  By using keybindings, the user can tell i3-gaps to resize, move, and otherwise organize windows in other ways. A key advantage to this approach is that the user is freed from micro managing window layouts (at the cost of having to learn the keybindings).
 
-Introduce your project, including what it does or lets you do, why you would use it, and its primary goal (and how it achieves it). This should be similar to your README description, though you can go into a little more detail here if you want.
+## Launching Applications
 
-## Why do I want it?
+It is common for desktop environments to display application launchers throughout the user interface, in the form of icons and text.  Folders, docks, and context menus are used to present a form of menu to the user.  Despite them appearing visually different, they are have one function: to launch an application.  As with keybindings, in Regolith this user interface of launching apps is refined and minimized.  Desktop icons, panels, and docks are not used.  Rather, the user invokes the application launcher which presents a menu of applications sorted by frequency of usage.  The user may begin typing the name or function of the application they intend to load and the list is filtered accordingly.  In addition, frequently used applications such as terminal and browser have specific keybindings.  With this UI treatment, there is no fixed overhead on the display for the presentation of application launchers.  This provides the user benefit of more screen space devoted to the user's applications.
 
-Help your user know if your project will help them. Useful information can include: 
+## System Management
 
-* **What is it good for?**: What types of problems does your project solve? What are the benefits of using it?
+Modern computers are complex machines with many observable attributes. For the day-to-day operation however, most of these can be ignored.  Each user has a specific subset of system state they care about, and so there is no one perfect configuration for every user.  By default Regolith provides on-screen state information on the bar for the user's workspaces, keybindings help, network and CPU utilization, notifications, and the system time.  More or less items can be configured by the user as needed. 
 
-* **What is it not good for?**: For example, point out situations that might intuitively seem suited for your project, but aren't for some reason. Also mention known limitations, scaling issues, or anything else that might let your users know if the project is not for them.
-
-* **What is it *not yet* good for?**: Highlight any useful features that are coming soon.
+In addition to the transient system information provided on the bar, the system configuration can be changed by the user via the <code>Settings</code> application.  This configuration system is part of GNOME, and provides a rich set of UI pages to configure WiFi networks, Bluetooth devices, displays, and other devices.
 
 ## Where should I go next?
 
-Give your users next steps from the Overview. For example:
-
-* [Getting Started](/getting-started/): Get started with $project
-* [Examples](/examples/): Check out some example code!
-
-## Terminology
+* [Getting Started](../getting-started/): Get started with Regolith
+* [The Interface](../interface/): Understand how to perform actions in Regolith
+* [Keybindings](../reference/keybindings/): Learn the keybindings

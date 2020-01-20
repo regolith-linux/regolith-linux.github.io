@@ -1,7 +1,7 @@
 
 ---
 title: "The Interface"
-linkTitle: "The Interface"
+linkTitle: "Interface"
 weight: 3
 date: 2017-01-05
 description: >

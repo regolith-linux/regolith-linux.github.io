@@ -22,6 +22,8 @@ Before diving in it's good to define some terms to avoid confusion.
 | Launcher       | An active UI component a user will invoke to perform an action, such as navigate to a window or launch a program.|
 | Workspace      | A collection of windows all present together on the same computer monitor. |
 | Window         | A program presents a graphical interface to users via windows. Some programs are text based and do not create windows of their own. |
+| Window Manager | A program that organizes windows on behalf of the user. |
+| Tile           | Another word for a window used by tiling window managers. |
 
 ## Table of Contents
 
