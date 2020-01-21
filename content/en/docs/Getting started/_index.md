@@ -3,34 +3,27 @@ title: "Getting Started"
 linkTitle: "Getting Started"
 weight: 2
 description: >
-  What does your user need to know to try your project?
+  Summary of installation methods for Regolith.
 ---
 
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
-
-Information in this section helps your user try your project themselves.
-
-* What do your users need to do to start using your project? This could include downloading/installation instructions, including any prerequisites or system requirements.
-
-* Introductory “Hello World” example, if appropriate. More complex tutorials should live in the Tutorials section.
-
-Consider using the headings below for your getting started page. You can delete any that are not applicable to your project.
+This section contains the information necessary to get Regolith running on a computer.  There are two primary ways of installing Regolith; via an Ubuntu-based installer and via a Personal Package Archive (PPA).  Either of these methods will result in essentially the same user experience, although installing via the Ubuntu installer will result in a package selection that is different from installing vanilla Ubuntu. However by adding and removing specific packages a vanilla Ubuntu system can be configured.
 
 ## Prerequisites
 
-Are there any system requirements for using your project? What languages are supported (if any)? Do users need to already have any software or tools installed?
+### Ubuntu Installer
 
-## Installation
+* A [modern computer](https://help.ubuntu.com/community/Installation/SystemRequirements) that can boot from a USB flash drive.
+* Free space on a local drive.  The installer will allow for managing existing partitions or installing on an empty volume.
+* An internet connection to install updates during and after installation.
+* A monitor with at least VGA (1024 x 768) resolution.  Regolith is optimized for FHD (1920 x 1080) screens.
+* An empty USB flash drive with at least 4 Gb of storage space.
 
-Where can your user find your project code? How can they install it (binaries, installable package, build from source)? Are there multiple options/versions they can install and how should they choose the right one for them?
+### PPA
 
-## Setup
+* An existing Ubuntu installation with admin rights, version 18.04 or 19.04.
+* 100Mb of free storage space to install the Regolith desktop environment.
+* An internet connection to install updates during and after installation.
 
-Is there any initial setup users need to do after installation to try your project?
+## Deciding on Installation Method
 
-## Try it out!
-
-Can your users test their installation, for example by running a commmand or deploying a Hello World example?
-
+If you already have an Ubuntu system of a supported version, than adding Regolith via PPA is the faster and less disruptive method.  The Ubuntu installer method is better for starting from scratch, installing into a virtual machine, or just ensuring that any existing software is not conflicting with Regolith.  Some users have had some issues with getting Regolith to work properly with other Ubuntu derivative desktop environments.  Installing a fresh instance can sidestep these potential issues.
