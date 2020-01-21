@@ -5,13 +5,17 @@ linkTitle: "Interface"
 weight: 3
 date: 2017-01-05
 description: >
-  See your project in action!
+  Details about the Regolith interface.
 ---
 
-{{% pageinfo %}}
-This is a placeholder page that shows you how to use this template site.
-{{% /pageinfo %}}
+The Regolith UI is composed of the following open source projects, and their respective transitive dependencies:
 
-Do you have any example **applications** or **code** for your users in your repo or elsewhere? Link to your examples here.
-
-
+* Xorg X display server
+* i3-gaps window manager
+* Rofi application launcher
+* i3bar bar
+* i3xrocks bar script scheduler, based on i3blocks
+* Rofication notification system
+* Remontoire shortcut window
+* gdm3 desktop session manager
+* gnome-flashback GNOME session manager

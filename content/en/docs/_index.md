@@ -24,6 +24,7 @@ Before diving in it's good to define some terms to avoid confusion.
 | Window         | A program presents a graphical interface to users via windows. Some programs are text based and do not create windows of their own. |
 | Window Manager | A program that organizes windows on behalf of the user. |
 | Tile           | Another word for a window used by tiling window managers. |
+| Floating Window | A window that does not share bounds with other windows in a workspace can be placed on top of them. This is the default layout for traditional window managers. |
 
 ## Table of Contents
 
