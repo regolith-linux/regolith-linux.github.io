@@ -16,3 +16,26 @@ To maximize the re-use of theme information in Regolith, Xresources are divided 
 ## Application Xresource files
 
 As mentioned previously, in `/etc/regolith/styles` lives a number of Xresources, including those for specific applications such as `st` or `i3-wm`.  Opening these files will show a mapping of the abstract keys provided by the defines files to application specific keys.  In this way, the general description of the look can be mapped to any UI component or application that can read from Xresources.
+
+## Loading Order
+
+The `i3-gnome-flashback` session init script will check for an Xresources file in the following order:
+1. `~/.Xresources-regolith`
+2. `/etc/regolith/styles/root`
+
+In addition to a Regolith Xresources file, `~/.Xresources` will also be loaded if it exists upon session start.
+
+## Reloading Xresources
+
+The `xrdb` command can be used to refresh Xresource values after they have changed.  For example, to reload the user Xresource file run:
+```bash
+$ xrdb -merge ~/.Xresources-regolith
+```
+
+### Verification
+
+You can test that a change has been made to your Xresources file by querying it from the command line.  If a change was made to key `foo.bar` then the following command will return it's current value, or `empty` if unset:
+```bash
+$ xrescat foo.bar empty
+```
+

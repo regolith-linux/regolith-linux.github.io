@@ -28,7 +28,7 @@ linkTitle = "Regolith Linux"
 {{< blocks/section color="white" >}}
 <div class="container">
   <div class="row pb-5">
-    <div class="col my-auto">
+    <div class="col my-auto border rounded p-3">
       <p>Upon login, Regolith is relatively free of clutter.  A collapsible bar at the bottom provides important information such as the time and active workspace.</p>
     </div>
     <div class="col d-flex">
@@ -38,12 +38,12 @@ linkTitle = "Regolith Linux"
       <div class="col">
         <p>{{< screenshot screenshot-terminal.png "Single Terminal" >}}</p>
       </div>
-      <div class="col my-auto">
+      <div class="col my-auto border rounded p-3">
         <p>For those that work in the terminal, pressing <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">enter</span></span> is all it takes to get to business.</p>
       </div>
     </div>
     <div class="row pb-5">
-      <div class="col d-flex my-auto">
+      <div class="col d-flex my-auto border rounded p-3">
         <p>Need more terminals?  Toggle between horizontal and vertical layouts with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">backspace</span></span>.</p>
       </div>
       <div class="col d-flex">
@@ -54,12 +54,12 @@ linkTitle = "Regolith Linux"
       <div class="col d-flex">
         <p>{{< screenshot screenshot-rofi.png "Launch Apps" >}}</p>
       </div>
-      <div class="col d-flex my-auto">
+      <div class="col d-flex my-auto border rounded p-3">
         <p>Launching apps is as simple as <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">space</span></span>, type a few letters of the app you're looking for and press <span class="badge badge-warning">enter</span> to launch it:</p>
       </div>
     </div>
     <div class="row pb-5">
-      <div class="col d-flex my-auto">
+      <div class="col d-flex my-auto border rounded p-3">
         <p>Gnome Flashback provides consistent and simple system management. Tweak your UI, auto mount your USB drives, connect to wireless networks.</p>
       </div>
       <div class="col d-flexr">
@@ -70,12 +70,12 @@ linkTitle = "Regolith Linux"
       <div class="col d-flex">
         <p>{{< screenshot screenshot-conky.png "Shortcuts" >}}</p>
       </div>
-      <div class="col d-flex my-auto">
+      <div class="col d-flex my-auto border rounded p-3">
         <p>Toggle an overlay via <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">?</span></span> that presents the most important keybindings until they become muscle-memory.</p>
       </div>
     </div>
     <div class="row pb-5">
-      <div class="col d-flex my-auto">
+      <div class="col d-flex my-auto border rounded p-3">
         <p>Got a lot going on?  Quickly find the window you're looking for via <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">ctrl</span> <span class="badge badge-warning">space</span></span> or navigate over workspaces with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">[0 - 19]</span></span>.</p>
       </div>
       <div class="col d-flex">
@@ -86,7 +86,7 @@ linkTitle = "Regolith Linux"
       <div class="col d-flex">
         <p>{{< screenshot screenshot-develop.png "Window Management" >}}</p>
       </div>
-      <div class="col d-flex my-auto">
+      <div class="col d-flex my-auto border rounded p-3">
         <p>Waste no space on frivolous UI and take advantage of every pixel without micro-managing your window layouts.</p>
       </div>
     </div>
