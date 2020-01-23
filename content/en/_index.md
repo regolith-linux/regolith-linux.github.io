@@ -9,7 +9,7 @@ linkTitle = "Regolith Linux"
 <p class="lead m-5">Regolith is a modern desktop environment that saves you time by reducing the clutter and ceremony that stand between you and your work. Built on top of Ubuntu and GNOME, Regolith stands on a well-supported and consistent foundation.</p>
 
 <div class="row">
-  <div class="col-sm-8">{{< img screenshot-intro.png "Regolith Linux" >}}</div>
+  <div class="col-sm-8">{{< img screenshot-title.png "Regolith Linux" >}}</div>
   <div class="col-sm-4">
     <div class="mx-auto">
     <a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/google/docsy-example">
@@ -28,11 +28,11 @@ linkTitle = "Regolith Linux"
 {{< blocks/section color="white" >}}
 <div class="container">
   <div class="row pb-5">
-    <div class="col my-auto border rounded p-3">
-      <p>Upon login, Regolith is relatively free of clutter.  A collapsible bar at the bottom provides important information such as the time and active workspace.</p>
+    <div class="col d-flex my-auto border rounded p-3">
+      <p>Upon first login, an overlay (toggled anytime via <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">?</span></span>) presents the most important keybindings used with i3-wm.</p>
     </div>
     <div class="col d-flex">
-      <p>{{< screenshot screenshot-empty.png "Empty Desktop" >}}</p>
+      <p>{{< screenshot screenshot-remontoire.png "Shortcuts" >}}</p>
     </div>    
     <div class="row pb-5 pt-5">
       <div class="col">
@@ -42,53 +42,77 @@ linkTitle = "Regolith Linux"
         <p>For those that work in the terminal, pressing <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">enter</span></span> is all it takes to get to business.</p>
       </div>
     </div>
-    <div class="row pb-5">
-      <div class="col d-flex my-auto border rounded p-3">
-        <p>Need more terminals?  Toggle between horizontal and vertical layouts with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">backspace</span></span>.</p>
+    <div class="row pb-5 pt-5">
+      <div class="col my-auto border rounded p-3">
+        <p>A single global app launcher is instantly available from anywhere to run your programs via <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">space</span></span>.</p>
       </div>
+      <div class="col">
+        <p>{{< screenshot screenshot-launcher.png "Launcher" >}}</p>
+      </div>      
+    </div>
+    <div class="row pb-5">
       <div class="col d-flex">
         <p>{{< screenshot screenshot-terminals.png "Terminals" >}}</p>
       </div>
+      <div class="col d-flex my-auto border rounded p-3">
+        <p>Need more terminals?  Create layouts on the fly by toggling between horizontal and vertical modes with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">backspace</span></span> followed by <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">enter</span></span>.</p>
+      </div>      
     </div>
     <div class="row pb-5">
+      <div class="col d-flex my-auto border rounded p-3">
+        <p>Toggle floating window mode with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">F</span></span>.</p>
+      </div>
       <div class="col d-flex">
-        <p>{{< screenshot screenshot-rofi.png "Launch Apps" >}}</p>
-      </div>
-      <div class="col d-flex my-auto border rounded p-3">
-        <p>Launching apps is as simple as <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">space</span></span>, type a few letters of the app you're looking for and press <span class="badge badge-warning">enter</span> to launch it:</p>
-      </div>
+        <p>{{< screenshot screenshot-float.png "Window Float" >}}</p>
+      </div>      
     </div>
     <div class="row pb-5">
-      <div class="col d-flex my-auto border rounded p-3">
-        <p>Gnome Flashback provides consistent and simple system management. Tweak your UI, auto mount your USB drives, connect to wireless networks.</p>
-      </div>
       <div class="col d-flexr">
         <p>{{< screenshot screenshot-gnome.png "GNOME system admin" >}}</p>
       </div>
+      <div class="col d-flex my-auto border rounded p-3">
+        <p>Gnome Flashback provides consistent and simple system management. Tweak your UI, auto mount your USB drives, connect to wireless networks. Launch the control panel with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">c</span></span>.</p>
+      </div>      
     </div>
     <div class="row pb-5">
+      <div class="col d-flex my-auto border rounded p-3">
+        <p>Launch Transmission via the app launcher <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">space</span></span> and manage files with Nautilus <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">N</span></span>.</p>
+      </div>
       <div class="col d-flex">
-        <p>{{< screenshot screenshot-conky.png "Shortcuts" >}}</p>
-      </div>
-      <div class="col d-flex my-auto border rounded p-3">
-        <p>Toggle an overlay via <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">?</span></span> that presents the most important keybindings until they become muscle-memory.</p>
-      </div>
+        <p>{{< screenshot screenshot-transmission.png "Downloads" >}}</p>
+      </div>      
     </div>
     <div class="row pb-5">
-      <div class="col d-flex my-auto border rounded p-3">
-        <p>Got a lot going on?  Quickly find the window you're looking for via <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">ctrl</span> <span class="badge badge-warning">space</span></span> or navigate over workspaces with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">[0 - 19]</span></span>.</p>
-      </div>
       <div class="col d-flex">
         <p>{{< screenshot screenshot-window.png "Shortcuts" >}}</p>
       </div>
+      <div class="col d-flex my-auto border rounded p-3">
+        <p>Got a lot going on?  Quickly find the window you're looking for via <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">ctrl</span> <span class="badge badge-warning">space</span></span> or navigate over workspaces with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">[0 - 19]</span></span>.</p>
+      </div>      
     </div>
     <div class="row">
-      <div class="col d-flex">
-        <p>{{< screenshot screenshot-develop.png "Window Management" >}}</p>
-      </div>
       <div class="col d-flex my-auto border rounded p-3">
         <p>Waste no space on frivolous UI and take advantage of every pixel without micro-managing your window layouts.</p>
       </div>
+      <div class="col d-flex">
+        <p>{{< screenshot screenshot-develop.png "Window Management" >}}</p>
+      </div>      
+    </div>
+    <div class="row">
+      <div class="col d-flex p-3">
+        <p>{{< screenshot screenshot-notifications.png "Notifications" >}}</p>
+      </div>
+      <div class="col d-flex my-auto border rounded p-3">
+        <p>Manage your notifications with an on-screen dialog by pressing <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">n</span></span>.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col d-flex my-auto border rounded p-3">
+        <p>Regolith is based on Ubuntu, providing a system that's up to date and stable.</p>
+      </div>
+      <div class="col d-flex">
+        <p>{{< screenshot screenshot-updates.png "System Updates" >}}</p>
+      </div>      
     </div>
   </div>
 </div>
