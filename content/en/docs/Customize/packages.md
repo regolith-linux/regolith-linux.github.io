@@ -30,8 +30,18 @@ The source code associated with Regolith packages is hosted on [Regolith Linux's
 
 ### Installer ISOs
 
-The installer is produced using the [Cubic tool](https://launchpad.net/cubic) and providing the target ISO files as manual uploads to the Regolith Linux GitHub org.
+The installer is produced using the [Cubic tool](https://launchpad.net/cubic) and providing the target ISO files as manual uploads to the Regolith Linux GitHub org.  The [README in `regolith-cubic-conf`](https://github.com/regolith-linux/regolith-cubic-config) has more details.
 
 ## Build
 
 Regolith packages can be built, signed, and staged from the `regolith-builder` repository.  See the [project's README](https://github.com/regolith-linux/regolith-builder) for details.
+
+## Package Δ between Stock Ubuntu and Regolith Linux
+
+When installing Regolith via PPA, the user has control and visibility over all package changes via their package installation tool of choice, likely `apt`, `dpkg`, or `synaptic`.  However when installing Regolith via the Ubuntu Installer, the user does not see what packages are installed as part of that process.  For Regolith 1.2, the following packages are removed from stock Ubuntu:
+
+* ubuntu-session
+* libreoffice-*
+* rythmbox-*
+
+Of course, any of these packages can be re-added by the user after installation using a variety of tools including the app store.
