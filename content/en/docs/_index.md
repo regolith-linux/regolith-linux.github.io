@@ -25,6 +25,7 @@ Before diving in it's good to define some terms to avoid confusion.
 | Window Manager | A program that organizes windows on behalf of the user. |
 | Tile           | Another word for a window used by tiling window managers. |
 | Floating Window | A window that does not share bounds with other windows in a workspace can be placed on top of them. This is the default layout for traditional window managers. |
+| bar | The UI component that by default lives at the bottom edge of the screen and provides workspace and system information.
 
 ## Table of Contents
 
