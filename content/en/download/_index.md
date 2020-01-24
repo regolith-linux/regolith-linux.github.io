@@ -57,4 +57,8 @@ $ rm -Rf ~/.regolith-gnome-backup ~/.config/regolith
 </pre>
 {{% /blocks/feature %}}
 
+{{% blocks/feature icon="fas fa-backward" title="Earlier Releases" %}}
+You can find [earlier ISO installer releases on SourceForge.net](https://sourceforge.net/projects/regolith-linux/).
+{{% /blocks/feature %}}
+
 {{< /blocks/section >}}

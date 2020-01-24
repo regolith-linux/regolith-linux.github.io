@@ -12,7 +12,7 @@ linkTitle = "Regolith Linux"
   <div class="col-sm-8">{{< img screenshot-title.png "Regolith Linux" >}}</div>
   <div class="col-sm-4">
     <div class="mx-auto">
-    <a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/google/docsy-example">
+    <a class="btn btn-lg btn-secondary mr-3 mb-4" href="{{< relref "/download" >}}">
       Get Regolith <i class="fas fa-cloud-download-alt ml-2 "></i>
     </a>
     <a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/docs" >}}">
@@ -33,7 +33,7 @@ linkTitle = "Regolith Linux"
     </div>
     <div class="col d-flex">
       <p>{{< screenshot screenshot-remontoire.png "Shortcuts" >}}</p>
-    </div>    
+    </div>  
     <div class="row pb-5 pt-5">
       <div class="col">
         <p>{{< screenshot screenshot-terminal.png "Single Terminal" >}}</p>
@@ -55,7 +55,7 @@ linkTitle = "Regolith Linux"
         <p>{{< screenshot screenshot-terminals.png "Terminals" >}}</p>
       </div>
       <div class="col d-flex my-auto border rounded p-3">
-        <p>Need more terminals?  Create layouts on the fly by toggling between horizontal and vertical modes with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">backspace</span></span> followed by <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">enter</span></span>.</p>
+        <p>Need more terminals?  Create layouts on the fly by toggling between horizontal and vertical modes with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">backspace</span></span> followed by <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">enter</span></span>.  Navigate to windows positionally with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">h</span> <span class="badge badge-warning">j</span> <span class="badge badge-warning">k</span> <span class="badge badge-warning">l</span></span>.</p>
       </div>      
     </div>
     <div class="row pb-5">
