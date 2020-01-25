@@ -130,13 +130,13 @@ linkTitle = "Regolith Linux"
 {{< /blocks/section >}}
 {{< blocks/section color="white">}}
 ### <i class="fas fa-info-circle pr-3"></i>What Makes Regolith Different
-- Delivers a desktop with a functional yet minimal user interface that can be customized and expanded as needed.
+- Delivers a desktop with a functional yet minimal user interface that can be <a href="docs/customize/">customized</a> and expanded as needed.
 - Provides GNOME's system management features with <a href="https://i3wm.org/">i3-wm</a>'s productive workflow.
 - Enables new users a fast and fun way to try out a <a href="https://opensource.com/article/18/8/i3-tiling-window-manager">tiling window manager</a>.
 - Supports <a href="https://github.com/regolith-linux/regolith-desktop/wiki/Customize">easy customization</a> and <a href="https://www.reddit.com/r/unixporn">ricing</a> via a consistent <a href="https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root">Xresource configuration</a>.
 - Relies on <a href="https://snapcraft.io/store">Ubuntu's app store</a> and <a href="https://packages.ubuntu.com/">package repositories</a> for a large, high quality selection of software.
-- Built to be taken apart. Swap in your own UI components easily.
-- Ships with a toggle overlay of basic keybindings to make getting started easier.
+- Built to be taken apart. <a href="docs/customize/components/">Swap in UI components</a> of your choosing easily.
+- Ships with a toggle overlay of basic <a href="docs/reference/keybindings/">keybindings</a> to make getting started easier.
 - Provides a <a href="https://github.com/regolith-linux/regolith-builder/blob/master/build.sh">build script</a> and <a href="https://github.com/regolith-linux/regolith-builder/blob/master/package-model.json">package metadata</a> to allow users to easily fork the desktop environment and distribution.
 {{< /blocks/section >}}
 {{< blocks/section color="white">}}
