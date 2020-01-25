@@ -20,11 +20,10 @@ linkTitle = "Regolith Linux"
     </a>
     <a class="btn btn-lg btn-success mr-3 mb-4" href="https://opencollective.com/regolith/donate">
       Contribute <i class="fas fa-piggy-bank ml-2"></i>
-    </a>
-    
+    </a>    
 </div>
 </div>
-    <div class="mx-auto mt-5">
+    <div class="mx-auto mt-5 pt-5">
       {{< blocks/link-down color="white" >}}
   </div>
 {{< /blocks/cover >}}
