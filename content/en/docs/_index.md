@@ -8,7 +8,7 @@ menu:
     weight: 20
 ---
 
-This site contains the information to use the Regolith desktop environment.  The content is structured in an order inteded for new users, but feel free to skip around as you see fit.  Feedback is always welcome and we appriciate any tips on how the documentation can be more complete, easy to read, and effective.
+This site contains the information to use the Regolith desktop environment.  The content is structured in an order intended for new users, but feel free to skip around as you see fit.  Feedback is always welcome and we appreciate any tips on how the documentation can be more complete, easy to read, and effective.
 
 ## Terminology
 
@@ -25,7 +25,6 @@ Before diving in it's good to define some terms to avoid confusion.
 | Window Manager | A program that organizes windows on behalf of the user. |
 | Tile           | Another word for a window used by tiling window managers. |
 | Floating Window | A window that does not share bounds with other windows in a workspace can be placed on top of them. This is the default layout for traditional window managers. |
-| bar | The UI component that by default lives at the bottom edge of the screen and provides workspace and system information.
 
 ## Table of Contents
 
