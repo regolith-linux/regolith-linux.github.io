@@ -1,7 +1,6 @@
 ---
 title: "Styles"
 linkTitle: "Styles"
-date: 2017-01-05
 weight: 2
 description: >
   Details about Regolith styles.

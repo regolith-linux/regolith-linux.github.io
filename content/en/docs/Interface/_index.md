@@ -3,7 +3,6 @@
 title: "The Interface"
 linkTitle: "Interface"
 weight: 3
-date: 2017-01-05
 description: >
   Details about the Regolith interface.
 ---

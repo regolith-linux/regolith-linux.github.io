@@ -1,7 +1,6 @@
 ---
 title: "System Configuration"
 linkTitle: "System Configuration"
-date: 2017-01-05
 weight: 3
 description: >
   Learn how to change settings in the Regolith desktop.

@@ -1,6 +1,5 @@
 ---
 title: "Change the bar date/time format"
-date: 2017-01-05
 weight: 4
 description: >
   Change the date/time format used in the bar.

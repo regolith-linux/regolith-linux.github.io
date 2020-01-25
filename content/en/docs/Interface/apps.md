@@ -1,7 +1,6 @@
 ---
 title: "Working with Applications"
 linkTitle: "Working with Applications"
-date: 2017-01-05
 weight: 1
 description: >
   Concepts and tips for working with apps in Regolith.

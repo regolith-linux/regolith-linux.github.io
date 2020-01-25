@@ -1,6 +1,5 @@
 ---
 title: "Change the default terminal"
-date: 2017-01-05
 weight: 3
 description: >
   Change which terminal Regolith loads by default.

@@ -1,7 +1,6 @@
 ---
 title: "Notifications"
 linkTitle: "Notifications"
-date: 2017-01-05
 weight: 2
 description: >
   Details regarding desktop notifications.

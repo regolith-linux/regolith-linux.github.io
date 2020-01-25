@@ -1,7 +1,6 @@
 ---
 title: "Installation"
 linkTitle: "Installation"
-date: 2017-01-05
 weight: 1
 description: >
   Install Regolith on your computer.

@@ -1,7 +1,6 @@
 ---
 title: "Components"
 linkTitle: "Components"
-date: 2017-01-05
 weight: 4
 description: >
   Change out the UI components that make up Regolith.

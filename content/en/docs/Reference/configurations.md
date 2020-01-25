@@ -1,7 +1,6 @@
 ---
 title: "Config Files"
 linkTitle: "Config Files"
-date: 2017-01-05
 weight: 2
 description: >
   General information about the config files that Regolith uses.

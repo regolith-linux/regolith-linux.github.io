@@ -1,7 +1,6 @@
 ---
 title: "Advanced"
 linkTitle: "Advanced"
-date: 2017-01-05
 weight: 4
 description: >
   Advanced topics for the Regolith interface.

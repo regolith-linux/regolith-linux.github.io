@@ -1,7 +1,6 @@
 ---
 title: "Look"
 linkTitle: "Look"
-date: 2017-01-05
 weight: 1
 description: >
   Regolith Looks

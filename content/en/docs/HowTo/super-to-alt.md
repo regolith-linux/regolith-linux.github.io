@@ -1,6 +1,5 @@
 ---
 title: "Change the super key mapping"
-date: 2017-01-05
 weight: 2
 description: >
   Change the i3 config to use the Alt key instead of Super for keybindings.

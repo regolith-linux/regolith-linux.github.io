@@ -1,7 +1,6 @@
 ---
 title: "Packages"
 linkTitle: "Packages"
-date: 2017-01-05
 weight: 2
 description: >
   A summary of packages hosted by the Regolith project and a description for each.

@@ -1,6 +1,5 @@
 ---
 title: "Stage config files"
-date: 2017-01-05
 weight: 1
 description: >
   Learn how to stage user copies of Regolith configuration files.

@@ -1,7 +1,6 @@
 ---
 title: "Basics"
 linkTitle: "Basics"
-date: 2017-01-05
 weight: 2
 description: >
   Learn the most important parts of Regolith first.
