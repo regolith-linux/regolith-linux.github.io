@@ -20,7 +20,7 @@ linkTitle = "Regolith Linux"
     </a>
     <a class="btn btn-lg btn-success mr-3 mb-4" href="https://opencollective.com/regolith/donate">
       Contribute <i class="fas fa-piggy-bank ml-2"></i>
-    </a>    
+    </a>
 </div>
 </div>
     <div class="mx-auto mt-5 pt-5">
@@ -36,7 +36,7 @@ linkTitle = "Regolith Linux"
     </div>
     <div class="col d-flex">
       <p>{{< screenshot screenshot-remontoire.png "Shortcuts" >}}</p>
-    </div>  
+    </div>
     <div class="row pb-5 pt-5">
       <div class="col">
         <p>{{< screenshot screenshot-terminal.png "Single Terminal" >}}</p>
@@ -51,7 +51,7 @@ linkTitle = "Regolith Linux"
       </div>
       <div class="col">
         <p>{{< screenshot screenshot-launcher.png "Launcher" >}}</p>
-      </div>      
+      </div>
     </div>
     <div class="row pb-5">
       <div class="col d-flex">
@@ -59,7 +59,7 @@ linkTitle = "Regolith Linux"
       </div>
       <div class="col d-flex my-auto border rounded p-3">
         <p>Need more terminals?  Create layouts on the fly by toggling between horizontal and vertical modes with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">backspace</span></span> followed by <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">enter</span></span>.  Navigate to windows positionally with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">h</span> <span class="badge badge-warning">j</span> <span class="badge badge-warning">k</span> <span class="badge badge-warning">l</span></span>.</p>
-      </div>      
+      </div>
     </div>
     <div class="row pb-5">
       <div class="col d-flex my-auto border rounded p-3">
@@ -67,7 +67,7 @@ linkTitle = "Regolith Linux"
       </div>
       <div class="col d-flex">
         <p>{{< screenshot screenshot-float.png "Window Float" >}}</p>
-      </div>      
+      </div>
     </div>
     <div class="row pb-5">
       <div class="col d-flexr">
@@ -75,47 +75,55 @@ linkTitle = "Regolith Linux"
       </div>
       <div class="col d-flex my-auto border rounded p-3">
         <p>Gnome Flashback provides consistent and simple system management. Tweak your UI, auto mount your USB drives, connect to wireless networks. Launch the control panel with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">c</span></span>.</p>
-      </div>      
+      </div>
     </div>
     <div class="row pb-5">
+      <div class="col d-flex my-auto border rounded p-3">
+        <p>Easily switch to <a href="https://ethanschoonover.com/solarized">Solarized</a> or other looks with the `regolith-look` command. Because <b>looks</b> utilize the package manager, you only store theme resources that you're using.</p>
+      </div>
+      <div class="col d-flex">
+        <p>{{< screenshot regolith-screenshot-solarized.png "Solarized" >}}</p>
+      </div>
+    </div>
+    <div class="row pb-5">
+      <div class="col d-flex">
+        <p>{{< screenshot screenshot-transmission.png "Downloads" >}}</p>
+      </div>
       <div class="col d-flex my-auto border rounded p-3">
         <p>Launch Transmission via the app launcher <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">space</span></span> and manage files with Nautilus <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">N</span></span>.</p>
       </div>
-      <div class="col d-flex">
-        <p>{{< screenshot screenshot-transmission.png "Downloads" >}}</p>
-      </div>      
     </div>
     <div class="row pb-5">
+      <div class="col d-flex my-auto border rounded p-3">
+        <p>Got a lot going on?  Quickly find the window you're looking for via <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">ctrl</span> <span class="badge badge-warning">space</span></span> or navigate over workspaces with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">[0 - 19]</span></span>.</p>
+      </div>
       <div class="col d-flex">
         <p>{{< screenshot screenshot-window.png "Shortcuts" >}}</p>
       </div>
-      <div class="col d-flex my-auto border rounded p-3">
-        <p>Got a lot going on?  Quickly find the window you're looking for via <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">ctrl</span> <span class="badge badge-warning">space</span></span> or navigate over workspaces with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">[0 - 19]</span></span>.</p>
-      </div>      
     </div>
     <div class="row">
+      <div class="col d-flex">
+        <p>{{< screenshot screenshot-develop.png "Window Management" >}}</p>
+      </div>
       <div class="col d-flex my-auto border rounded p-3">
         <p>Waste no space on frivolous UI and take advantage of every pixel without micro-managing your window layouts.</p>
       </div>
-      <div class="col d-flex">
-        <p>{{< screenshot screenshot-develop.png "Window Management" >}}</p>
-      </div>      
     </div>
     <div class="row">
-      <div class="col d-flex p-3">
-        <p>{{< screenshot screenshot-notifications.png "Notifications" >}}</p>
-      </div>
       <div class="col d-flex my-auto border rounded p-3">
         <p>Manage your notifications with an on-screen dialog by pressing <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">n</span></span>.</p>
       </div>
+      <div class="col d-flex p-3">
+        <p>{{< screenshot screenshot-notifications.png "Notifications" >}}</p>
+      </div>
     </div>
     <div class="row">
+      <div class="col d-flex">
+        <p>{{< screenshot screenshot-updates.png "System Updates" >}}</p>
+      </div>
       <div class="col d-flex my-auto border rounded p-3">
         <p>Regolith is based on Ubuntu, providing a system that's up to date and stable.</p>
       </div>
-      <div class="col d-flex">
-        <p>{{< screenshot screenshot-updates.png "System Updates" >}}</p>
-      </div>      
     </div>
   </div>
 </div>
@@ -129,7 +137,7 @@ linkTitle = "Regolith Linux"
 - Relies on <a href="https://snapcraft.io/store">Ubuntu's app store</a> and <a href="https://packages.ubuntu.com/">package repositories</a> for a large, high quality selection of software.
 - Built to be taken apart. Swap in your own UI components easily.
 - Ships with a toggle overlay of basic keybindings to make getting started easier.
-- Provides a <a href="https://github.com/regolith-linux/regolith-builder/blob/master/build.sh">build script</a> and <a href="https://github.com/regolith-linux/regolith-builder/blob/master/package-model.json">package metadata</a> to allow users to easily fork the desktop environment and distribution. 
+- Provides a <a href="https://github.com/regolith-linux/regolith-builder/blob/master/build.sh">build script</a> and <a href="https://github.com/regolith-linux/regolith-builder/blob/master/package-model.json">package metadata</a> to allow users to easily fork the desktop environment and distribution.
 {{< /blocks/section >}}
 {{< blocks/section color="white">}}
 ### <i class="fas fa-user-friends pr-3"></i>Thanks to...
