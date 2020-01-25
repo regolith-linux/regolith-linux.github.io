@@ -16,8 +16,12 @@ linkTitle = "Regolith Linux"
       Get Regolith <i class="fas fa-cloud-download-alt ml-2 "></i>
     </a>
     <a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/docs" >}}">
-      Documentation <i class="fas fa-book-reader ml-2"></i>
+      Learn More <i class="fas fa-book-reader ml-2"></i>
     </a>
+    <a class="btn btn-lg btn-success mr-3 mb-4" href="https://opencollective.com/regolith/donate">
+      Contribute <i class="fas fa-piggy-bank ml-2"></i>
+    </a>
+    
 </div>
 </div>
     <div class="mx-auto mt-5">
@@ -60,7 +64,7 @@ linkTitle = "Regolith Linux"
     </div>
     <div class="row pb-5">
       <div class="col d-flex my-auto border rounded p-3">
-        <p>Toggle floating window mode with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">F</span></span>.</p>
+        <p>Toggle floating window mode with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">F</span></span>.  Resize windows with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">r</span></span> and move them around with the mouse by pressing <span class="badge badge-warning">super</span>.</p>
       </div>
       <div class="col d-flex">
         <p>{{< screenshot screenshot-float.png "Window Float" >}}</p>
@@ -117,25 +121,25 @@ linkTitle = "Regolith Linux"
   </div>
 </div>
 {{< /blocks/section >}}
-{{< blocks/section color="orange">}}
+{{< blocks/section color="white">}}
 ### <i class="fas fa-info-circle pr-3"></i>What Makes Regolith Different
 - Delivers a desktop with a functional yet minimal user interface that can be customized and expanded as needed.
-- Provides GNOME's system management features with <a class="text-light bg-dark" href="https://i3wm.org/">i3-wm</a>'s productive workflow.
-- Enables new users a fast and fun way to try out a <a class="text-light bg-dark" href="https://opensource.com/article/18/8/i3-tiling-window-manager">tiling window manager</a>.
-- Supports <a class="text-light bg-dark" href="https://github.com/regolith-linux/regolith-desktop/wiki/Customize">easy customization</a> and <a class="text-light bg-dark" href="https://www.reddit.com/r/unixporn">ricing</a> via a consistent <a class="text-light bg-dark" href="https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root">Xresource configuration</a>.
-- Relies on <a class="text-light bg-dark" href="https://snapcraft.io/store">Ubuntu's app store</a> and <a class="text-light bg-dark" href="https://packages.ubuntu.com/">package repositories</a> for a large, high quality selection of software.
+- Provides GNOME's system management features with <a href="https://i3wm.org/">i3-wm</a>'s productive workflow.
+- Enables new users a fast and fun way to try out a <a href="https://opensource.com/article/18/8/i3-tiling-window-manager">tiling window manager</a>.
+- Supports <a href="https://github.com/regolith-linux/regolith-desktop/wiki/Customize">easy customization</a> and <a href="https://www.reddit.com/r/unixporn">ricing</a> via a consistent <a href="https://github.com/regolith-linux/regolith-styles/blob/master/Xresources/root">Xresource configuration</a>.
+- Relies on <a href="https://snapcraft.io/store">Ubuntu's app store</a> and <a href="https://packages.ubuntu.com/">package repositories</a> for a large, high quality selection of software.
 - Built to be taken apart. Swap in your own UI components easily.
 - Ships with a toggle overlay of basic keybindings to make getting started easier.
-- Provides a <a class="text-light bg-dark" href="https://github.com/regolith-linux/regolith-builder/blob/master/build.sh">build script</a> and <a class="text-light bg-dark" href="https://github.com/regolith-linux/regolith-builder/blob/master/package-model.json">package metadata</a> to allow users to easily fork the desktop environment and distribution. 
+- Provides a <a href="https://github.com/regolith-linux/regolith-builder/blob/master/build.sh">build script</a> and <a href="https://github.com/regolith-linux/regolith-builder/blob/master/package-model.json">package metadata</a> to allow users to easily fork the desktop environment and distribution. 
 {{< /blocks/section >}}
 {{< blocks/section color="white">}}
-### <i class="fas fa-user-friends pr-3"></i>Credits
+### <i class="fas fa-user-friends pr-3"></i>Thanks to...
 <div class="container-fluid">
   <div class="row pl-0 align-items-center">
     <div class="col-5 col-md-0">
       Regolith is more curation than creation.  Here are some of the notable people and entities that produced unaffiliated work independently from which Regolith is based.
     </div>
-    <div class="col-6">
+    <div class="col-6 border rounded p-3">
       <div class="container">
         <div class="row">
           <div class="col-lg"><a href="https://i3wm.org">Michael Stapelberg</a> and <a href="https://github.com/Airblader/i3">Ingo Bürk</a></div>

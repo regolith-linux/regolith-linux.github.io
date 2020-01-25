@@ -153,11 +153,6 @@ no = 'Sorry to hear that. Please <a href="https://github.com/regolith-linux/rego
 	url = "https://regolith-linux.herokuapp.com/"
 	icon = "fab fa-slack"
         desc = "Chat with other users."
-[[params.links.developer]]
-	name ="Internals"
-	url = "https://github.com/regolith-linux/regolith-desktop/issues"
-	icon = "fas fa-cog"
-        desc = "Learn how Regolith is put together."
 
 # Versions
 [[params.versions]]

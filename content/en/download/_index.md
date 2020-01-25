@@ -58,7 +58,11 @@ $ rm -Rf ~/.regolith-gnome-backup ~/.config/regolith
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fas fa-backward" title="Earlier Releases" %}}
-You can find [earlier ISO installer releases on SourceForge.net](https://sourceforge.net/projects/regolith-linux/).
+While Regolith is a young project, it already has a few releases behind it.  You can find [earlier ISO installer releases on SourceForge.net](https://sourceforge.net/projects/regolith-linux/).
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fas fa-question-circle" title="More Help" %}}
+Care for more details? Another version of these installation instructions are available in [the user documentation](../docs/getting-started/install).
 {{% /blocks/feature %}}
 
 {{< /blocks/section >}}
