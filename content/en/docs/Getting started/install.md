@@ -26,4 +26,43 @@ $ sudo add-apt-repository ppa:regolith-linux/release
 <pre>
 $ sudo apt install regolith-desktop
 </pre>
-3. Reboot the computer, and when logging in select the "Regolith" session in the gear menu (⚙️).
+3. Reboot the computer, and when logging in select the "Regolith" session in the gear menu (⚙️):
+
+![Ubuntu Login Screen](/r13-dev-site/regolith-screenshot-login.png)
+
+## Reinstallation
+
+In the case that the Regolith desktop environment becomes corrupted or otherwise unbootable, follow these steps to reset it.  No user files will be removed as part of this process:
+
+1. Login to the stock Ubuntu session.  If this session is not available, install it with `sudo apt install ubuntu-session`.
+2. Uninstall Regolith from within the Ubuntu session:
+```bash
+$ sudo apt remove regolith-*
+* sudo apt autoremove
+```
+3. Verify that no regolith packages are still installed with `apt list --installed | grep -i regolith`.  The command should not return any packages.  If it does, manually uninstall them with `sudo apt remove <package>`.
+4. Reinstall Regolith:
+```
+$ sudo apt install regolith-desktop
+```
+5. Reboot the computer, and when logging in select the "Regolith" session in the gear menu.
+
+## Uninstallation of `regolith-desktop`
+
+Simply follow these steps to remove Regolith from your system:
+
+1. Log out of the Regolith session and into the default Ubuntu session.
+2. Open a terminal and run: 
+```bash
+$ sudo apt remove regolith-desktop regolith-st && sudo apt autoremove
+``` 
+3. Now remove the PPA:  
+```bash
+$ sudo add-apt-repository --remove ppa:regolith-linux/release
+```
+4. To restore your GNOME settings, run: 
+```bash 
+$ source ~/.regolith-gnome-backup
+```
+5. You can safely delete the file `~/.config/regolith`.
+
