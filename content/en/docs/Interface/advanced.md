@@ -13,3 +13,7 @@ The bar's visibility can be toggled with <span class="text-nowrap"><span class="
 ## i3-wm Layout Mode
 
 i3-wm offers a few different layout modes.  <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">t</span></span> can be used to toggle between tabbed, horizontal and vertical split modes.
+
+## Save and Restore Window Positions
+
+<code>i3-snapshot</code> is integrated into Regolith 1.3.  Pressing <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">,</span></span> will write the current window layout to a file in the <code>/tmp</code> directory. <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">,</span></span> will restore that layout.
