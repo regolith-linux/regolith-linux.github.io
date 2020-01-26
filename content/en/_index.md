@@ -34,7 +34,7 @@ linkTitle = "Regolith Linux"
     <div class="col d-flex my-auto border rounded p-3">
       <p>Upon first login, an overlay (toggled anytime via <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">?</span></span>) presents the most important keybindings used with i3-wm.</p>
     </div>
-    <div class="col d-flex">
+    <div class="col d-flex mt-3">
       <p>{{< screenshot screenshot-remontoire.png "Shortcuts" >}}</p>
     </div>
     <div class="row pb-5 pt-5">
@@ -49,7 +49,7 @@ linkTitle = "Regolith Linux"
       <div class="col my-auto border rounded p-3">
         <p>A single global app launcher is instantly available from anywhere to run your programs via <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">space</span></span>.</p>
       </div>
-      <div class="col">
+      <div class="col mt-3">
         <p>{{< screenshot screenshot-launcher.png "Launcher" >}}</p>
       </div>
     </div>
@@ -65,7 +65,7 @@ linkTitle = "Regolith Linux"
       <div class="col d-flex my-auto border rounded p-3">
         <p>Toggle floating window mode with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">F</span></span>.  Resize windows with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">r</span></span> and move them around with the mouse by pressing <span class="badge badge-warning">super</span>.</p>
       </div>
-      <div class="col d-flex">
+      <div class="col d-flex mt-3">
         <p>{{< screenshot screenshot-float.png "Window Float" >}}</p>
       </div>
     </div>
@@ -81,7 +81,7 @@ linkTitle = "Regolith Linux"
       <div class="col d-flex my-auto border rounded p-3">
         <p>Easily switch to <a href="https://ethanschoonover.com/solarized">Solarized</a> or other looks with the `regolith-look` command. Because <b>looks</b> utilize the package manager, you only store theme resources that you're using.</p>
       </div>
-      <div class="col d-flex">
+      <div class="col d-flex mt-3">
         <p>{{< screenshot regolith-screenshot-solarized.png "Solarized" >}}</p>
       </div>
     </div>
@@ -97,11 +97,11 @@ linkTitle = "Regolith Linux"
       <div class="col d-flex my-auto border rounded p-3">
         <p>Got a lot going on?  Quickly find the window you're looking for via <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">ctrl</span> <span class="badge badge-warning">space</span></span> or navigate over workspaces with <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">[0 - 19]</span></span>.</p>
       </div>
-      <div class="col d-flex">
+      <div class="col d-flex mt-3">
         <p>{{< screenshot screenshot-window.png "Shortcuts" >}}</p>
       </div>
     </div>
-    <div class="row">
+    <div class="row pb-5">
       <div class="col d-flex">
         <p>{{< screenshot screenshot-develop.png "Window Management" >}}</p>
       </div>
@@ -109,7 +109,7 @@ linkTitle = "Regolith Linux"
         <p>Waste no space on frivolous UI and take advantage of every pixel without micro-managing your window layouts.</p>
       </div>
     </div>
-    <div class="row">
+    <div class="row pb-5">
       <div class="col d-flex my-auto border rounded p-3">
         <p>Manage your notifications with an on-screen dialog by pressing <span class="text-nowrap"><span class="badge badge-warning">super</span> <span class="badge badge-warning">n</span></span>.</p>
       </div>
@@ -117,7 +117,7 @@ linkTitle = "Regolith Linux"
         <p>{{< screenshot screenshot-notifications.png "Notifications" >}}</p>
       </div>
     </div>
-    <div class="row">
+    <div class="row pb-5">
       <div class="col d-flex">
         <p>{{< screenshot screenshot-updates.png "System Updates" >}}</p>
       </div>
