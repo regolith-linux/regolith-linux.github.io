@@ -23,9 +23,9 @@ At least the following three compositors should be available:
 
 | Package Name            | Backend           | Description |
 |-------------------|-----------------|------|
-| regolith-compositor-compton-glx   | Compton        | The default compositor for Regolith. |
+| regolith-compositor-compton-glx   | [Compton](https://github.com/yshui/picom)        | The default compositor for Regolith.  This compositor is modern, maintained, and handles screen tearing.|
 | regolith-compositor-xcompmgr            | xcompmgr     | An early compositor that may offer more consistent performance if `compton-glx` is promblematic |
-| regolith-compositor-none      |   | A no-op package that does not run a Compositor. Best for absolute UI performance. |
+| regolith-compositor-none      |   | A no-op package that does not run a Compositor. Best for absolute UI performance, at the cost of visual effects. |
 
 ## Installing a Compositor
 
