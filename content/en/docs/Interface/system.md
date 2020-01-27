@@ -22,6 +22,8 @@ Many things about Regolith can be configured in the i3 config file.  It is best 
 
 The i3bar configuration is defined in the i3 config file listed directly above, but the i3bar has it's own configuration for status items.  To change which information is displayed in the bar, the default file is <code>/etc/regolith/i3xrocks/config</code> and can be overridden by the user by specifying a new path in the i3 config file, as described above.
 
+Most status elements in the bar are configured to launch an app upon click that is associated with the data presented by the element.  For example the date/time element will launch the time settings panel in `gnome-control-panel`.  These scripts live in `/usr/share/i3xrocks` and can be configured as needed.
+
 ## Look
 
 The look of Regolith is configured via Xresources, that live in <code>/etc/regolith/styles/</code>.  This topic is covered in detail in the [Customize](../../customize/) section of the documentation.

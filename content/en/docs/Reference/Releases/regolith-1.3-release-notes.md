@@ -48,6 +48,11 @@ Following R1.2, the 1.3 release focused on usability issues reported by users an
             <td>The <code>gnome-control-center</code> app can have a hard time adapting to constrained tiled layouts common with <code>i3-wm</code>. Now when the control panel is loaded, it floats above the existing windows to allow for a quick settings change without impacting other apps.</td>
         </tr>
         <tr>
+            <td>Clickable Bar Status Actions</td>
+            <td></td>
+            <td>For convienence, the default blocks on the bar will launch configuration apps for the associated block.  For example, the battery block will launch the power settings control panel, and the notification block will launch the notification viewer.</td>
+        </tr>
+        <tr>
             <td>Discrete and packagable Looks</td>
             <td></td>
             <td>The underlying style framework used by Regolith has been revamped to allow for "looks": colors, themes, typeface, and other thematic state.  Looks can be switched with a single command.</td>
