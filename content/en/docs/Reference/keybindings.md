@@ -12,14 +12,15 @@ description: >
 |Launch Browser|`⊞ Win`-`Shift`-`Enter`|
 |App Launcher|`⊞ Win`-`Space`|
 |Command Launcher|`⊞ Win`-`Shift`-`Space`|
+|Launch File Browser|`⊞ Win`-`Shift`-`n`|
 |Window Navigate|`⊞ Win`-`Ctrl`-`Space`|
 |Move between Windows|`⊞ Win`-`Arrow Keys` or vim keys|
 |Move Windows|`⊞ Win`-`Shift`-`Arrow Keys` or vim keys|
 |Toggle Vertical and Horizontal Layout Mode|`⊞ Win`-`Backspace`|
 |Focused Window Fullscreen Toggle|`⊞ Win`-`f`|
 |Focused Window Float Toggle|`⊞ Win`-`Shift`-`F`|
-|Increase or Decrease Window Gaps|`⊞ Win`-`+` and `-`|
 |Toggle Keybinding Helper|`⊞ Win`-`Shift`-`?`|
+|Toggle the bar|`⊞ Win`-`i`|
 |Focused Window Floating Toggle|`⊞ Win`-`Shift`-`F`|
 |Move to Workspace 1 - 10|`⊞ Win`-`1 - 0`|
 |Move to Workspace 10 - 19|`⊞ Win`-`Ctrl`-`1 - 9`|
@@ -34,6 +35,7 @@ description: >
 |Configure Wifi|`⊞ Win`-`w`|
 |Enter Window Resize Mode|`⊞ Win`-`r`|
 |Change Window Size in Resize Mode|`⊞ Win`-`arrow keys`|
+|Increase or Decrease Window Gaps|`+` and `-`|
 |Exit Resize Mode|`Escape` or `Enter`|
 |Kill Focused Window|`⊞ Win`-`Shift`-`q`|
 |Close Terminal|`Ctrl`-`d`|
