@@ -86,9 +86,10 @@ Following R1.2, the 1.3 release focused on usability issues reported by users an
 The following commands were applied to the Regolith Install ISO in the [Cubic tool](https://launchpad.net/cubic):
 ```bash
 $ sudo add-apt-repository universe && sudo add-apt-repository ppa:regolith-linux/release
-$ sudo apt remove aisleriot branding-ubuntu cheese* gnome-mahjongg gnome-sudoku gnome-mines gnome-todo* gnome-video-* libchees* libgnome-games* libreoffice* remmina* rhythmbox* shotwell* thunderbird* totem* ure ubuntu-session
+$ sudo apt remove aisleriot branding-ubuntu cheese* gnome-mahjongg gnome-sudoku gnome-mines gnome-todo* gnome-video-* libchees* libgnome-games* libreoffice* remmina* rhythmbox* shotwell* thunderbird* totem* ure ubuntu-session ubuntu-web-launchers
 $ apt install regolith-desktop regolith-gdm3-theme
 $ sudo apt autoremove
+$ cp /usr/share/backgrounds/lucas-bellator-C0OD8OM-oM0-unsplash.jpg /usr/share/backgrounds/warty-final-ubuntu.png
 ```
 
 The purpose of removing several packages such as games and libreoffice was to reduce the ISO size.  All packages removed in the ISO are installable via the `apt` tool or via the Ubuntu app store.

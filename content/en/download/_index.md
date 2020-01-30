@@ -20,8 +20,8 @@ menu:
 </section>
 {{< blocks/section color="white">}}
 
-{{% blocks/feature icon="fas fa-compact-disc" title="Regolith Linux ISO Installer" url="https://sourceforge.net/projects/regolith-linux/" url_text="Download" %}}
-Starting from scratch or simply want to try Regolith out in a VM or LiveUSB environment? <a href="https://sourceforge.net/projects/regolith-linux/">Download the ISO</a> and write it to a USB flash drive to install or test drive Regolith as an operating system.  To learn how, visit the <a class="text-warning"  href="https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop">Ubuntu installer tutorial</a>.
+{{% blocks/feature icon="fas fa-compact-disc" title="Regolith Linux ISO Installer" url="https://sourceforge.net/projects/regolith-linux/files/regolith-linux-r1.3/" url_text="Download" %}}
+Starting from scratch or simply want to try Regolith out in a VM or LiveUSB environment? <a href="https://sourceforge.net/projects/regolith-linux/files/regolith-linux-r1.3/">Download the ISO <i class="fas fa-cloud-download-alt"></i></a> and write it to a USB flash drive to install or test drive Regolith as an operating system.  To learn how, visit the <a class="text-warning"  href="https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop">Ubuntu installer tutorial</a>.
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fas fa-box-open" title="Regolith Desktop PPA" %}}
