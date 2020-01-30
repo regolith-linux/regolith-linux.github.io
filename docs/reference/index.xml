@@ -1,0 +1,354 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Regolith – Reference</title>
+    <link>https://kgilmer.github.io/r13-dev-site/docs/reference/</link>
+    <description>Recent content in Reference on Regolith</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://kgilmer.github.io/r13-dev-site/docs/reference/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Keybindings</title>
+      <link>https://kgilmer.github.io/r13-dev-site/docs/reference/keybindings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kgilmer.github.io/r13-dev-site/docs/reference/keybindings/</guid>
+      <description>
+        
+        
+        &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Action&lt;/th&gt;
+&lt;th&gt;Key Binding&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Launch Terminal&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Enter&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Launch Browser&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Shift&lt;/code&gt;-&lt;code&gt;Enter&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;App Launcher&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Space&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Command Launcher&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Shift&lt;/code&gt;-&lt;code&gt;Space&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Launch File Browser&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Shift&lt;/code&gt;-&lt;code&gt;n&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Window Navigate&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Ctrl&lt;/code&gt;-&lt;code&gt;Space&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Move between Windows&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Arrow Keys&lt;/code&gt; or vim keys&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Move Windows&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Shift&lt;/code&gt;-&lt;code&gt;Arrow Keys&lt;/code&gt; or vim keys&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Toggle Vertical and Horizontal Layout Mode&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Backspace&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Focused Window Fullscreen Toggle&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;f&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Focused Window Float Toggle&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Shift&lt;/code&gt;-&lt;code&gt;F&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Toggle Keybinding Helper&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Shift&lt;/code&gt;-&lt;code&gt;?&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Toggle the bar&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;i&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Focused Window Floating Toggle&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Shift&lt;/code&gt;-&lt;code&gt;F&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Move to Workspace 1 - 10&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;1 - 0&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Move to Workspace 10 - 19&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Ctrl&lt;/code&gt;-&lt;code&gt;1 - 9&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Take to Workspace 1 - 10&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Alt&lt;/code&gt;-&lt;code&gt;1 - 0&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Take to Workspace 10 - 19&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Ctrl&lt;/code&gt;-&lt;code&gt;Alt&lt;/code&gt;-&lt;code&gt;1 - 9&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Move to Next Workspace&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Tab&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Move to Previous Workspace&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Shift&lt;/code&gt;-&lt;code&gt;Tab&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Layout Toggle (tabbed, horizontal, vertical)&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;t&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reload i3 Config&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Shift&lt;/code&gt;-&lt;code&gt;C&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Control Panel&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;c&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Configure Bluetooth&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;b&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Configure Wifi&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;w&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Enter Window Resize Mode&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;r&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Change Window Size in Resize Mode&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;arrow keys&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Increase or Decrease Window Gaps&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;+&lt;/code&gt; and &lt;code&gt;-&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Exit Resize Mode&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Escape&lt;/code&gt; or &lt;code&gt;Enter&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Kill Focused Window&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Shift&lt;/code&gt;-&lt;code&gt;q&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Close Terminal&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Ctrl&lt;/code&gt;-&lt;code&gt;d&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Close (Some) Windows&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Ctrl&lt;/code&gt;-&lt;code&gt;w&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Exit (Some) Apps&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Ctrl&lt;/code&gt;-&lt;code&gt;q&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Exit Session&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Shift&lt;/code&gt;-&lt;code&gt;E&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Suspend Computer&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Shift&lt;/code&gt;-&lt;code&gt;S&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Reboot Computer&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Shift&lt;/code&gt;-&lt;code&gt;B&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Power Off Computer&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;⊞ Win&lt;/code&gt;-&lt;code&gt;Shift&lt;/code&gt;-&lt;code&gt;P&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Config Files</title>
+      <link>https://kgilmer.github.io/r13-dev-site/docs/reference/configurations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kgilmer.github.io/r13-dev-site/docs/reference/configurations/</guid>
+      <description>
+        
+        
+        &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Component&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Default Config&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;User Config&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Notes&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;i3-gaps&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;/etc/regolith/i3/config&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;~/.config/regolith/i3/config&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;In Regolith versions prior to 1.2 this file was in another directory.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Xresources&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;/etc/regolith/styles/root&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;~/.Xresources-regolith&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;~/.Xresources&lt;/code&gt; is also loaded but intended for properties that may also be required in other desktop sessions.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Rofi&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;/etc/regolith/styles/cahuella/rofi.rasi&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Defined in the &lt;code&gt;theme&lt;/code&gt; style file.&lt;/td&gt;
+&lt;td&gt;This can also be overridden directly in the i3 file if preferred.&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Bar Workspace Labels&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;/etc/regolith/styles/i3-wm&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;User defined&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Bar status indicators&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;/etc/regolith/i3xrocks/config&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;User defined (i3 config)&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;load-sequence&#34;&gt;Load Sequence&lt;/h2&gt;
+&lt;p&gt;Upon session start, Regolith loads configuration files in the following order:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;/usr/bin/i3-gnome-flashback&lt;/code&gt; executes after successful login&lt;/li&gt;
+&lt;li&gt;Load Xresource file &lt;code&gt;~/.Xresources&lt;/code&gt; if it exists.&lt;/li&gt;
+&lt;li&gt;Load Xresource file &lt;code&gt;~/.Xresources-regolith&lt;/code&gt; if it exists.&lt;/li&gt;
+&lt;li&gt;Load first i3 config file found from following list: &lt;code&gt;~/.config/regolith/i3/confg&lt;/code&gt;, &lt;code&gt;/etc/regolith/i3/config&lt;/code&gt;, &lt;code&gt;/etc/i3/config&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;If first time session has loaded, initialize system.&lt;/li&gt;
+&lt;li&gt;Compare current Xresource db against last saved hash, if different, reload GNOME settings from Xresources.&lt;/li&gt;
+&lt;li&gt;Execute i3&lt;/li&gt;
+&lt;li&gt;i3 executes the UI components Rofi, i3xrocks, unclutter, regolith-compositor, Rofication, and regolith-ftue&lt;/li&gt;
+&lt;/ol&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Packages</title>
+      <link>https://kgilmer.github.io/r13-dev-site/docs/reference/packages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kgilmer.github.io/r13-dev-site/docs/reference/packages/</guid>
+      <description>
+        
+        
+        &lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;Package&lt;/strong&gt;&lt;/th&gt;
+&lt;th&gt;&lt;strong&gt;Description&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;regolith-assets&lt;/td&gt;
+&lt;td&gt;An optional package with additional wallpaper.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;regolith-builder&lt;/td&gt;
+&lt;td&gt;Scripts and metadata for building and hosting Regolith.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;regolith-compositor-compton-glx&lt;/td&gt;
+&lt;td&gt;A compositor configuration for Picom (recently renamed from Compton).&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;regolith-compositor-xcompmgr&lt;/td&gt;
+&lt;td&gt;A compositor configuration for xcompmgr.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;regolith-compositor-none&lt;/td&gt;
+&lt;td&gt;A compositor configuration for no compositor.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;regolith-desktop&lt;/td&gt;
+&lt;td&gt;The root meta package for Regolith by which all other default packages are referenced.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;regolith-gdm3-theme&lt;/td&gt;
+&lt;td&gt;An optional package for an updated login screen.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;regolith-gnome-flashback&lt;/td&gt;
+&lt;td&gt;A customization of &lt;code&gt;i3-gnome-flashback&lt;/code&gt; for Regolith.  Session init logic lives here.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;regolith-i3-gaps-config&lt;/td&gt;
+&lt;td&gt;Regolith&#39;s version of the i3 config file.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;regolith-i3xrocks-config&lt;/td&gt;
+&lt;td&gt;Configuration for the status indicators in the bar.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;regolith-linux.github.io&lt;/td&gt;
+&lt;td&gt;This website.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;regolith-rofication&lt;/td&gt;
+&lt;td&gt;A customization of the Rofication project.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;regolith-st&lt;/td&gt;
+&lt;td&gt;The st-term with some patches applied.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;regolith-styles&lt;/td&gt;
+&lt;td&gt;Metadata that describes the UI look in Regolith.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Releases</title>
+      <link>https://kgilmer.github.io/r13-dev-site/docs/reference/releases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kgilmer.github.io/r13-dev-site/docs/reference/releases/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Release notes and other version-specific content can be found here.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

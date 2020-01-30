@@ -1,0 +1,87 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Regolith – Policy and Process</title>
+    <link>https://kgilmer.github.io/r13-dev-site/docs/policy-and-process/</link>
+    <description>Recent content in Policy and Process on Regolith</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://kgilmer.github.io/r13-dev-site/docs/policy-and-process/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Privacy</title>
+      <link>https://kgilmer.github.io/r13-dev-site/docs/policy-and-process/privacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kgilmer.github.io/r13-dev-site/docs/policy-and-process/privacy/</guid>
+      <description>
+        
+        
+        &lt;p&gt;There is nothing in Regolith Linux itself that collects any user data, either anonymously or otherwise. Because Regolith is a customization of Ubuntu Linux, any data collection that Ubuntu is doing will also be performed by Regolith Linux. This website has vanilla Google Analytics integration.  Anonymity is a feature.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Updates</title>
+      <link>https://kgilmer.github.io/r13-dev-site/docs/policy-and-process/updates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kgilmer.github.io/r13-dev-site/docs/policy-and-process/updates/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Regolith Linux is continually being updated with bug fixes and feature enhancements.  Regolith&#39;s configuration files live in various places in &lt;code&gt;/etc&lt;/code&gt;, mainly in &lt;code&gt;/etc/regolith/&lt;/code&gt;.  To customize these files, make copies in your user directory and make changes there.  These files will not be modified by Regolith.  Existing files will not be deleted or modified, allowing the user to merge their customizations as needed.  Notification of upcoming updates that introduce breaking changes will be announced on the &lt;a href=&#34;https://www.freelists.org/list/regolith-linux&#34;&gt;Regolith Linux Announcements mailing list&lt;/a&gt;.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Contribute</title>
+      <link>https://kgilmer.github.io/r13-dev-site/docs/policy-and-process/contributions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kgilmer.github.io/r13-dev-site/docs/policy-and-process/contributions/</guid>
+      <description>
+        
+        
+        &lt;p&gt;As an &lt;a href=&#34;https://github.com/regolith-linux&#34;&gt;open source project&lt;/a&gt;, Regolith is open to anyone to extend, fork, or modify as they see fit.  Additionally, we welcome people to join as &lt;a href=&#34;https://github.com/orgs/regolith-linux/people&#34;&gt;contributors&lt;/a&gt; to the project. If you already have something in mind, please file an issue describing the change you&#39;re planning to make to Regolith, or discuss in the &lt;a href=&#34;https://regolith-linux.herokuapp.com/&#34;&gt;Slack channel&lt;/a&gt;.  This ensures work isn&#39;t duplicated or effort wasted.  If you&#39;re interested in seeing what work is available to start with, take a look at the &lt;a href=&#34;https://github.com/regolith-linux/regolith-desktop/labels/help%20wanted&#34;&gt;list of issues looking for help&lt;/a&gt; to see what is needed.  To get a picture of the future, check &lt;a href=&#34;https://regolith-linux.org/news.html#roadmap&#34;&gt;the roadmap&lt;/a&gt;. Regolith is a young project with much potential for improvement!&lt;/p&gt;
+&lt;h2 id=&#34;join-our-slack-channel&#34;&gt;Join our Slack channel&lt;/h2&gt;
+&lt;p&gt;Click &lt;a href=&#34;https://regolith-linux.herokuapp.com/&#34;&gt;this link&lt;/a&gt; to join our Slack channel, which allows you to communicate with the developers of Regolith and other users. Here is where we brainstorm about new features, ways to improve current features, and fix bugs.&lt;/p&gt;
+&lt;h2 id=&#34;install-the-regolith-linuxunstable-ppa&#34;&gt;Install the &lt;code&gt;regolith-linux/unstable&lt;/code&gt; PPA&lt;/h2&gt;
+&lt;p&gt;Development is done in the &lt;code&gt;ppa:regolith-linux/unstable&lt;/code&gt; PPA and then tested before pushed to production in the &lt;code&gt;ppa:regolith-linux/stable&lt;/code&gt; and ultimately &lt;code&gt;ppa:regolith-linux/release&lt;/code&gt; PPA. If you&#39;d like to test fixes that haven&#39;t made it to the stable PPA yet or would just like to always be using the latest updates, the following steps describe how the unstable PPA is added:&lt;/p&gt;
+&lt;p&gt;From your existing Ubuntu 18.04 (Bionic), 19.04 (Disco), or 19.10 (Eoan) system, perform the following installation steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;First we need to remove the &lt;code&gt;regolith-stable&lt;/code&gt; PPA. Open a terminal, and enter: &lt;br/&gt;&lt;code&gt;sudo add-apt-repository --remove ppa:kgilmer/regolith-stable&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Now enter the following to add &lt;code&gt;regolith-unstable&lt;/code&gt;: &lt;br/&gt;&lt;code&gt;sudo add-apt-repository -y ppa:regolith-linux/unstable&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;After the sync completes, enter: &lt;br/&gt;&lt;code&gt;sudo apt install regolith-desktop&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;The following command will need to be ran &lt;br/&gt;&lt;code&gt;sudo apt update &amp;amp;&amp;amp; sudo apt upgrade &amp;amp;&amp;amp; sudo apt full-upgrade&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Some packages will be upgraded.  When this completes, reboot.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;reverting-to-regolith-stable&#34;&gt;Reverting to &lt;code&gt;regolith-stable&lt;/code&gt;&lt;/h3&gt;
+&lt;p&gt;Simply follow the steps #1 and #2 in reverse.  Keep in mind that the package manager will not downgrade your packages, so if you want to just use what&#39;s in &lt;code&gt;regolith-stable&lt;/code&gt;, you may need to uninstall Regolith and reinstall it.  Any configuration files in your user directory will not be altered.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Docs: Support</title>
+      <link>https://kgilmer.github.io/r13-dev-site/docs/policy-and-process/support/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kgilmer.github.io/r13-dev-site/docs/policy-and-process/support/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Regolith Linux is an open source project created and maintained by volunteers.  At this time there is no method for getting paid support.  &lt;a href=&#34;https://github.com/regolith-linux/regolith-desktop/issues&#34;&gt;GitHub issues&lt;/a&gt; and the &lt;a href=&#34;https://regolith-linux.herokuapp.com/&#34;&gt;Slack channel&lt;/a&gt; are recommended ways of finding fixes or asking questions.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

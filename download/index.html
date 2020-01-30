@@ -7,6 +7,7 @@
 
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 
+<link rel="alternate" type="application/rss&#43;xml" href="https://kgilmer.github.io/r13-dev-site/download/index.xml">
 
 
 <link rel="shortcut icon" href="/favicons/favicon.ico" >
@@ -20,14 +21,14 @@
 <link rel="icon" type="image/png" href="/r13-dev-site/favicons/android-144x144.png" sizes="144x144">
 <link rel="icon" type="image/png" href="/r13-dev-site/favicons/android-192x192.png" sizes="192x192">
 
-<title>404 Page not found | Regolith</title><meta property="og:title" content="404 Page not found" />
+<title>Download | Regolith</title><meta property="og:title" content="Download" />
 <meta property="og:description" content="Regolith Linux website" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://kgilmer.github.io/r13-dev-site/404.html" />
+<meta property="og:url" content="https://kgilmer.github.io/r13-dev-site/download/" />
 <meta property="og:site_name" content="Regolith" />
-<meta itemprop="name" content="404 Page not found">
+<meta itemprop="name" content="Download">
 <meta itemprop="description" content="Regolith Linux website"><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="404 Page not found"/>
+<meta name="twitter:title" content="Download"/>
 <meta name="twitter:description" content="Regolith Linux website"/>
 
 
@@ -45,7 +46,7 @@
 
 
   </head>
-  <body class="td-404">
+  <body class="td-section">
     <header>
       
 <nav class="js-navbar-scroll navbar navbar-expand navbar-dark flex-column flex-md-row td-navbar">
@@ -73,7 +74,7 @@
 				
 				
 				
-				<a class="nav-link" href="/r13-dev-site/download/" ><span>Download</span></a>
+				<a class="nav-link active" href="/r13-dev-site/download/" ><span class="active">Download</span></a>
 			</li>
 			
 			<li class="nav-item mr-4 mb-2 mb-lg-0">
@@ -113,14 +114,100 @@
     <div class="container-fluid td-default td-outer">
       <main role="main" class="td-main">
         
-    <main id="main">
-      <div>
-       <h1 id="title">Not found</h1>
-       <p>Oops! This page doesn't exist. Try going back to our <a href="/r13-dev-site/">home page</a>.</p>
 
-       <p>You can learn how to make a 404 page like this in <a href="https://gohugo.io/templates/404/">Custom 404 Pages</a>.</p>      
-      </div>
-    </main>
+<section class="row td-box td-box--1 position-relative td-box--gradient td-box--height-auto">
+	<div class="container text-center td-arrow-down">
+		<span class="h4 mb-0">
+<h1><i class="fas fa-cloud-download-alt ml-2 "></i> Get Regolith</h1>
+<p>Regolith is available in two forms; as a <b>stand-alone ISO</b> that can be installed as a complete Linux operating system, and as a "<b>personal package archive</b>" (PPA) that installs the Regolith desktop into an existing Ubuntu desktop.
+<p>Both installation methods result in the same Regolith experience. Both are offered for your convienence.</p>
+</span>
+	</div>
+</section>
+
+
+
+ 
+<a id="td-block-0" class="td-offset-anchor"></a>
+<section class="row td-box td-box--white td-box--gradient td-box--height-auto">
+	<div class="col">
+		<div class="row ">
+			<div class="col-lg-4 mb-5 mb-lg-0 text-center ">
+  <div class="mb-4 h1">
+    <i class="fas fa-compact-disc"></i>
+  </div>
+  <h4 class="h3">Regolith Linux ISO Installer</h4>
+  <p class="mb-0"><p>Starting from scratch or simply want to try Regolith out in a VM or LiveUSB environment? <a href="https://sourceforge.net/projects/regolith-linux/files/regolith-linux-r1.3/">Download the ISO <i class="fas fa-cloud-download-alt"></i></a> and write it to a USB flash drive to install or test drive Regolith as an operating system.  To learn how, visit the <a class="text-warning"  href="https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop">Ubuntu installer tutorial</a>.</p>
+</p>
+  <p><a href="https://sourceforge.net/projects/regolith-linux/files/regolith-linux-r1.3/">Download …</a></p>
+</div>
+<div class="col-lg-4 mb-5 mb-lg-0 text-center ">
+  <div class="mb-4 h1">
+    <i class="fas fa-box-open"></i>
+  </div>
+  <h4 class="h3">Regolith Desktop PPA</h4>
+  <p class="mb-0"><p>Add the <a href="https://launchpad.net/~regolith-linux/+archive/ubuntu/stable">Regolith PPA</a> to your existing Ubuntu system and install the regolith-desktop package with the following terminal commands:</p>
+<pre class="text-left border rounded p-2">
+$ sudo add-apt-repository ppa:regolith-linux/release
+$ sudo apt install regolith-desktop
+</pre>After installation, Regolith will appear as a desktop session on the login screen.  Learn more about <a href="https://help.ubuntu.com/community/Repositories/CommandLine#Adding_Launchpad_PPA_Repositories">adding PPAs here</a>.
+</p>
+</div>
+<div class="col-lg-4 mb-5 mb-lg-0 text-center ">
+  <div class="mb-4 h1">
+    <i class="fas fa-external-link-alt"></i>
+  </div>
+  <h4 class="h3">Upgrade from earlier version</h4>
+  <p class="mb-0"><p>To upgrade your existing 1.1 or 1.2 version of Regolith to 1.3, simply move to the new PPA and perform a <code>dist-upgrade</code>:</p>
+<pre class="text-left border rounded p-2">
+$ sudo add-apt-repository --remove ppa:kgilmer/regolith-stable
+$ sudo add-apt-repository ppa:regolith-linux/release
+$ sudo apt dist-upgrade
+</pre>
+<p>If you have made customizations to i3wm or your styles, it's recommended to use the defaults upon login and then manually integrate your changes back in.  To ensure that the defaults are loaded, move your changes and then log back in.</p>
+<pre class="text-left border rounded p-2">
+$ mv ~/.config/regolith ~/old-regolith-config
+$ mv ~/.Xresources-regolith ~/old-regolith-styles
+$ # now log back in
+</pre>
+</p>
+</div>
+<div class="col-lg-4 mb-5 mb-lg-0 text-center ">
+  <div class="mb-4 h1">
+    <i class="fas fa-snowplow"></i>
+  </div>
+  <h4 class="h3">Remove Regolith Desktop</h4>
+  <p class="mb-0"><p>If you decide Regolith isn't what you're looking for, restore your previous GNOME settings and completely remove Regolith by logging in to the standard Ubuntu session and executing the following commands from a terminal:<pre class="text-left border rounded p-2">
+$ sudo add-apt-repository &ndash;remove ppa:regolith-linux/release
+$ sudo apt remove regolith-*
+$ sudo apt autoremove
+$ source ~/.regolith-gnome-backup
+$ rm -Rf ~/.regolith-gnome-backup ~/.config/regolith
+</pre></p>
+</p>
+</div>
+<div class="col-lg-4 mb-5 mb-lg-0 text-center ">
+  <div class="mb-4 h1">
+    <i class="fas fa-backward"></i>
+  </div>
+  <h4 class="h3">Earlier Releases</h4>
+  <p class="mb-0"><p>While Regolith is a young project, it already has a few releases behind it.  You can find <a href="https://sourceforge.net/projects/regolith-linux/">earlier ISO installer releases on SourceForge.net</a>.</p>
+</p>
+</div>
+<div class="col-lg-4 mb-5 mb-lg-0 text-center ">
+  <div class="mb-4 h1">
+    <i class="fas fa-question-circle"></i>
+  </div>
+  <h4 class="h3">More Help</h4>
+  <p class="mb-0"><p>Care for more details? Another version of these installation instructions are available in <a href="../docs/getting-started/install">the user documentation</a>.</p>
+</p>
+</div>
+
+		</div>
+	</div>
+</section>
+
+
 
       </main>
       
