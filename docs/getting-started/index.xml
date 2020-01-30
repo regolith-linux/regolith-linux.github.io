@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Regolith – Getting Started</title>
-    <link>https://kgilmer.github.io/r13-dev-site/docs/getting-started/</link>
+    <link>https://regolith-linux.org/docs/getting-started/</link>
     <description>Recent content in Getting Started on Regolith</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://kgilmer.github.io/r13-dev-site/docs/getting-started/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://regolith-linux.org/docs/getting-started/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Docs: Installation</title>
-      <link>https://kgilmer.github.io/r13-dev-site/docs/getting-started/install/</link>
+      <link>https://regolith-linux.org/docs/getting-started/install/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kgilmer.github.io/r13-dev-site/docs/getting-started/install/</guid>
+      <guid>https://regolith-linux.org/docs/getting-started/install/</guid>
       <description>
         
         
@@ -46,7 +46,7 @@ $ sudo apt install regolith-desktop
 &lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;Reboot the computer, and when logging in select the &amp;ldquo;Regolith&amp;rdquo; session in the gear menu (⚙️):&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;img src=&#34;https://kgilmer.github.io/r13-dev-site/r13-dev-site/regolith-screenshot-login.png&#34; alt=&#34;Ubuntu Login Screen&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;regolith-screenshot-login.png&#34; alt=&#34;Ubuntu Login Screen&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;reinstallation&#34;&gt;Reinstallation&lt;/h2&gt;
 &lt;p&gt;In the case that the Regolith desktop environment becomes corrupted or otherwise unbootable, follow these steps to reset it.  No user files will be removed as part of this process:&lt;/p&gt;
 &lt;ol&gt;
@@ -130,10 +130,10 @@ $ sudo apt install regolith-desktop
     
     <item>
       <title>Docs: Basics</title>
-      <link>https://kgilmer.github.io/r13-dev-site/docs/getting-started/basics/</link>
+      <link>https://regolith-linux.org/docs/getting-started/basics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kgilmer.github.io/r13-dev-site/docs/getting-started/basics/</guid>
+      <guid>https://regolith-linux.org/docs/getting-started/basics/</guid>
       <description>
         
         

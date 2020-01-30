@@ -1,12 +1,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Regolith – How To</title>
-    <link>https://kgilmer.github.io/r13-dev-site/docs/howto/</link>
+    <link>https://regolith-linux.org/docs/howto/</link>
     <description>Recent content in How To on Regolith</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 04 Jan 2017 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="https://kgilmer.github.io/r13-dev-site/docs/howto/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://regolith-linux.org/docs/howto/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -16,10 +16,10 @@
     
     <item>
       <title>Docs: Stage config files</title>
-      <link>https://kgilmer.github.io/r13-dev-site/docs/howto/stage-configs/</link>
+      <link>https://regolith-linux.org/docs/howto/stage-configs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kgilmer.github.io/r13-dev-site/docs/howto/stage-configs/</guid>
+      <guid>https://regolith-linux.org/docs/howto/stage-configs/</guid>
       <description>
         
         
@@ -53,10 +53,10 @@ $ cp /etc/regolith/i3/config ~/.config/regolith/i3/config
     
     <item>
       <title>Docs: Change the super key mapping</title>
-      <link>https://kgilmer.github.io/r13-dev-site/docs/howto/super-to-alt/</link>
+      <link>https://regolith-linux.org/docs/howto/super-to-alt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kgilmer.github.io/r13-dev-site/docs/howto/super-to-alt/</guid>
+      <guid>https://regolith-linux.org/docs/howto/super-to-alt/</guid>
       <description>
         
         
@@ -73,10 +73,10 @@ $ cp /etc/regolith/i3/config ~/.config/regolith/i3/config
     
     <item>
       <title>Docs: Change the default terminal</title>
-      <link>https://kgilmer.github.io/r13-dev-site/docs/howto/change-terminal/</link>
+      <link>https://regolith-linux.org/docs/howto/change-terminal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kgilmer.github.io/r13-dev-site/docs/howto/change-terminal/</guid>
+      <guid>https://regolith-linux.org/docs/howto/change-terminal/</guid>
       <description>
         
         
@@ -96,10 +96,10 @@ To: &lt;code&gt;bindsym $mod+Return exec gnome-terminal&lt;/code&gt;&lt;/li&gt;
     
     <item>
       <title>Docs: Change the bar date/time format</title>
-      <link>https://kgilmer.github.io/r13-dev-site/docs/howto/time-format/</link>
+      <link>https://regolith-linux.org/docs/howto/time-format/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kgilmer.github.io/r13-dev-site/docs/howto/time-format/</guid>
+      <guid>https://regolith-linux.org/docs/howto/time-format/</guid>
       <description>
         
         

@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Regolith – Reference</title>
-    <link>https://kgilmer.github.io/r13-dev-site/docs/reference/</link>
+    <link>https://regolith-linux.org/docs/reference/</link>
     <description>Recent content in Reference on Regolith</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://kgilmer.github.io/r13-dev-site/docs/reference/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://regolith-linux.org/docs/reference/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Docs: Keybindings</title>
-      <link>https://kgilmer.github.io/r13-dev-site/docs/reference/keybindings/</link>
+      <link>https://regolith-linux.org/docs/reference/keybindings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kgilmer.github.io/r13-dev-site/docs/reference/keybindings/</guid>
+      <guid>https://regolith-linux.org/docs/reference/keybindings/</guid>
       <description>
         
         
@@ -186,10 +186,10 @@
     
     <item>
       <title>Docs: Config Files</title>
-      <link>https://kgilmer.github.io/r13-dev-site/docs/reference/configurations/</link>
+      <link>https://regolith-linux.org/docs/reference/configurations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kgilmer.github.io/r13-dev-site/docs/reference/configurations/</guid>
+      <guid>https://regolith-linux.org/docs/reference/configurations/</guid>
       <description>
         
         
@@ -259,10 +259,10 @@
     
     <item>
       <title>Docs: Packages</title>
-      <link>https://kgilmer.github.io/r13-dev-site/docs/reference/packages/</link>
+      <link>https://regolith-linux.org/docs/reference/packages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kgilmer.github.io/r13-dev-site/docs/reference/packages/</guid>
+      <guid>https://regolith-linux.org/docs/reference/packages/</guid>
       <description>
         
         
@@ -338,10 +338,10 @@
     
     <item>
       <title>Docs: Releases</title>
-      <link>https://kgilmer.github.io/r13-dev-site/docs/reference/releases/</link>
+      <link>https://regolith-linux.org/docs/reference/releases/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kgilmer.github.io/r13-dev-site/docs/reference/releases/</guid>
+      <guid>https://regolith-linux.org/docs/reference/releases/</guid>
       <description>
         
         

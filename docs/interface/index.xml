@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Regolith – The Interface</title>
-    <link>https://kgilmer.github.io/r13-dev-site/docs/interface/</link>
+    <link>https://regolith-linux.org/docs/interface/</link>
     <description>Recent content in The Interface on Regolith</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://kgilmer.github.io/r13-dev-site/docs/interface/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://regolith-linux.org/docs/interface/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -15,10 +15,10 @@
     
     <item>
       <title>Docs: Working with Applications</title>
-      <link>https://kgilmer.github.io/r13-dev-site/docs/interface/apps/</link>
+      <link>https://regolith-linux.org/docs/interface/apps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kgilmer.github.io/r13-dev-site/docs/interface/apps/</guid>
+      <guid>https://regolith-linux.org/docs/interface/apps/</guid>
       <description>
         
         
@@ -45,10 +45,10 @@
     
     <item>
       <title>Docs: Notifications</title>
-      <link>https://kgilmer.github.io/r13-dev-site/docs/interface/notifications/</link>
+      <link>https://regolith-linux.org/docs/interface/notifications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kgilmer.github.io/r13-dev-site/docs/interface/notifications/</guid>
+      <guid>https://regolith-linux.org/docs/interface/notifications/</guid>
       <description>
         
         
@@ -61,10 +61,10 @@
     
     <item>
       <title>Docs: System Configuration</title>
-      <link>https://kgilmer.github.io/r13-dev-site/docs/interface/system/</link>
+      <link>https://regolith-linux.org/docs/interface/system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kgilmer.github.io/r13-dev-site/docs/interface/system/</guid>
+      <guid>https://regolith-linux.org/docs/interface/system/</guid>
       <description>
         
         
@@ -87,10 +87,10 @@
     
     <item>
       <title>Docs: Advanced</title>
-      <link>https://kgilmer.github.io/r13-dev-site/docs/interface/advanced/</link>
+      <link>https://regolith-linux.org/docs/interface/advanced/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kgilmer.github.io/r13-dev-site/docs/interface/advanced/</guid>
+      <guid>https://regolith-linux.org/docs/interface/advanced/</guid>
       <description>
         
         
