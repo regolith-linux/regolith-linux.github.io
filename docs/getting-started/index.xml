@@ -50,11 +50,11 @@ $ sudo apt install regolith-desktop
 &lt;h2 id=&#34;reinstallation&#34;&gt;Reinstallation&lt;/h2&gt;
 &lt;p&gt;In the case that the Regolith desktop environment becomes corrupted or otherwise unbootable, follow these steps to reset it.  No user files will be removed as part of this process:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Login to the stock Ubuntu session.  If this session is not available, install it with &lt;code&gt;sudo apt install ubuntu-session&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Login to the stock Ubuntu session.  If this session is not available, install it with &lt;code&gt;sudo apt install ubuntu-session&lt;/code&gt;.  After installing this, you will have the option to select the &lt;code&gt;Ubuntu&lt;/code&gt; session type in the login screen.&lt;/li&gt;
 &lt;li&gt;Uninstall Regolith from within the Ubuntu session:&lt;/li&gt;
 &lt;/ol&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;$ sudo apt remove regolith-*
-* sudo apt autoremove
+$ sudo apt autoremove
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
 &lt;li&gt;Verify that no regolith packages are still installed with &lt;code&gt;apt list --installed | grep -i regolith&lt;/code&gt;.  The command should not return any packages.  If it does, manually uninstall them with &lt;code&gt;sudo apt remove &amp;lt;package&amp;gt;&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;Reinstall Regolith:&lt;/li&gt;

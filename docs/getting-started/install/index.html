@@ -25,12 +25,12 @@
 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://regolith-linux.org/docs/getting-started/install/" />
-<meta property="article:modified_time" content="2020-01-29T21:27:44-08:00" /><meta property="og:site_name" content="Regolith" />
+<meta property="article:modified_time" content="2020-01-30T20:32:45-08:00" /><meta property="og:site_name" content="Regolith" />
 <meta itemprop="name" content="Installation">
 <meta itemprop="description" content="Install Regolith on your computer.
 ">
-<meta itemprop="dateModified" content="2020-01-29T21:27:44-08:00" />
-<meta itemprop="wordCount" content="484">
+<meta itemprop="dateModified" content="2020-01-30T20:32:45-08:00" />
+<meta itemprop="wordCount" content="502">
 
 
 
@@ -608,11 +608,11 @@ $ sudo apt install regolith-desktop
 <h2 id="reinstallation">Reinstallation</h2>
 <p>In the case that the Regolith desktop environment becomes corrupted or otherwise unbootable, follow these steps to reset it.  No user files will be removed as part of this process:</p>
 <ol>
-<li>Login to the stock Ubuntu session.  If this session is not available, install it with <code>sudo apt install ubuntu-session</code>.</li>
+<li>Login to the stock Ubuntu session.  If this session is not available, install it with <code>sudo apt install ubuntu-session</code>.  After installing this, you will have the option to select the <code>Ubuntu</code> session type in the login screen.</li>
 <li>Uninstall Regolith from within the Ubuntu session:</li>
 </ol>
 <div class="highlight"><pre style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo apt remove regolith-*
-* sudo apt autoremove
+$ sudo apt autoremove
 </code></pre></div><ol start="3">
 <li>Verify that no regolith packages are still installed with <code>apt list --installed | grep -i regolith</code>.  The command should not return any packages.  If it does, manually uninstall them with <code>sudo apt remove &lt;package&gt;</code>.</li>
 <li>Reinstall Regolith:</li>
@@ -745,7 +745,7 @@ $ sudo apt install regolith-desktop
 		<br />
 	
 	
-	<div class="text-muted mt-5 pt-3 border-top">Last modified January 29, 2020: <a  href="https://github.com/regolith-linux/regolith-linux.github.io/commit/511053ef7576eb863a40e8e3a2522f1fad7a59d8">Fix configuration. (511053e)</a>
+	<div class="text-muted mt-5 pt-3 border-top">Last modified January 30, 2020: <a  href="https://github.com/regolith-linux/regolith-linux.github.io/commit/f42068f8a21022d2741481112c67d50616be5117">Fix typo in reinstallation docs. (f42068f)</a>
 </div>
 </div>
 
