@@ -63,7 +63,7 @@
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td&gt;More Refined Customizations&lt;/td&gt;
-            &lt;td colspan=&#34;2&#34;&gt;Numerous small chnages allow more granual system customization, such as specifying the temperature unit, custom Compositor settings, and a more comprehensive way of changing i3 keybindings without having to copy the entire config file.&lt;/td&gt;
+            &lt;td colspan=&#34;2&#34;&gt;Numerous small changes allow more granual system customization, such as specifying the temperature unit, custom Compositor settings, and a more comprehensive way of changing i3 keybindings without having to copy the entire config file.&lt;/td&gt;
         &lt;/tr&gt;
         &lt;tr&gt;
             &lt;td&gt;More Desktop Environment Packages&lt;/td&gt;
